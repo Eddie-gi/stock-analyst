@@ -1,0 +1,34 @@
+watchlist:
+  - NVDA
+  - AAPL
+  - AMZN
+  - META
+  - MU
+  - SNDK
+  - MSFT
+  - GOOGL
+  - AVGO
+  - TSLA
+
+screener_universe:
+  - AAPL
+  - MSFT
+  - NVDA
+  - GOOGL
+  - AMZN
+  - META
+  - AVGO
+  - TSLA
+  - TSM
+  - ORCL
+  - CRM
+  - AMD
+  - MU
+  - SNDK
+  - NFLX
+
+market_cap_min: 1000000000000
+max_candidates: 5
+news_per_ticker: 5
+archive_days: 30
+sec_user_agent: SignalDesk research contact@example.com
