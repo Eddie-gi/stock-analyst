@@ -13,12 +13,17 @@ class SynthesisAgent:
         candidates: list[dict[str, Any]],
         alerts: list[dict[str, Any]],
         risk: dict[str, Any],
+        intelligence: dict[str, Any] | None = None,
     ) -> dict[str, Any]:
+        intelligence = intelligence or {}
         usable = [item for item in holdings if item.get("price") is not None]
         constructive = [item for item in usable if item.get("stance") == "Constructive"]
         urgent = [item for item in alerts if item.get("severity") in {"critical", "high"}]
 
-        if urgent:
+        source_priority = int(intelligence.get("must_review_count", 0))
+        if source_priority:
+            headline = f"{source_priority} high-priority source item{'s' if source_priority != 1 else ''} need review before the open."
+        elif urgent:
             headline = f"{len(urgent)} high-priority item{'s' if len(urgent) != 1 else ''} need review before the open."
         elif risk.get("level") == "high":
             headline = "Portfolio trends are constructive, but high-volatility holdings need review."
@@ -36,6 +41,11 @@ class SynthesisAgent:
             detail_parts.append(f"Top mechanical setup: {candidates[0]['ticker']} ({candidates[0]['setup_score']}/100).")
         if risk.get("earnings_cluster"):
             detail_parts.append("Upcoming earnings increase portfolio event risk.")
+        coverage = intelligence.get("coverage", {})
+        if coverage.get("international_items"):
+            detail_parts.append(f"The scan includes {coverage['international_items']} international item(s).")
+        if coverage.get("video_items"):
+            detail_parts.append(f"{coverage['video_items']} recent market video(s) were indexed.")
 
         return {
             "headline": headline,

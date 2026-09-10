@@ -13,11 +13,14 @@ def validate(path: Path) -> list[str]:
     except (OSError, json.JSONDecodeError) as exc:
         return [f"report is not valid JSON: {exc}"]
 
-    required = {"schema_version", "generated_at", "summary", "quality", "portfolio", "candidates", "agents", "sources"}
+    required = {
+        "schema_version", "generated_at", "summary", "quality", "portfolio", "candidates",
+        "agents", "sources", "intelligence", "global_markets",
+    }
     missing = sorted(required - report.keys())
     if missing:
         errors.append(f"missing top-level keys: {', '.join(missing)}")
-    if report.get("schema_version") != 1:
+    if report.get("schema_version") != 2:
         errors.append("unsupported schema_version")
     if not isinstance(report.get("portfolio"), list) or not report.get("portfolio"):
         errors.append("portfolio must contain at least one holding")
@@ -34,6 +37,19 @@ def validate(path: Path) -> list[str]:
                     url = source.get("url", "")
                     if url and urlparse(url).scheme not in {"https", "http"}:
                         errors.append(f"unsafe source URL for {item.get('ticker')}")
+    intelligence = report.get("intelligence", {})
+    if not isinstance(intelligence.get("review_queue"), list):
+        errors.append("intelligence.review_queue must be a list")
+    for item in intelligence.get("review_queue", []):
+        if not item.get("title") or not item.get("publisher"):
+            errors.append("intelligence item is missing a title or publisher")
+        if urlparse(item.get("url", "")).scheme not in {"https", "http"}:
+            errors.append("intelligence item has an unsafe source URL")
+        if item.get("priority") not in {"must-review", "scan", "background"}:
+            errors.append("intelligence item has an invalid priority")
+    for market in report.get("global_markets", []):
+        if market.get("url") and urlparse(market["url"]).scheme not in {"https", "http"}:
+            errors.append("global market has an unsafe source URL")
     return errors
 
 

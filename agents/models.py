@@ -12,6 +12,23 @@ class NewsItem:
     publisher: str
     published_at: str | None = None
     source_type: str = "news"
+    region: str = "US"
+    topic: str = "company"
+
+
+@dataclass(slots=True)
+class FeedHealth:
+    name: str
+    url: str
+    source_type: str
+    region: str
+    status: str
+    item_count: int
+    latest_published_at: str | None = None
+    error: str | None = None
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
 
 
 @dataclass(slots=True)

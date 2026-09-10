@@ -4,4 +4,5 @@ from .risk import RiskAgent
 from .screener import ScreenerAgent
 from .synthesizer import SynthesisAgent
 
-__all__ = ["PortfolioMonitorAgent", "QualityAgent", "RiskAgent", "ScreenerAgent", "SynthesisAgent"]
+__all__ = ["IntelligenceAgent", "PortfolioMonitorAgent", "QualityAgent", "RiskAgent", "ScreenerAgent", "SynthesisAgent"]
+from .intelligence import IntelligenceAgent

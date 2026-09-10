@@ -10,9 +10,9 @@ from typing import Any, Callable, TypeVar
 from zoneinfo import ZoneInfo
 
 from .config import Settings
-from .models import AgentRun, MarketSnapshot
-from .nodes import PortfolioMonitorAgent, QualityAgent, RiskAgent, ScreenerAgent, SynthesisAgent
-from .providers import SecFilingsProvider, YahooFinanceProvider
+from .models import AgentRun, FeedHealth, MarketSnapshot, NewsItem
+from .nodes import IntelligenceAgent, PortfolioMonitorAgent, QualityAgent, RiskAgent, ScreenerAgent, SynthesisAgent
+from .providers import RssFeedProvider, SecFilingsProvider, YahooFinanceProvider
 
 T = TypeVar("T")
 
@@ -26,11 +26,13 @@ class AgentOrchestrator:
         *,
         market_provider: YahooFinanceProvider | None = None,
         sec_provider: SecFilingsProvider | None = None,
+        rss_provider: RssFeedProvider | None = None,
         max_workers: int = 4,
     ) -> None:
         self.settings = settings
         self.market_provider = market_provider or YahooFinanceProvider()
         self.sec_provider = sec_provider or SecFilingsProvider(settings.sec_user_agent)
+        self.rss_provider = rss_provider or RssFeedProvider()
         self.max_workers = max(1, min(max_workers, 6))
         self.runs: list[AgentRun] = []
 
@@ -52,6 +54,19 @@ class AgentOrchestrator:
                 lambda: self._attach_filings(snapshots, watchlist),
                 lambda result: f"Linked {sum(len(item.filings) for item in result)} recent filing(s).",
             )
+
+        global_markets = self._phase(
+            "global-market-pulse",
+            "Global overnight market collector",
+            self._collect_global_markets,
+            lambda result: f"Collected {sum(item['status'] == 'available' for item in result)}/{len(result)} overnight indicators.",
+        )
+        feed_items, feed_health = self._phase(
+            "headline-feeds",
+            "International and video feed collector",
+            self._collect_source_feeds,
+            lambda result: f"Indexed {len(result[0])} headlines from {sum(item.status == 'healthy' for item in result[1])}/{len(result[1])} feeds.",
+        )
 
         snapshot_by_ticker = {snapshot.ticker: snapshot for snapshot in snapshots}
         portfolio_snapshots = [snapshot_by_ticker[ticker] for ticker in watchlist if ticker in snapshot_by_ticker]
@@ -79,21 +94,33 @@ class AgentOrchestrator:
             lambda: RiskAgent().run(holdings, candidates),
             lambda result: f"Portfolio risk classified as {result['level']}.",
         )
+        intelligence = self._phase(
+            IntelligenceAgent.id,
+            IntelligenceAgent.label,
+            lambda: IntelligenceAgent().run(
+                holdings,
+                feed_items,
+                feed_health,
+                generated_at,
+                limit=self.settings.review_queue_limit,
+            ),
+            lambda result: f"Reduced the scan to {len(result['review_queue'])} source-linked items; {result['must_review_count']} are high priority.",
+        )
         summary = self._phase(
             SynthesisAgent.id,
             SynthesisAgent.label,
-            lambda: SynthesisAgent().run(holdings, candidates, alerts, risk),
+            lambda: SynthesisAgent().run(holdings, candidates, alerts, risk, intelligence),
             lambda result: result["headline"],
         )
         quality = self._phase(
             QualityAgent.id,
             QualityAgent.label,
-            lambda: QualityAgent().run(holdings, generated_at),
+            lambda: QualityAgent().run(holdings, generated_at, intelligence, global_markets),
             lambda result: f"Data quality score {result['score']}/100.",
         )
 
         return {
-            "schema_version": 1,
+            "schema_version": 2,
             "run_id": generated_at.strftime("%Y%m%dT%H%M%SZ"),
             "generated_at": generated_at.isoformat(),
             "is_demo": False,
@@ -102,6 +129,8 @@ class AgentOrchestrator:
             "quality": quality,
             "risk": risk,
             "alerts": alerts,
+            "intelligence": intelligence,
+            "global_markets": global_markets,
             "portfolio": holdings,
             "candidates": candidates,
             "agents": [run.to_dict() for run in self.runs],
@@ -118,6 +147,21 @@ class AgentOrchestrator:
                     "cost": "Free; no API key",
                     "covers": "Recent company filings",
                 },
+                {
+                    "name": "YouTube channel Atom feeds",
+                    "url": "https://developers.google.com/youtube/v3/guides/push_notifications",
+                    "cost": "Free; no API key; titles and links only",
+                    "covers": "Recent videos from configured financial-news channels",
+                },
+                *[
+                    {
+                        "name": source.name,
+                        "url": source.url,
+                        "cost": "Free RSS/Atom; personal research",
+                        "covers": f"{source.region} · {source.topic} · headline metadata only",
+                    }
+                    for source in self.settings.source_feeds
+                ],
             ],
         }
 
@@ -165,6 +209,64 @@ class AgentOrchestrator:
             except Exception as exc:
                 snapshot.errors.append(f"SEC filings unavailable: {type(exc).__name__}")
         return snapshots
+
+    def _collect_global_markets(self) -> list[dict[str, Any]]:
+        if not self.settings.global_markets:
+            return []
+        results: dict[str, dict[str, Any]] = {}
+        with ThreadPoolExecutor(max_workers=self.max_workers, thread_name_prefix="global-market") as executor:
+            futures = {executor.submit(self.market_provider.market_pulse, market): market for market in self.settings.global_markets}
+            for future in as_completed(futures):
+                market = futures[future]
+                try:
+                    results[market.symbol] = future.result()
+                except Exception as exc:
+                    results[market.symbol] = {
+                        "symbol": market.symbol,
+                        "label": market.label,
+                        "region": market.region,
+                        "category": market.category,
+                        "price": None,
+                        "change_pct": None,
+                        "return_5d_pct": None,
+                        "as_of": None,
+                        "source": "Yahoo Finance",
+                        "url": f"https://finance.yahoo.com/quote/{market.symbol}",
+                        "status": "unavailable",
+                        "error": f"{type(exc).__name__}: {str(exc)[:100]}",
+                    }
+        return [results[market.symbol] for market in self.settings.global_markets]
+
+    def _collect_source_feeds(self) -> tuple[list[NewsItem], list[FeedHealth]]:
+        if not self.settings.source_feeds:
+            return [], []
+        results: dict[str, tuple[list[NewsItem], FeedHealth]] = {}
+        with ThreadPoolExecutor(max_workers=self.max_workers, thread_name_prefix="headline-feed") as executor:
+            futures = {executor.submit(self.rss_provider.fetch, source): source for source in self.settings.source_feeds}
+            for future in as_completed(futures):
+                source = futures[future]
+                try:
+                    results[source.name] = future.result()
+                except Exception as exc:
+                    results[source.name] = (
+                        [],
+                        FeedHealth(
+                            name=source.name,
+                            url=source.url,
+                            source_type=source.source_type,
+                            region=source.region,
+                            status="failed",
+                            item_count=0,
+                            error=f"{type(exc).__name__}: {str(exc)[:100]}",
+                        ),
+                    )
+        items: list[NewsItem] = []
+        health: list[FeedHealth] = []
+        for source in self.settings.source_feeds:
+            source_items, source_health = results[source.name]
+            items.extend(source_items)
+            health.append(source_health)
+        return items, health
 
     def _phase(
         self,
@@ -248,5 +350,5 @@ def _market_context(now_utc: datetime) -> dict[str, Any]:
     return {
         "session": session,
         "as_of_et": eastern.isoformat(),
-        "next_scheduled_refresh": "7:17 AM America/New_York on weekdays",
+        "next_scheduled_refresh": "One premarket report between 5:30 and 9:20 AM ET on weekdays",
     }

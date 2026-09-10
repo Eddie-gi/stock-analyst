@@ -8,12 +8,38 @@ import yfinance as yf
 
 from ..indicators import calculate_indicators, make_chart
 from ..models import MarketSnapshot, NewsItem, finite_float
+from ..config import GlobalMarket
 
 
 class YahooFinanceProvider:
     """Personal-research market data adapter backed by the open-source yfinance client."""
 
     name = "Yahoo Finance via yfinance"
+
+    def market_pulse(self, market: GlobalMarket) -> dict[str, Any]:
+        ticker = yf.Ticker(market.symbol)
+        history = ticker.history(period="1mo", interval="1d", auto_adjust=True, repair=False)
+        closes = history["Close"].dropna() if not history.empty else pd.Series(dtype=float)
+        if closes.empty:
+            raise ValueError("no price history returned")
+        price = finite_float(closes.iloc[-1])
+        previous = finite_float(closes.iloc[-2]) if len(closes) >= 2 else None
+        five_day = finite_float(closes.iloc[-6]) if len(closes) >= 6 else finite_float(closes.iloc[0])
+        change_pct = finite_float((price / previous - 1) * 100) if price is not None and previous else None
+        return_5d_pct = finite_float((price / five_day - 1) * 100) if price is not None and five_day else None
+        return {
+            "symbol": market.symbol,
+            "label": market.label,
+            "region": market.region,
+            "category": market.category,
+            "price": price,
+            "change_pct": change_pct,
+            "return_5d_pct": return_5d_pct,
+            "as_of": history.index[-1].isoformat(),
+            "source": "Yahoo Finance",
+            "url": f"https://finance.yahoo.com/quote/{market.symbol}",
+            "status": "available",
+        }
 
     def snapshot(self, ticker_symbol: str, *, include_news: bool, news_count: int) -> MarketSnapshot:
         symbol = ticker_symbol.upper()
@@ -125,4 +151,12 @@ def _parse_news_item(item: dict[str, Any]) -> NewsItem:
     published = content.get("pubDate") or item.get("providerPublishTime")
     if isinstance(published, (int, float)):
         published = datetime.fromtimestamp(published, tz=timezone.utc).isoformat()
-    return NewsItem(title=title, url=url, publisher=str(provider), published_at=str(published) if published else None)
+    return NewsItem(
+        title=title,
+        url=url,
+        publisher=str(provider),
+        published_at=str(published) if published else None,
+        source_type="company-news",
+        region="US",
+        topic="company",
+    )

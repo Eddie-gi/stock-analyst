@@ -32,3 +32,57 @@ max_candidates: 5
 news_per_ticker: 5
 archive_days: 30
 sec_user_agent: SignalDesk research contact@example.com
+review_queue_limit: 50
+
+# Keyless headline feeds. The collector stores only titles, timestamps, and
+# source links for a fast human review; it does not copy article bodies.
+source_feeds:
+  - name: Nikkei Asia
+    url: https://asia.nikkei.com/rss/feed/nar
+    source_type: international
+    region: Asia
+    topic: asia-markets
+    max_items: 10
+  - name: CNA Asia
+    url: https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6511
+    source_type: international
+    region: Asia
+    topic: asia-markets
+    max_items: 10
+  - name: CNA Business
+    url: https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6936
+    source_type: international
+    region: Asia
+    topic: business
+    max_items: 10
+  - name: CNBC Television on YouTube
+    url: https://www.youtube.com/feeds/videos.xml?channel_id=UCvJJ_dzjViJCoLf5uKUTwoA
+    source_type: video
+    region: Global
+    topic: markets
+    max_items: 8
+  - name: Bloomberg Television on YouTube
+    url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIALMKvObZNtJ6AmdCLP7Lg
+    source_type: video
+    region: Global
+    topic: markets
+    max_items: 8
+  - name: Yahoo Finance on YouTube
+    url: https://www.youtube.com/feeds/videos.xml?channel_id=UCEAZeUIeJs0IjQiqTCdVSIg
+    source_type: video
+    region: US
+    topic: markets
+    max_items: 8
+
+# Markets that trade before New York or often transmit cross-asset risk.
+global_markets:
+  - { symbol: ^N225, label: Nikkei 225, region: Japan, category: index }
+  - { symbol: ^HSI, label: Hang Seng, region: Hong Kong, category: index }
+  - { symbol: 000001.SS, label: Shanghai Composite, region: China, category: index }
+  - { symbol: ^KS11, label: KOSPI, region: South Korea, category: index }
+  - { symbol: ^TWII, label: Taiwan Weighted, region: Taiwan, category: index }
+  - { symbol: ^AXJO, label: ASX 200, region: Australia, category: index }
+  - { symbol: ^STOXX50E, label: Euro Stoxx 50, region: Europe, category: index }
+  - { symbol: CL=F, label: WTI Crude, region: Global, category: commodity }
+  - { symbol: DX-Y.NYB, label: US Dollar Index, region: Global, category: currency }
+  - { symbol: ^VIX, label: VIX, region: US, category: volatility }

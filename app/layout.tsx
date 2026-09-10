@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'Signal Desk',
-  description: 'Automated premarket intelligence for a focused equity watchlist.',
+  description: 'A source-first morning briefing that automates market information gathering for human review.',
 };
 
 export default function RootLayout({

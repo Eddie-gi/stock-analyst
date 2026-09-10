@@ -1,16 +1,16 @@
 {
-  "schema_version": 1,
-  "run_id": "20260910T145852Z",
-  "generated_at": "2026-09-10T14:58:52.234971+00:00",
+  "schema_version": 2,
+  "run_id": "20260910T180806Z",
+  "generated_at": "2026-09-10T18:08:06.008941+00:00",
   "is_demo": false,
   "market": {
     "session": "open",
-    "as_of_et": "2026-09-10T10:58:52.234971-04:00",
-    "next_scheduled_refresh": "7:17 AM America/New_York on weekdays"
+    "as_of_et": "2026-09-10T14:08:06.008941-04:00",
+    "next_scheduled_refresh": "One premarket report between 5:30 and 9:20 AM ET on weekdays"
   },
   "summary": {
-    "headline": "2 high-priority items need review before the open.",
-    "detail": "Constructive trends: SNDK, TSLA, MU, AAPL. Top mechanical setup: AAPL (92/100).",
+    "headline": "5 high-priority source items need review before the open.",
+    "detail": "Constructive trends: SNDK, TSLA, MU, AAPL. Top mechanical setup: AAPL (92/100). The scan includes 12 international item(s). 10 recent market video(s) were indexed.",
     "risk_level": "high",
     "constructive_count": 6,
     "holdings_count": 10,
@@ -19,27 +19,17 @@
   },
   "quality": {
     "score": 100,
-    "source_count": 60,
+    "source_count": 90,
     "price_coverage_pct": 100,
     "news_coverage_pct": 100,
-    "provider_warning_count": 10,
-    "provider_warnings": [
-      "SNDK: SEC filings unavailable: HTTPError",
-      "TSLA: SEC filings unavailable: HTTPError",
-      "MU: SEC filings unavailable: HTTPError",
-      "AAPL: SEC filings unavailable: HTTPError",
-      "META: SEC filings unavailable: HTTPError",
-      "MSFT: SEC filings unavailable: HTTPError",
-      "NVDA: SEC filings unavailable: HTTPError",
-      "GOOGL: SEC filings unavailable: HTTPError",
-      "AMZN: SEC filings unavailable: HTTPError",
-      "AVGO: SEC filings unavailable: HTTPError"
-    ],
+    "feed_coverage_pct": 100,
+    "global_market_coverage_pct": 100,
+    "publisher_count": 14,
+    "provider_warning_count": 0,
+    "provider_warnings": [],
     "age_minutes": 0,
     "stale": false,
-    "warnings": [
-      "10 provider warning(s) were recorded."
-    ]
+    "warnings": []
   },
   "risk": {
     "level": "high",
@@ -58,15 +48,1140 @@
       "ticker": "MU",
       "severity": "high",
       "type": "volatility",
-      "title": "Daily range is elevated at 5.4%",
+      "title": "Daily range is elevated at 5.5%",
       "detail": "Wide average ranges increase gap and stop-loss risk; review exposure before adding risk."
     },
     {
       "ticker": "SNDK",
       "severity": "high",
       "type": "volatility",
-      "title": "Daily range is elevated at 7.1%",
+      "title": "Daily range is elevated at 7.0%",
       "detail": "Wide average ranges increase gap and stop-loss risk; review exposure before adding risk."
+    },
+    {
+      "ticker": "AVGO",
+      "severity": "watch",
+      "type": "filing",
+      "title": "New SEC 10-Q",
+      "detail": "10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm"
+    }
+  ],
+  "intelligence": {
+    "headline": "5 source items need a closer look before the open.",
+    "digest": [
+      "12 Asia/international headlines are in the review window.",
+      "10 recent market videos were indexed; titles are triaged without copying transcripts.",
+      "Fresh coverage mentions AAPL, AMZN, AVGO, GOOGL, META, MSFT.",
+      "Most active theme: Semiconductors (16 items)."
+    ],
+    "review_queue": [
+      {
+        "id": "881fb238241f",
+        "title": "AVGO filed 10-Q: 10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+        "publisher": "SEC EDGAR",
+        "published_at": "2026-09-10",
+        "source_type": "filing",
+        "region": "US",
+        "topic": "filings",
+        "tickers": [
+          "AVGO"
+        ],
+        "priority_score": 100,
+        "priority": "must-review",
+        "why_flagged": "Matches watchlist: AVGO. Primary regulatory filing. Published within 24 hours.",
+        "age_hours": 18.1
+      },
+      {
+        "id": "1d660d2d7219",
+        "title": "AMZN filed 8-K: 8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000036/amzn-20260908.htm",
+        "publisher": "SEC EDGAR",
+        "published_at": "2026-09-09",
+        "source_type": "filing",
+        "region": "US",
+        "topic": "filings",
+        "tickers": [
+          "AMZN"
+        ],
+        "priority_score": 99,
+        "priority": "must-review",
+        "why_flagged": "Matches watchlist: AMZN. Primary regulatory filing.",
+        "age_hours": 42.1
+      },
+      {
+        "id": "124156e7d36b",
+        "title": "The Case for Broadcom Over Nvidia Strengthens in September",
+        "url": "https://finance.yahoo.com/m/2316fd49-ab5b-3869-9387-82c2a3adadb1/the-case-for-broadcom-over.html",
+        "publisher": "24/7 Wall St.",
+        "published_at": "2026-09-10T16:58:19+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "AVGO",
+          "NVDA"
+        ],
+        "priority_score": 94,
+        "priority": "must-review",
+        "why_flagged": "Matches watchlist: AVGO, NVDA. Tagged semiconductors. Published within six hours.",
+        "age_hours": 1.2
+      },
+      {
+        "id": "9a255eb6b99b",
+        "title": "Micron Could Be the Next Nvidia For Patient Investors",
+        "url": "https://finance.yahoo.com/m/f98b83f4-42f7-31b5-be33-9a4d56532208/micron-could-be-the-next.html",
+        "publisher": "24/7 Wall St.",
+        "published_at": "2026-09-10T14:00:27+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "MU",
+          "NVDA"
+        ],
+        "priority_score": 94,
+        "priority": "must-review",
+        "why_flagged": "Matches watchlist: MU, NVDA. Tagged semiconductors. Published within six hours.",
+        "age_hours": 4.1
+      },
+      {
+        "id": "0e46b68f5f3a",
+        "title": "Meta upgraded, Nvidia initiated: Wall Street's top analyst calls",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-upgraded-okta-downgraded-134312557.html",
+        "publisher": "The Fly",
+        "published_at": "2026-09-10T13:52:16+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "META",
+          "NVDA"
+        ],
+        "priority_score": 94,
+        "priority": "must-review",
+        "why_flagged": "Matches watchlist: META, NVDA. Tagged semiconductors. Published within six hours.",
+        "age_hours": 4.3
+      },
+      {
+        "id": "c2df06903019",
+        "title": "A $1 Trillion Micron Sounds Absurd. Then You See the 10-Fold Earnings Forecast.",
+        "url": "https://finance.yahoo.com/m/e03727f1-0fd8-335f-8cd5-fa80f21773cc/a-%241-trillion-micron-sounds.html",
+        "publisher": "24/7 Wall St.",
+        "published_at": "2026-09-10T17:00:41+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "MU"
+        ],
+        "priority_score": 90,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: MU. Tagged semiconductors. Published within six hours.",
+        "age_hours": 1.1
+      },
+      {
+        "id": "8e7394d96491",
+        "title": "House Democrat urges US action over sleeping Tesla drivers",
+        "url": "https://www.channelnewsasia.com/business/house-democrat-urges-us-action-over-sleeping-tesla-drivers-6376851",
+        "publisher": "CNA Business",
+        "published_at": "2026-09-10T16:53:41+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "business",
+        "tickers": [
+          "TSLA"
+        ],
+        "priority_score": 90,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: TSLA. Early Asia read-through. Published within six hours.",
+        "age_hours": 1.2
+      },
+      {
+        "id": "2c3663a00da0",
+        "title": "Is Microsoft Stock Overvalued At 28x Earnings?",
+        "url": "https://finance.yahoo.com/m/623e0773-c392-317b-b0ef-1755a33ff63c/is-microsoft-stock-overvalued.html",
+        "publisher": "Trefis",
+        "published_at": "2026-09-10T16:52:16+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "earnings",
+        "tickers": [
+          "MSFT"
+        ],
+        "priority_score": 90,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: MSFT. Tagged earnings. Published within six hours.",
+        "age_hours": 1.3
+      },
+      {
+        "id": "7093871a4c91",
+        "title": "OpenAI Picked Broadcom for Its First Custom AI Chip. The Race for Number Two Just Got Dangerous.",
+        "url": "https://finance.yahoo.com/m/6b17e61f-d805-3062-b700-83cbb8bfe569/openai-picked-broadcom-for.html",
+        "publisher": "24/7 Wall St.",
+        "published_at": "2026-09-10T16:40:39+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "AVGO"
+        ],
+        "priority_score": 90,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: AVGO. Tagged semiconductors. Published within six hours.",
+        "age_hours": 1.5
+      },
+      {
+        "id": "590cedfe1132",
+        "title": "Portuguese group D3 sues Meta, TikTok and YouTube over addictive design",
+        "url": "https://www.channelnewsasia.com/business/portuguese-group-d3-sues-meta-tiktok-and-youtube-over-addictive-design-6376716",
+        "publisher": "CNA Business",
+        "published_at": "2026-09-10T15:42:36+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "business",
+        "tickers": [
+          "META"
+        ],
+        "priority_score": 90,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: META. Early Asia read-through. Published within six hours.",
+        "age_hours": 2.4
+      },
+      {
+        "id": "58f3fcd79a63",
+        "title": "Nvidia Will Pay Its Next Cash Dividend on Oct. 1. Here's How Many Shares of Nvidia (NVDA) Stock You'd Need for $10,000 in Yearly Dividends.",
+        "url": "https://finance.yahoo.com/m/eba19eaf-a56f-38f2-a1a4-0f7743a7703f/nvidia-will-pay-its-next-cash.html",
+        "publisher": "Motley Fool",
+        "published_at": "2026-09-10T15:30:00+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "NVDA"
+        ],
+        "priority_score": 90,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: NVDA. Tagged semiconductors. Published within six hours.",
+        "age_hours": 2.6
+      },
+      {
+        "id": "654814f16b64",
+        "title": "Prediction: Broadcom Could Become One of the World’s Most Valuable Tech Companies",
+        "url": "https://finance.yahoo.com/m/7724f635-7932-3076-9604-fd13a878e3ff/prediction%3A-broadcom-could.html",
+        "publisher": "24/7 Wall St.",
+        "published_at": "2026-09-10T15:30:32+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "AVGO"
+        ],
+        "priority_score": 90,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: AVGO. Tagged semiconductors. Published within six hours.",
+        "age_hours": 2.6
+      },
+      {
+        "id": "61e2ca476d0b",
+        "title": "Finland risks strained power supply after Google AI deal, opposition warns",
+        "url": "https://www.channelnewsasia.com/business/finland-risks-strained-power-supply-after-google-ai-deal-opposition-warns-6376651",
+        "publisher": "CNA Business",
+        "published_at": "2026-09-10T15:06:54+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "business",
+        "tickers": [
+          "GOOGL"
+        ],
+        "priority_score": 90,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: GOOGL. Early Asia read-through. Published within six hours.",
+        "age_hours": 3.0
+      },
+      {
+        "id": "ac43b24997a6",
+        "title": "Micron Stock Slips as Intel-Backed Start-up Takes Aim at Memory-Chip Market",
+        "url": "https://finance.yahoo.com/m/a285e435-1619-3b25-b243-e254279dbae1/micron-stock-slips-as.html",
+        "publisher": "Barrons.com",
+        "published_at": "2026-09-10T15:10:00+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "MU"
+        ],
+        "priority_score": 90,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: MU. Tagged semiconductors. Published within six hours.",
+        "age_hours": 3.0
+      },
+      {
+        "id": "50929042dfc9",
+        "title": "Market Chatter: Nvidia GPU Servers Bought by Latham & Watkins to Fine-Tune AI Models",
+        "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-nvidia-gpu-servers-144926073.html",
+        "publisher": "MT Newswires",
+        "published_at": "2026-09-10T14:49:26+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "NVDA"
+        ],
+        "priority_score": 90,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: NVDA. Tagged semiconductors. Published within six hours.",
+        "age_hours": 3.3
+      },
+      {
+        "id": "6f2512db829b",
+        "title": "Micron Is 1.6 Points From Taking the No. 2 Spot in DRAM",
+        "url": "https://finance.yahoo.com/m/85f5b4da-cf85-38a5-b365-4864a83d0bfc/micron-is-1.6-points-from.html",
+        "publisher": "Motley Fool",
+        "published_at": "2026-09-10T14:34:01+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "MU"
+        ],
+        "priority_score": 90,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: MU. Tagged semiconductors. Published within six hours.",
+        "age_hours": 3.6
+      },
+      {
+        "id": "57ea9acdd2bb",
+        "title": "Apple, TSMC, SpaceX, Cooper Cos., Macy’s, and More Stocks That Explain Today’s Market",
+        "url": "https://finance.yahoo.com/m/248a808f-3481-3dd2-97d4-fdb98b4fea00/apple%2C-tsmc%2C-spacex%2C-cooper.html",
+        "publisher": "Barrons.com",
+        "published_at": "2026-09-10T14:19:00+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "AAPL"
+        ],
+        "priority_score": 90,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: AAPL. Tagged semiconductors. Published within six hours.",
+        "age_hours": 3.8
+      },
+      {
+        "id": "fc5c4e769034",
+        "title": "Nvidia, D-Matrix Collaborate on New AI Systems",
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-d-matrix-collaborate-ai-140338041.html",
+        "publisher": "MT Newswires",
+        "published_at": "2026-09-10T14:03:38+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "NVDA"
+        ],
+        "priority_score": 90,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: NVDA. Tagged semiconductors. Published within six hours.",
+        "age_hours": 4.1
+      },
+      {
+        "id": "861c347d7b21",
+        "title": "Huawei unveils new optical tech standard in challenge to Nvidia, Broadcom",
+        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/huawei-unveils-new-optical-tech-standard-in-challenge-to-nvidia-broadcom",
+        "publisher": "Nikkei Asia",
+        "published_at": null,
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "semiconductors",
+        "tickers": [
+          "AVGO",
+          "NVDA"
+        ],
+        "priority_score": 89,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: AVGO, NVDA. Early Asia read-through. Tagged semiconductors.",
+        "age_hours": null
+      },
+      {
+        "id": "6d457b551faa",
+        "title": "Broadcom (AVGO) Faces Google Chip Risks, But Macquarie Sees a $40 Billion Anthropic Opportunity",
+        "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-faces-google-chip-184606814.html",
+        "publisher": "Insider Monkey",
+        "published_at": "2026-09-09T18:46:06+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "AVGO",
+          "GOOGL"
+        ],
+        "priority_score": 88,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: AVGO, GOOGL. Tagged semiconductors. Published within 24 hours.",
+        "age_hours": 23.4
+      },
+      {
+        "id": "814acd3cb839",
+        "title": "Saudi wealth fund weighs EA-Savvy merger, Bloomberg News reports",
+        "url": "https://www.channelnewsasia.com/business/saudi-wealth-fund-weighs-ea-savvy-merger-bloomberg-news-reports-6376841",
+        "publisher": "CNA Business",
+        "published_at": "2026-09-10T16:43:23+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "deals",
+        "tickers": [],
+        "priority_score": 87,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Tagged deals. Published within six hours.",
+        "age_hours": 1.4
+      },
+      {
+        "id": "ce4a5b9a06a5",
+        "title": "AI chip startup Positron's valuation skyrockets in latest funding round",
+        "url": "https://www.channelnewsasia.com/business/ai-chip-startup-positrons-valuation-skyrockets-in-latest-funding-round-6376731",
+        "publisher": "CNA Business",
+        "published_at": "2026-09-10T15:47:42+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "semiconductors",
+        "tickers": [],
+        "priority_score": 87,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Tagged semiconductors. Published within six hours.",
+        "age_hours": 2.3
+      },
+      {
+        "id": "bee9e1e7fc1a",
+        "title": "ADBE Rides on Acrobat AI Expansion: Can it Outpace MSFT & GOOGL?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/adbe-rides-acrobat-ai-expansion-171600435.html",
+        "publisher": "Zacks",
+        "published_at": "2026-09-10T17:16:00+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "company",
+        "tickers": [
+          "GOOGL",
+          "MSFT"
+        ],
+        "priority_score": 85,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: GOOGL, MSFT. Published within six hours.",
+        "age_hours": 0.9
+      },
+      {
+        "id": "44950fc0c292",
+        "title": "China's CXMT tops SK Hynix, Micron to take memory profit margin crown",
+        "url": "https://asia.nikkei.com/business/tech/semiconductors/china-s-cxmt-tops-sk-hynix-micron-to-take-memory-profit-margin-crown",
+        "publisher": "Nikkei Asia",
+        "published_at": null,
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "semiconductors",
+        "tickers": [
+          "MU"
+        ],
+        "priority_score": 85,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: MU. Early Asia read-through. Tagged semiconductors.",
+        "age_hours": null
+      },
+      {
+        "id": "3c49d12a84f9",
+        "title": "Google Is Buying Half a Nuclear Plant’s Output Through 2049. Cheap Power Just Became the Real AI Moat.",
+        "url": "https://finance.yahoo.com/m/8fbb46e1-b872-3d10-9ed9-d5fd0a71cb18/google-is-buying-half-a.html",
+        "publisher": "24/7 Wall St.",
+        "published_at": "2026-09-10T17:47:44+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "company",
+        "tickers": [
+          "GOOGL"
+        ],
+        "priority_score": 81,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: GOOGL. Published within six hours.",
+        "age_hours": 0.3
+      },
+      {
+        "id": "08e5d0e0c031",
+        "title": "AAPL’s Foldable iPhone Has Wall Street Split — Retail Calls Duo Reveal A ‘Modern Day Steve Jobs Moment’",
+        "url": "https://finance.yahoo.com/m/1117e73a-7b8c-351a-b4bd-61246783d8ba/aapl%E2%80%99s-foldable-iphone-has.html",
+        "publisher": "Stocktwits",
+        "published_at": "2026-09-10T17:34:56+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "company",
+        "tickers": [
+          "AAPL"
+        ],
+        "priority_score": 81,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: AAPL. Published within six hours.",
+        "age_hours": 0.6
+      },
+      {
+        "id": "03a85f211532",
+        "title": "Apple's Foldable Duo Represents 'Notable Form-Factor Change' for iPhone Lineup, UBS Says",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-apos-foldable-duo-represents-173151814.html",
+        "publisher": "MT Newswires",
+        "published_at": "2026-09-10T17:31:51+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "company",
+        "tickers": [
+          "AAPL"
+        ],
+        "priority_score": 81,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: AAPL. Published within six hours.",
+        "age_hours": 0.6
+      },
+      {
+        "id": "4d6c388b417e",
+        "title": "Can Apple's Foldable iPhone Fuel the Next Growth Cycle for the Stock?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apples-foldable-iphone-fuel-next-164900181.html",
+        "publisher": "Zacks",
+        "published_at": "2026-09-10T16:49:00+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "company",
+        "tickers": [
+          "AAPL"
+        ],
+        "priority_score": 81,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: AAPL. Published within six hours.",
+        "age_hours": 1.3
+      },
+      {
+        "id": "bdb2ed60ccea",
+        "title": "Microsoft, Talkdesk Expand Collaboration for Azure-Backed Software Purchases",
+        "url": "https://finance.yahoo.com/technology/articles/microsoft-talkdesk-expand-collaboration-azure-162945347.html",
+        "publisher": "MT Newswires",
+        "published_at": "2026-09-10T16:29:45+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "company",
+        "tickers": [
+          "MSFT"
+        ],
+        "priority_score": 81,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: MSFT. Published within six hours.",
+        "age_hours": 1.6
+      },
+      {
+        "id": "5a5fc66a8cb7",
+        "title": "Meta Platforms' Weak Trust Score Could Limit Muse Adoption, Oppenheimer Says",
+        "url": "https://finance.yahoo.com/technology/ai/articles/meta-platforms-apos-weak-trust-161707541.html",
+        "publisher": "MT Newswires",
+        "published_at": "2026-09-10T16:17:07+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "company",
+        "tickers": [
+          "META"
+        ],
+        "priority_score": 81,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: META. Published within six hours.",
+        "age_hours": 1.8
+      },
+      {
+        "id": "29b05e8cd663",
+        "title": "Market Chatter: Google, Fanuc Partner on AI-Backed Automated Welding System",
+        "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-google-fanuc-partner-161658773.html",
+        "publisher": "MT Newswires",
+        "published_at": "2026-09-10T16:16:58+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "company",
+        "tickers": [
+          "GOOGL"
+        ],
+        "priority_score": 81,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: GOOGL. Published within six hours.",
+        "age_hours": 1.9
+      },
+      {
+        "id": "88dc2f849892",
+        "title": "Alphabet's Google Enters Five-Year Carbon Credit Agreement With Mitti Labs",
+        "url": "https://finance.yahoo.com/energy/articles/alphabet-apos-google-enters-five-160548808.html",
+        "publisher": "MT Newswires",
+        "published_at": "2026-09-10T16:05:48+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "company",
+        "tickers": [
+          "GOOGL"
+        ],
+        "priority_score": 81,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: GOOGL. Published within six hours.",
+        "age_hours": 2.0
+      },
+      {
+        "id": "d6de0e4e8c60",
+        "title": "Alphabet's TPU Sales Could Drive Significant Google Cloud Upside, Oppenheimer Says",
+        "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-apos-tpu-sales-could-154932893.html",
+        "publisher": "MT Newswires",
+        "published_at": "2026-09-10T15:49:32+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "company",
+        "tickers": [
+          "GOOGL"
+        ],
+        "priority_score": 81,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: GOOGL. Published within six hours.",
+        "age_hours": 2.3
+      },
+      {
+        "id": "e0e303c21af2",
+        "title": "Apple Prioritizing Volume Over Margins With Modest Pricing Strategy, Morgan Stanley Says",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-prioritizing-volume-over-margins-154818404.html",
+        "publisher": "MT Newswires",
+        "published_at": "2026-09-10T15:48:18+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "company",
+        "tickers": [
+          "AAPL"
+        ],
+        "priority_score": 81,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: AAPL. Published within six hours.",
+        "age_hours": 2.3
+      },
+      {
+        "id": "71507bd045c8",
+        "title": "Apple's iPhone Duo, AI Strategy Strengthen Growth Outlook, Morgan Stanley Says",
+        "url": "https://finance.yahoo.com/technology/articles/apple-apos-iphone-duo-ai-152816516.html",
+        "publisher": "MT Newswires",
+        "published_at": "2026-09-10T15:28:16+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "company",
+        "tickers": [
+          "AAPL"
+        ],
+        "priority_score": 81,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: AAPL. Published within six hours.",
+        "age_hours": 2.7
+      },
+      {
+        "id": "ebd53811cde1",
+        "title": "OpenAI launches ChatGPT for financial services industry",
+        "url": "https://www.channelnewsasia.com/business/openai-launches-chatgpt-financial-services-industry-6376941",
+        "publisher": "CNA Business",
+        "published_at": "2026-09-10T17:32:14+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "business",
+        "tickers": [],
+        "priority_score": 78,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Published within six hours.",
+        "age_hours": 0.6
+      },
+      {
+        "id": "04fcf1dceb50",
+        "title": "AI-powered documentary tests cinema's boundaries in Venice",
+        "url": "https://www.channelnewsasia.com/business/ai-powered-documentary-tests-cinemas-boundaries-in-venice-6376751",
+        "publisher": "CNA Business",
+        "published_at": "2026-09-10T16:32:11+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "business",
+        "tickers": [],
+        "priority_score": 78,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Published within six hours.",
+        "age_hours": 1.6
+      },
+      {
+        "id": "b3485c9037c7",
+        "title": "JD.com's Ceconomy concessions face criticism from rivals, sources say",
+        "url": "https://www.channelnewsasia.com/business/jdcoms-ceconomy-concessions-face-criticism-rivals-sources-say-6376661",
+        "publisher": "CNA Business",
+        "published_at": "2026-09-10T15:11:54+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "business",
+        "tickers": [],
+        "priority_score": 78,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Published within six hours.",
+        "age_hours": 2.9
+      },
+      {
+        "id": "6ba864d327f3",
+        "title": "Starlink rival Eutelsat plans OneWeb expansion after €1 billion satellite order",
+        "url": "https://www.channelnewsasia.com/business/starlink-rival-eutelsat-plans-oneweb-expansion-after-eu1-billion-satellite-order-6376646",
+        "publisher": "CNA Business",
+        "published_at": "2026-09-10T15:07:17+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "business",
+        "tickers": [],
+        "priority_score": 78,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Published within six hours.",
+        "age_hours": 3.0
+      },
+      {
+        "id": "e08748291185",
+        "title": "Wall Street dips, oil continues climb ahead of US inflation data",
+        "url": "https://www.channelnewsasia.com/business/wall-street-dips-oil-continues-climb-ahead-us-inflation-data-6374561",
+        "publisher": "CNA Business",
+        "published_at": "2026-09-10T14:29:03+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "macro",
+        "tickers": [],
+        "priority_score": 78,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Published within six hours.",
+        "age_hours": 3.7
+      },
+      {
+        "id": "e786343c371a",
+        "title": "Trump's $5,000 Dividend Offer Is a Gimmick, Says Beto O'Rourke",
+        "url": "https://www.youtube.com/watch?v=DsHzmOy1BIw",
+        "publisher": "Bloomberg Television",
+        "published_at": "2026-09-10T17:31:46+00:00",
+        "source_type": "video",
+        "region": "Global",
+        "topic": "markets",
+        "tickers": [],
+        "priority_score": 60,
+        "priority": "background",
+        "why_flagged": "Recent video from a configured market channel. Published within six hours.",
+        "age_hours": 0.6
+      },
+      {
+        "id": "23ec8dbdf896",
+        "title": "Scott's read: both parties promise you money that doesn't exist.",
+        "url": "https://www.youtube.com/watch?v=zAiIziGNmis",
+        "publisher": "Yahoo Finance",
+        "published_at": "2026-09-10T17:00:10+00:00",
+        "source_type": "video",
+        "region": "US",
+        "topic": "markets",
+        "tickers": [],
+        "priority_score": 60,
+        "priority": "background",
+        "why_flagged": "Recent video from a configured market channel. Published within six hours.",
+        "age_hours": 1.1
+      },
+      {
+        "id": "26df6ef97d87",
+        "title": "Robinhood CEO Vlad Tenev responds to AMC's Adam Aron.",
+        "url": "https://www.youtube.com/shorts/QKBZI5-N8Bs",
+        "publisher": "Yahoo Finance",
+        "published_at": "2026-09-10T16:52:56+00:00",
+        "source_type": "video",
+        "region": "US",
+        "topic": "markets",
+        "tickers": [],
+        "priority_score": 60,
+        "priority": "background",
+        "why_flagged": "Recent video from a configured market channel. Published within six hours.",
+        "age_hours": 1.3
+      },
+      {
+        "id": "092614fc2c0d",
+        "title": "Oil Surges Above $105, Arnott Warns of Bubble Risk",
+        "url": "https://www.youtube.com/watch?v=fpE-zDWK6oA",
+        "publisher": "Bloomberg Television",
+        "published_at": "2026-09-10T16:34:51+00:00",
+        "source_type": "video",
+        "region": "Global",
+        "topic": "markets",
+        "tickers": [],
+        "priority_score": 60,
+        "priority": "background",
+        "why_flagged": "Recent video from a configured market channel. Published within six hours.",
+        "age_hours": 1.6
+      },
+      {
+        "id": "85be99426949",
+        "title": "Key takeaways from the GOP’s midterm convention in Dallas",
+        "url": "https://www.youtube.com/shorts/7QMJuq2ZviY",
+        "publisher": "Bloomberg Television",
+        "published_at": "2026-09-10T15:47:45+00:00",
+        "source_type": "video",
+        "region": "Global",
+        "topic": "markets",
+        "tickers": [],
+        "priority_score": 60,
+        "priority": "background",
+        "why_flagged": "Recent video from a configured market channel. Published within six hours.",
+        "age_hours": 2.3
+      },
+      {
+        "id": "637f279e2f8f",
+        "title": "Bitcoin’s Summer Rally Puts Volatility Back in Focus | Presented by CME Group",
+        "url": "https://www.youtube.com/watch?v=uG4HAJUdTQE",
+        "publisher": "Bloomberg Television",
+        "published_at": "2026-09-10T15:42:53+00:00",
+        "source_type": "video",
+        "region": "Global",
+        "topic": "markets",
+        "tickers": [],
+        "priority_score": 60,
+        "priority": "background",
+        "why_flagged": "Recent video from a configured market channel. Published within six hours.",
+        "age_hours": 2.4
+      },
+      {
+        "id": "9c5c0b5d0db9",
+        "title": "Yahoo Finance Live: Daily Market Coverage - September 10, 2026 9AM-11AM (ET)",
+        "url": "https://www.youtube.com/watch?v=S42UQdMs1Lc",
+        "publisher": "Yahoo Finance",
+        "published_at": "2026-09-10T15:32:00+00:00",
+        "source_type": "video",
+        "region": "US",
+        "topic": "markets",
+        "tickers": [],
+        "priority_score": 60,
+        "priority": "background",
+        "why_flagged": "Recent video from a configured market channel. Published within six hours.",
+        "age_hours": 2.6
+      },
+      {
+        "id": "97663139b4b5",
+        "title": "Busta Rhymes: Streaming still hasn’t solved artist pay",
+        "url": "https://www.youtube.com/shorts/VR2DHosYCAw",
+        "publisher": "Yahoo Finance",
+        "published_at": "2026-09-10T15:18:30+00:00",
+        "source_type": "video",
+        "region": "US",
+        "topic": "markets",
+        "tickers": [],
+        "priority_score": 60,
+        "priority": "background",
+        "why_flagged": "Recent video from a configured market channel. Published within six hours.",
+        "age_hours": 2.8
+      },
+      {
+        "id": "2919d07f4850",
+        "title": "Stocks, Bonds Fall After PPI Data as US Oil Tops $100",
+        "url": "https://www.youtube.com/watch?v=wwzs3tTCI5Y",
+        "publisher": "Bloomberg Television",
+        "published_at": "2026-09-10T15:03:56+00:00",
+        "source_type": "video",
+        "region": "Global",
+        "topic": "markets",
+        "tickers": [],
+        "priority_score": 60,
+        "priority": "background",
+        "why_flagged": "Recent video from a configured market channel. Published within six hours.",
+        "age_hours": 3.1
+      },
+      {
+        "id": "ec5e47bf7f73",
+        "title": "Busta Rhymes: Streaming pays in a currency that doesn't exist",
+        "url": "https://www.youtube.com/watch?v=IfSP85eqUI4",
+        "publisher": "Yahoo Finance",
+        "published_at": "2026-09-10T14:00:06+00:00",
+        "source_type": "video",
+        "region": "US",
+        "topic": "macro",
+        "tickers": [],
+        "priority_score": 60,
+        "priority": "background",
+        "why_flagged": "Recent video from a configured market channel. Published within six hours.",
+        "age_hours": 4.1
+      }
+    ],
+    "must_review_count": 5,
+    "scan_count": 35,
+    "estimated_review_minutes": 8,
+    "themes": [
+      {
+        "id": "semiconductors",
+        "label": "Semiconductors",
+        "count": 16,
+        "tickers": [
+          "AAPL",
+          "AVGO",
+          "GOOGL",
+          "META",
+          "MU",
+          "NVDA"
+        ]
+      },
+      {
+        "id": "company",
+        "label": "Company",
+        "count": 12,
+        "tickers": [
+          "AAPL",
+          "GOOGL",
+          "META",
+          "MSFT"
+        ]
+      },
+      {
+        "id": "markets",
+        "label": "Markets",
+        "count": 9,
+        "tickers": []
+      },
+      {
+        "id": "business",
+        "label": "Business",
+        "count": 7,
+        "tickers": [
+          "GOOGL",
+          "META",
+          "TSLA"
+        ]
+      },
+      {
+        "id": "filings",
+        "label": "Filings",
+        "count": 2,
+        "tickers": [
+          "AMZN",
+          "AVGO"
+        ]
+      },
+      {
+        "id": "macro",
+        "label": "Macro",
+        "count": 2,
+        "tickers": []
+      }
+    ],
+    "coverage": {
+      "total_items": 50,
+      "international_items": 12,
+      "video_items": 10,
+      "filing_items": 2,
+      "publisher_count": 14,
+      "publishers": [
+        "24/7 Wall St.",
+        "Barrons.com",
+        "Bloomberg Television",
+        "CNA Business",
+        "Insider Monkey",
+        "MT Newswires",
+        "Motley Fool",
+        "Nikkei Asia",
+        "SEC EDGAR",
+        "Stocktwits",
+        "The Fly",
+        "Trefis",
+        "Yahoo Finance",
+        "Zacks"
+      ],
+      "regions": [
+        "Asia",
+        "Global",
+        "US"
+      ],
+      "healthy_feeds": 6,
+      "total_feeds": 6
+    },
+    "feed_health": [
+      {
+        "name": "Nikkei Asia",
+        "url": "https://asia.nikkei.com/rss/feed/nar",
+        "source_type": "international",
+        "region": "Asia",
+        "status": "healthy",
+        "item_count": 10,
+        "latest_published_at": null,
+        "error": null
+      },
+      {
+        "name": "CNA Asia",
+        "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6511",
+        "source_type": "international",
+        "region": "Asia",
+        "status": "healthy",
+        "item_count": 10,
+        "latest_published_at": "2026-09-10T12:17:00+00:00",
+        "error": null
+      },
+      {
+        "name": "CNA Business",
+        "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6936",
+        "source_type": "international",
+        "region": "Asia",
+        "status": "healthy",
+        "item_count": 10,
+        "latest_published_at": "2026-09-10T17:32:14+00:00",
+        "error": null
+      },
+      {
+        "name": "CNBC Television on YouTube",
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCvJJ_dzjViJCoLf5uKUTwoA",
+        "source_type": "video",
+        "region": "Global",
+        "status": "healthy",
+        "item_count": 8,
+        "latest_published_at": "2026-09-10T14:00:11+00:00",
+        "error": null
+      },
+      {
+        "name": "Bloomberg Television on YouTube",
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCIALMKvObZNtJ6AmdCLP7Lg",
+        "source_type": "video",
+        "region": "Global",
+        "status": "healthy",
+        "item_count": 8,
+        "latest_published_at": "2026-09-10T17:31:46+00:00",
+        "error": null
+      },
+      {
+        "name": "Yahoo Finance on YouTube",
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCEAZeUIeJs0IjQiqTCdVSIg",
+        "source_type": "video",
+        "region": "US",
+        "status": "healthy",
+        "item_count": 8,
+        "latest_published_at": "2026-09-10T17:00:10+00:00",
+        "error": null
+      }
+    ]
+  },
+  "global_markets": [
+    {
+      "symbol": "^N225",
+      "label": "Nikkei 225",
+      "region": "Japan",
+      "category": "index",
+      "price": 65142.7812,
+      "change_pct": -0.1939,
+      "return_5d_pct": 1.2703,
+      "as_of": "2026-09-09T00:00:00+09:00",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/^N225",
+      "status": "available"
+    },
+    {
+      "symbol": "^HSI",
+      "label": "Hang Seng",
+      "region": "Hong Kong",
+      "category": "index",
+      "price": 25274.9609,
+      "change_pct": -0.1668,
+      "return_5d_pct": -0.1432,
+      "as_of": "2026-09-09T00:00:00+08:00",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/^HSI",
+      "status": "available"
+    },
+    {
+      "symbol": "000001.SS",
+      "label": "Shanghai Composite",
+      "region": "China",
+      "category": "index",
+      "price": 3951.5071,
+      "change_pct": 0.278,
+      "return_5d_pct": 0.2568,
+      "as_of": "2026-09-10T00:00:00+08:00",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/000001.SS",
+      "status": "available"
+    },
+    {
+      "symbol": "^KS11",
+      "label": "KOSPI",
+      "region": "South Korea",
+      "category": "index",
+      "price": 7051.6401,
+      "change_pct": 1.3965,
+      "return_5d_pct": 7.45,
+      "as_of": "2026-09-09T00:00:00+09:00",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/^KS11",
+      "status": "available"
+    },
+    {
+      "symbol": "^TWII",
+      "label": "Taiwan Weighted",
+      "region": "Taiwan",
+      "category": "index",
+      "price": 47183.3594,
+      "change_pct": 0.1647,
+      "return_5d_pct": 2.2065,
+      "as_of": "2026-09-09T00:00:00+08:00",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/^TWII",
+      "status": "available"
+    },
+    {
+      "symbol": "^AXJO",
+      "label": "ASX 200",
+      "region": "Australia",
+      "category": "index",
+      "price": 8911.4004,
+      "change_pct": -0.1054,
+      "return_5d_pct": -0.7462,
+      "as_of": "2026-09-09T00:00:00+10:00",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/^AXJO",
+      "status": "available"
+    },
+    {
+      "symbol": "^STOXX50E",
+      "label": "Euro Stoxx 50",
+      "region": "Europe",
+      "category": "index",
+      "price": 6268.9702,
+      "change_pct": -0.6748,
+      "return_5d_pct": -1.7801,
+      "as_of": "2026-09-10T00:00:00+02:00",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/^STOXX50E",
+      "status": "available"
+    },
+    {
+      "symbol": "CL=F",
+      "label": "WTI Crude",
+      "region": "Global",
+      "category": "commodity",
+      "price": 101.88,
+      "change_pct": 6.0698,
+      "return_5d_pct": 11.9437,
+      "as_of": "2026-09-10T00:00:00-04:00",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CL=F",
+      "status": "available"
+    },
+    {
+      "symbol": "DX-Y.NYB",
+      "label": "US Dollar Index",
+      "region": "Global",
+      "category": "currency",
+      "price": 99.003,
+      "change_pct": 0.2359,
+      "return_5d_pct": -0.5595,
+      "as_of": "2026-09-10T00:00:00-04:00",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DX-Y.NYB",
+      "status": "available"
+    },
+    {
+      "symbol": "^VIX",
+      "label": "VIX",
+      "region": "US",
+      "category": "volatility",
+      "price": 17.46,
+      "change_pct": 6.0753,
+      "return_5d_pct": 21.9274,
+      "as_of": "2026-09-10T00:00:00-05:00",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/^VIX",
+      "status": "available"
     }
   ],
   "portfolio": [
@@ -74,18 +1189,18 @@
       "ticker": "SNDK",
       "name": "SNDK",
       "currency": "USD",
-      "price": 1692.595,
+      "price": 1709.235,
       "previous_close": 1764.17,
-      "change_pct": -4.0572,
-      "return_5d_pct": 8.9607,
-      "return_20d_pct": 25.91,
-      "ema20": 1585.4851,
-      "ema50": 1547.1186,
-      "rsi14": 57.3407,
-      "atr_pct": 7.0621,
-      "volume_ratio": 0.2923,
-      "volatility20_pct": 88.6747,
-      "market_cap": 247828064707.9758,
+      "change_pct": -3.1139,
+      "return_5d_pct": 10.0319,
+      "return_20d_pct": 27.1478,
+      "ema20": 1587.0698,
+      "ema50": 1547.7711,
+      "rsi14": 58.4103,
+      "atr_pct": 7.0342,
+      "volume_ratio": 0.4909,
+      "volatility20_pct": 88.013,
+      "market_cap": 250264479029.4254,
       "next_earnings": "2026-11-06",
       "earnings_days": 57,
       "chart": [
@@ -327,7 +1442,7 @@
         },
         {
           "date": "2026-09-10",
-          "close": 1692.595
+          "close": 1709.235
         }
       ],
       "news": [
@@ -336,48 +1451,69 @@
           "url": "https://finance.yahoo.com/m/8f6c2841-982b-3ba2-82e0-e2c8a401d6b4/why-did-sandisk-stock-slump.html",
           "publisher": "Motley Fool",
           "published_at": "2026-09-10T14:45:24+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "Super Micro (SMCI) Up 3.5% Since Last Earnings Report: Can It Continue?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/super-micro-smci-3-5-153005797.html",
+          "publisher": "Zacks",
+          "published_at": "2026-09-10T15:30:05+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
           "title": "SanDisk Traded Its Best Prices For Something Rarer",
           "url": "https://finance.yahoo.com/m/a4ca1dd9-9a28-3194-baa5-edb82380b69b/sandisk-traded-its-best.html",
           "publisher": "Trefis",
           "published_at": "2026-09-09T22:05:08+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "Apple, TSMC, SpaceX, Cooper Cos., Macy’s, and More Stocks That Explain Today’s Market",
+          "url": "https://finance.yahoo.com/m/248a808f-3481-3dd2-97d4-fdb98b4fea00/apple%2C-tsmc%2C-spacex%2C-cooper.html",
+          "publisher": "Barrons.com",
+          "published_at": "2026-09-10T14:19:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
           "title": "Micron Could Be the Next Nvidia For Patient Investors",
           "url": "https://finance.yahoo.com/m/f98b83f4-42f7-31b5-be33-9a4d56532208/micron-could-be-the-next.html",
           "publisher": "24/7 Wall St.",
           "published_at": "2026-09-10T14:00:27+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "TSMC, Cooper Cos., American Eagle, Oracle, and More Stocks That Explain Today’s Market",
-          "url": "https://finance.yahoo.com/m/248a808f-3481-3dd2-97d4-fdb98b4fea00/tsmc%2C-cooper-cos.%2C-american.html",
-          "publisher": "Barrons.com",
-          "published_at": "2026-09-10T10:27:00+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Micron, Sandisk and the Next Leg Higher in Memory Stocks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/micron-sandisk-next-leg-higher-194200329.html",
-          "publisher": "Zacks",
-          "published_at": "2026-09-09T19:42:00+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         }
       ],
-      "filings": [],
-      "errors": [
-        "SEC filings unavailable: HTTPError"
+      "filings": [
+        {
+          "form": "10-K",
+          "filed_at": "2026-08-17",
+          "description": "10-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026057406/sndk-20260703.htm"
+        },
+        {
+          "form": "8-K",
+          "filed_at": "2026-08-05",
+          "description": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026053346/sndk-20260805.htm"
+        }
       ],
+      "errors": [],
       "signal_score": 93,
       "stance": "Constructive",
       "risk_level": "high",
       "rationale": [
         "Price is above its 20-day trend.",
         "Price remains above its 50-day trend.",
-        "Twenty-session momentum is positive at 25.9%.",
+        "Twenty-session momentum is positive at 27.1%.",
         "RSI is in a constructive, non-extreme range."
       ],
       "catalysts": [
@@ -385,6 +1521,16 @@
           "type": "earnings",
           "date": "2026-11-06",
           "label": "Earnings in 57 days"
+        },
+        {
+          "type": "filing",
+          "date": "2026-08-17",
+          "label": "SEC 10-K filed"
+        },
+        {
+          "type": "filing",
+          "date": "2026-08-05",
+          "label": "SEC 8-K filed"
         }
       ]
     },
@@ -392,18 +1538,18 @@
       "ticker": "TSLA",
       "name": "TSLA",
       "currency": "USD",
-      "price": 367.37,
+      "price": 365.355,
       "previous_close": 367.81,
-      "change_pct": -0.1196,
-      "return_5d_pct": 2.9019,
-      "return_20d_pct": 12.1706,
-      "ema20": 355.9592,
-      "ema50": 359.0402,
-      "rsi14": 55.375,
-      "atr_pct": 3.989,
-      "volume_ratio": 0.3129,
-      "volatility20_pct": 50.5396,
-      "market_cap": 1451577148895.5952,
+      "change_pct": -0.6675,
+      "return_5d_pct": 2.3375,
+      "return_20d_pct": 11.5554,
+      "ema20": 355.7673,
+      "ema50": 358.9612,
+      "rsi14": 54.4986,
+      "atr_pct": 4.011,
+      "volume_ratio": 0.5283,
+      "volatility20_pct": 50.6768,
+      "market_cap": 1442986931525.8936,
       "next_earnings": "2026-10-21",
       "earnings_days": 41,
       "chart": [
@@ -645,57 +1791,65 @@
         },
         {
           "date": "2026-09-10",
-          "close": 367.37
+          "close": 365.355
         }
       ],
       "news": [
+        {
+          "title": "Will Tesla's China Discounts Lift Q3 Sales or Hurt Margins Further?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/teslas-china-discounts-lift-q3-151300292.html",
+          "publisher": "Zacks",
+          "published_at": "2026-09-10T15:13:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
         {
           "title": "TSLA Critic Gordon Johnson Rips Cybercab Launch After Elon Musk's ‘Storm of Cybercabs’ Promise: ‘The Robotaxi Story Was Never About Robotaxis'",
           "url": "https://finance.yahoo.com/markets/stocks/articles/tsla-critic-gordon-johnson-rips-033022550.html",
           "publisher": "Benzinga",
           "published_at": "2026-09-10T03:30:22+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
           "title": "Could Tesla’s (TSLA) Cybercab Unlock a New Growth Driver?",
           "url": "https://finance.yahoo.com/technology/ai/articles/could-tesla-tsla-cybercab-unlock-200632774.html",
           "publisher": "Insider Monkey",
           "published_at": "2026-09-09T20:06:32+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "A Disappointed Worker Says Jobs Were Doable Before 2013. Now 'Skeleton Crew Culture' Means Doing the Work of 2 or More People With a Smile",
+          "url": "https://finance.yahoo.com/m/eaee4baa-54a4-3068-8fbb-8f69afc6b05c/a-disappointed-worker-says.html",
+          "publisher": "Benzinga",
+          "published_at": "2026-09-10T15:45:09+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
           "title": "Dow, S&P 500, Nasdaq Futures Edge Higher Ahead Of PPI, Jobless Claims: NVDA, AAPL, META, ORCL, TSM, TSLA, SLS In Focus",
           "url": "https://finance.yahoo.com/m/9f918845-f1a7-3ec1-8d72-25f381ca3b00/dow%2C-s%26p-500%2C-nasdaq-futures.html",
           "publisher": "Stocktwits",
           "published_at": "2026-09-10T08:45:46+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Can Ford Overcome Tariff and Commodity Cost Headwinds in 2026?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ford-overcome-tariff-commodity-cost-142600509.html",
-          "publisher": "Zacks",
-          "published_at": "2026-09-10T14:26:00+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Why Are Ford's China Partnerships Drawing Regulatory Scrutiny?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-fords-china-partnerships-drawing-142300521.html",
-          "publisher": "Zacks",
-          "published_at": "2026-09-10T14:23:00+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         }
       ],
       "filings": [],
-      "errors": [
-        "SEC filings unavailable: HTTPError"
-      ],
+      "errors": [],
       "signal_score": 87,
       "stance": "Constructive",
       "risk_level": "elevated",
       "rationale": [
         "Price is above its 20-day trend.",
         "Price remains above its 50-day trend.",
-        "Twenty-session momentum is positive at 12.2%.",
+        "Twenty-session momentum is positive at 11.6%.",
         "RSI is in a constructive, non-extreme range."
       ],
       "catalysts": [
@@ -710,18 +1864,18 @@
       "ticker": "MU",
       "name": "MU",
       "currency": "USD",
-      "price": 985.16,
+      "price": 981.56,
       "previous_close": 1027.77,
-      "change_pct": -4.1459,
-      "return_5d_pct": 3.0416,
-      "return_20d_pct": 8.1061,
-      "ema20": 959.8046,
-      "ema50": 930.7422,
-      "rsi14": 54.3015,
-      "atr_pct": 5.3967,
-      "volume_ratio": 0.4239,
-      "volatility20_pct": 53.5577,
-      "market_cap": 1112632926308.7776,
+      "change_pct": -4.4961,
+      "return_5d_pct": 2.665,
+      "return_20d_pct": 7.711,
+      "ema20": 959.4617,
+      "ema50": 930.601,
+      "rsi14": 53.8277,
+      "atr_pct": 5.4794,
+      "volume_ratio": 0.7044,
+      "volatility20_pct": 53.9486,
+      "market_cap": 1108567138538.2524,
       "next_earnings": "2026-09-30",
       "earnings_days": 20,
       "chart": [
@@ -963,57 +2117,72 @@
         },
         {
           "date": "2026-09-10",
-          "close": 985.16
+          "close": 981.56
         }
       ],
       "news": [
+        {
+          "title": "A $1 Trillion Micron Sounds Absurd. Then You See the 10-Fold Earnings Forecast.",
+          "url": "https://finance.yahoo.com/m/e03727f1-0fd8-335f-8cd5-fa80f21773cc/a-%241-trillion-micron-sounds.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-09-10T17:00:41+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "Micron Stock Slips as Intel-Backed Start-up Takes Aim at Memory-Chip Market",
+          "url": "https://finance.yahoo.com/m/a285e435-1619-3b25-b243-e254279dbae1/micron-stock-slips-as.html",
+          "publisher": "Barrons.com",
+          "published_at": "2026-09-10T15:10:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "‘I Am the House Now,’ Bessent Warns — But Bond Traders Keep Raising Yields Anyway",
+          "url": "https://finance.yahoo.com/m/be2976b3-ca90-3d4c-abff-4fc0adc8911f/%E2%80%98i-am-the-house-now%2C%E2%80%99-bessent.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-09-10T15:09:14+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "Can Seagate Sustain Its Strong Revenue Growth in Fiscal 2027?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/seagate-sustain-strong-revenue-growth-150700755.html",
+          "publisher": "Zacks",
+          "published_at": "2026-09-10T15:07:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
         {
           "title": "Micron Is 1.6 Points From Taking the No. 2 Spot in DRAM",
           "url": "https://finance.yahoo.com/m/85f5b4da-cf85-38a5-b365-4864a83d0bfc/micron-is-1.6-points-from.html",
           "publisher": "Motley Fool",
           "published_at": "2026-09-10T14:34:01+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Micron Could Be the Next Nvidia For Patient Investors",
-          "url": "https://finance.yahoo.com/m/f98b83f4-42f7-31b5-be33-9a4d56532208/micron-could-be-the-next.html",
-          "publisher": "24/7 Wall St.",
-          "published_at": "2026-09-10T14:00:27+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Forget the AI Headlines. AHBM Holders Should Be Watching Memory Chip Prices",
-          "url": "https://finance.yahoo.com/m/97955c7e-e198-36b3-98f2-510333652a46/forget-the-ai-headlines.-ahbm.html",
-          "publisher": "24/7 Wall St.",
-          "published_at": "2026-09-10T14:00:22+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "From $8.7B Profit to $5.8B Loss: Why Micron’s Boom-and-Bust Risk Is Far From Over",
-          "url": "https://finance.yahoo.com/m/031b459a-7eae-3475-8977-a6711d2a3546/from-%248.7b-profit-to-%245.8b.html",
-          "publisher": "24/7 Wall St.",
-          "published_at": "2026-09-10T14:00:09+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Memory Stocks Slide as Rates and Oil Swamp JPMorgan’s Overweight Call: SK Hynix Sinks 5%, Western Digital Drops 3%, Micron Slips",
-          "url": "https://finance.yahoo.com/m/0d3d5e69-5ba0-37f5-ba19-6d9edb3cae0b/memory-stocks-slide-as-rates.html",
-          "publisher": "24/7 Wall St.",
-          "published_at": "2026-09-10T13:22:16+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         }
       ],
-      "filings": [],
-      "errors": [
-        "SEC filings unavailable: HTTPError"
+      "filings": [
+        {
+          "form": "8-K",
+          "filed_at": "2026-08-26",
+          "description": "FORM 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926101067/tm2624017d1_8k.htm"
+        }
       ],
+      "errors": [],
       "signal_score": 84,
       "stance": "Constructive",
       "risk_level": "high",
       "rationale": [
         "Price is above its 20-day trend.",
         "Price remains above its 50-day trend.",
-        "Twenty-session momentum is positive at 8.1%.",
+        "Twenty-session momentum is positive at 7.7%.",
         "RSI is in a constructive, non-extreme range."
       ],
       "catalysts": [
@@ -1021,6 +2190,11 @@
           "type": "earnings",
           "date": "2026-09-30",
           "label": "Earnings in 20 days"
+        },
+        {
+          "type": "filing",
+          "date": "2026-08-26",
+          "label": "SEC 8-K filed"
         }
       ]
     },
@@ -1028,18 +2202,18 @@
       "ticker": "AAPL",
       "name": "AAPL",
       "currency": "USD",
-      "price": 322.9001,
+      "price": 323.9555,
       "previous_close": 315.34,
-      "change_pct": 2.3974,
-      "return_5d_pct": -0.6339,
-      "return_20d_pct": 6.8321,
-      "ema20": 317.2637,
-      "ema50": 313.028,
-      "rsi14": 56.2855,
-      "atr_pct": 2.3658,
-      "volume_ratio": 0.5,
-      "volatility20_pct": 21.1331,
-      "market_cap": 4711804144236.45,
+      "change_pct": 2.7321,
+      "return_5d_pct": -0.3091,
+      "return_20d_pct": 7.1813,
+      "ema20": 317.3642,
+      "ema50": 313.0694,
+      "rsi14": 57.1002,
+      "atr_pct": 2.4143,
+      "volume_ratio": 1.163,
+      "volatility20_pct": 21.5709,
+      "market_cap": 4727857385933.228,
       "next_earnings": "2026-10-29",
       "earnings_days": 49,
       "chart": [
@@ -1281,57 +2455,78 @@
         },
         {
           "date": "2026-09-10",
-          "close": 322.9001
+          "close": 323.9555
         }
       ],
       "news": [
         {
-          "title": "Apple Raises Prices on Existing iPhone Models in India by Up to 41%",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-raises-prices-existing-iphone-111306542.html",
+          "title": "Can Apple's Foldable iPhone Fuel the Next Growth Cycle for the Stock?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apples-foldable-iphone-fuel-next-164900181.html",
+          "publisher": "Zacks",
+          "published_at": "2026-09-10T16:49:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "Apple's Foldable Duo Represents 'Notable Form-Factor Change' for iPhone Lineup, UBS Says",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-apos-foldable-duo-represents-173151814.html",
           "publisher": "MT Newswires",
-          "published_at": "2026-09-10T11:13:06+00:00",
-          "source_type": "news"
+          "published_at": "2026-09-10T17:31:51+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
-          "title": "BofA Securities Cuts Price Target on Apple to $370 From $380, Keeps Buy Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-cuts-price-target-121529669.html",
-          "publisher": "MT Newswires",
-          "published_at": "2026-09-10T12:15:29+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Stocks to Watch Thursday: Apple, Oracle, TSMC",
-          "url": "https://finance.yahoo.com/m/ec679c90-387e-3f13-8089-8aa3e4c83fbf/stocks-to-watch-thursday%3A.html",
-          "publisher": "The Wall Street Journal",
-          "published_at": "2026-09-10T09:16:20+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "AAPL Stock Gains Overnight: Analyst Doubles iPhone Duo Revenue Forecast And Says Apple Is ‘Likely To Outperform’ Next Week",
-          "url": "https://finance.yahoo.com/m/6172ffcb-e4d2-3ddb-baec-da91f5be5cd9/aapl-stock-gains-overnight%3A.html",
+          "title": "AAPL’s Foldable iPhone Has Wall Street Split — Retail Calls Duo Reveal A ‘Modern Day Steve Jobs Moment’",
+          "url": "https://finance.yahoo.com/m/1117e73a-7b8c-351a-b4bd-61246783d8ba/aapl%E2%80%99s-foldable-iphone-has.html",
           "publisher": "Stocktwits",
-          "published_at": "2026-09-10T01:48:25+00:00",
-          "source_type": "news"
+          "published_at": "2026-09-10T17:34:56+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
-          "title": "iPhone 18 Pro Debuts C2 Modem As Apple Keeps Weaning Off Qualcomm — Pro Max Isn't Ready to Let Go",
-          "url": "https://finance.yahoo.com/technology/articles/iphone-18-pro-debuts-c2-072924002.html",
-          "publisher": "Benzinga",
-          "published_at": "2026-09-10T07:29:24+00:00",
-          "source_type": "news"
+          "title": "Apple Prioritizing Volume Over Margins With Modest Pricing Strategy, Morgan Stanley Says",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-prioritizing-volume-over-margins-154818404.html",
+          "publisher": "MT Newswires",
+          "published_at": "2026-09-10T15:48:18+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "Apple's iPhone Duo, AI Strategy Strengthen Growth Outlook, Morgan Stanley Says",
+          "url": "https://finance.yahoo.com/technology/articles/apple-apos-iphone-duo-ai-152816516.html",
+          "publisher": "MT Newswires",
+          "published_at": "2026-09-10T15:28:16+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         }
       ],
-      "filings": [],
-      "errors": [
-        "SEC filings unavailable: HTTPError"
+      "filings": [
+        {
+          "form": "10-Q",
+          "filed_at": "2026-07-31",
+          "description": "10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm"
+        },
+        {
+          "form": "8-K",
+          "filed_at": "2026-07-30",
+          "description": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000018/aapl-20260730.htm"
+        }
       ],
+      "errors": [],
       "signal_score": 83,
       "stance": "Constructive",
       "risk_level": "normal",
       "rationale": [
         "Price is above its 20-day trend.",
         "Price remains above its 50-day trend.",
-        "Twenty-session momentum is positive at 6.8%.",
+        "Twenty-session momentum is positive at 7.2%.",
         "RSI is in a constructive, non-extreme range."
       ],
       "catalysts": [
@@ -1339,6 +2534,16 @@
           "type": "earnings",
           "date": "2026-10-29",
           "label": "Earnings in 49 days"
+        },
+        {
+          "type": "filing",
+          "date": "2026-07-31",
+          "label": "SEC 10-Q filed"
+        },
+        {
+          "type": "filing",
+          "date": "2026-07-30",
+          "label": "SEC 8-K filed"
         }
       ]
     },
@@ -1346,18 +2551,18 @@
       "ticker": "META",
       "name": "META",
       "currency": "USD",
-      "price": 658.26,
+      "price": 649.205,
       "previous_close": 653.69,
-      "change_pct": 0.6991,
-      "return_5d_pct": 11.0332,
-      "return_20d_pct": 13.7186,
-      "ema20": 599.0613,
-      "ema50": 595.6265,
-      "rsi14": 71.2885,
-      "atr_pct": 3.2533,
-      "volume_ratio": 0.5042,
-      "volatility20_pct": 36.3026,
-      "market_cap": 1676921472546.4905,
+      "change_pct": -0.6861,
+      "return_5d_pct": 9.5058,
+      "return_20d_pct": 12.1543,
+      "ema20": 598.1989,
+      "ema50": 595.2714,
+      "rsi14": 68.4213,
+      "atr_pct": 3.2987,
+      "volume_ratio": 0.7494,
+      "volatility20_pct": 36.6041,
+      "market_cap": 1653853822337.6084,
       "next_earnings": "2026-10-28",
       "earnings_days": 48,
       "chart": [
@@ -1599,63 +2804,94 @@
         },
         {
           "date": "2026-09-10",
-          "close": 658.26
+          "close": 649.205
         }
       ],
       "news": [
         {
-          "title": "Meta Platforms Agreed to Pay Up to $18 Billion and Set Some Limits for Younger Users. Is the Stock a Buy?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-agreed-pay-18-143000368.html",
-          "publisher": "Motley Fool",
-          "published_at": "2026-09-10T14:30:00+00:00",
-          "source_type": "news"
+          "title": "Meta Platforms' Weak Trust Score Could Limit Muse Adoption, Oppenheimer Says",
+          "url": "https://finance.yahoo.com/technology/ai/articles/meta-platforms-apos-weak-trust-161707541.html",
+          "publisher": "MT Newswires",
+          "published_at": "2026-09-10T16:17:07+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
-          "title": "Andrew Tulloch leaving Meta for Anthropic after less than a year",
-          "url": "https://finance.yahoo.com/technology/ai/articles/andrew-tulloch-leaving-meta-anthropic-141456932.html",
-          "publisher": "Quartz",
-          "published_at": "2026-09-10T14:14:56+00:00",
-          "source_type": "news"
+          "title": "Meta Stock Scores Wall Street Upgrade After Muse AI App Launch",
+          "url": "https://finance.yahoo.com/m/5bea9f22-d52a-33cc-aea8-f0339b8edaac/meta-stock-scores-wall-street.html",
+          "publisher": "Investor's Business Daily",
+          "published_at": "2026-09-10T15:14:27+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
           "title": "Meta upgraded, Nvidia initiated: Wall Street's top analyst calls",
           "url": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-upgraded-okta-downgraded-134312557.html",
           "publisher": "The Fly",
           "published_at": "2026-09-10T13:52:16+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
-          "title": "META Stock On Track To Extend Gains After Hitting 1-Month High, But Wall Street Divided On When Muse AI Agent Will Be A 'Game Changer'",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/meta-stock-track-extend-gains-124143859.html",
-          "publisher": "Stocktwits",
-          "published_at": "2026-09-10T12:41:43+00:00",
-          "source_type": "news"
+          "title": "Meta AI Researcher Andrew Tulloch Reportedly Resigns",
+          "url": "https://finance.yahoo.com/technology/ai/articles/meta-ai-researcher-andrew-tulloch-103846863.html",
+          "publisher": "MT Newswires",
+          "published_at": "2026-09-10T10:38:46+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
-          "title": "Meta Makes New AI Bet on WhatsApp and Instagram",
-          "url": "https://finance.yahoo.com/technology/ai/articles/meta-makes-ai-bet-whatsapp-124131651.html",
-          "publisher": "GuruFocus.com",
-          "published_at": "2026-09-10T12:41:31+00:00",
-          "source_type": "news"
+          "title": "Meta’s Muse Hits Top 3 in App Store. Why Wall Street Is Split on the Stock.",
+          "url": "https://finance.yahoo.com/m/0cc15606-2614-30c4-9fad-f340ee8552f8/meta%E2%80%99s-muse-hits-top-3-in-app.html",
+          "publisher": "Barrons.com",
+          "published_at": "2026-09-10T14:38:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         }
       ],
-      "filings": [],
-      "errors": [
-        "SEC filings unavailable: HTTPError"
+      "filings": [
+        {
+          "form": "10-Q",
+          "filed_at": "2026-07-30",
+          "description": "10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm"
+        },
+        {
+          "form": "8-K",
+          "filed_at": "2026-07-29",
+          "description": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-20260729.htm"
+        }
       ],
-      "signal_score": 80,
+      "errors": [],
+      "signal_score": 79,
       "stance": "Constructive",
       "risk_level": "elevated",
       "rationale": [
         "Price is above its 20-day trend.",
         "Price remains above its 50-day trend.",
-        "Twenty-session momentum is positive at 13.7%."
+        "Twenty-session momentum is positive at 12.2%."
       ],
       "catalysts": [
         {
           "type": "earnings",
           "date": "2026-10-28",
           "label": "Earnings in 48 days"
+        },
+        {
+          "type": "filing",
+          "date": "2026-07-30",
+          "label": "SEC 10-Q filed"
+        },
+        {
+          "type": "filing",
+          "date": "2026-07-29",
+          "label": "SEC 8-K filed"
         }
       ]
     },
@@ -1663,18 +2899,18 @@
       "ticker": "MSFT",
       "name": "MSFT",
       "currency": "USD",
-      "price": 492.68,
+      "price": 491.7,
       "previous_close": 491.65,
-      "change_pct": 0.2095,
-      "return_5d_pct": -0.8333,
-      "return_20d_pct": 0.2391,
-      "ema20": 490.6033,
-      "ema50": 463.5788,
-      "rsi14": 55.3377,
-      "atr_pct": 2.21,
-      "volume_ratio": 0.1838,
-      "volatility20_pct": 21.2512,
-      "market_cap": 3658417698119.5605,
+      "change_pct": 0.0102,
+      "return_5d_pct": -1.0306,
+      "return_20d_pct": 0.0397,
+      "ema20": 490.51,
+      "ema50": 463.5404,
+      "rsi14": 54.843,
+      "atr_pct": 2.2307,
+      "volume_ratio": 0.3723,
+      "volatility20_pct": 21.2401,
+      "market_cap": 3651140808568.566,
       "next_earnings": "2026-10-28",
       "earnings_days": 48,
       "chart": [
@@ -1916,57 +3152,84 @@
         },
         {
           "date": "2026-09-10",
-          "close": 492.68
+          "close": 491.7
         }
       ],
       "news": [
+        {
+          "title": "Is Microsoft Stock Overvalued At 28x Earnings?",
+          "url": "https://finance.yahoo.com/m/623e0773-c392-317b-b0ef-1755a33ff63c/is-microsoft-stock-overvalued.html",
+          "publisher": "Trefis",
+          "published_at": "2026-09-10T16:52:16+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "Can MSFT Stock Rally on the Back of Dynamics 365 Business Applications?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/msft-stock-rally-back-dynamics-150000786.html",
+          "publisher": "Zacks",
+          "published_at": "2026-09-10T15:00:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "Microsoft, Talkdesk Expand Collaboration for Azure-Backed Software Purchases",
+          "url": "https://finance.yahoo.com/technology/articles/microsoft-talkdesk-expand-collaboration-azure-162945347.html",
+          "publisher": "MT Newswires",
+          "published_at": "2026-09-10T16:29:45+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
         {
           "title": "Market Chatter: Microsoft-Backed OpenAI Faces Senate Scrutiny Over Handling of Hugging Face Breach",
           "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-microsoft-backed-openai-100805835.html",
           "publisher": "MT Newswires",
           "published_at": "2026-09-10T10:08:05+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
           "title": "Market Chatter: OpenAI Tightens ChatGPT Ad Policy to Exclude Competing AI Products",
           "url": "https://finance.yahoo.com/media-advertising/articles/market-chatter-openai-tightens-chatgpt-100541690.html",
           "publisher": "MT Newswires",
           "published_at": "2026-09-10T10:05:41+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Market Chatter: Microsoft-Backed OpenAI's Rogue Agents Found on At Least 10 Additional Sites",
-          "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-microsoft-backed-openai-083356618.html",
-          "publisher": "MT Newswires",
-          "published_at": "2026-09-10T08:33:56+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Microsoft-Backed OpenAI Pushes for Federal Regulations",
-          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-backed-openai-pushes-federal-112627138.html",
-          "publisher": "MT Newswires",
-          "published_at": "2026-09-10T11:26:27+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "RingCentral Introduces ChatGPT Plugin, MCP Connectors for Claude",
-          "url": "https://finance.yahoo.com/technology/ai/articles/ringcentral-introduces-chatgpt-plugin-mcp-130810839.html",
-          "publisher": "MT Newswires",
-          "published_at": "2026-09-10T13:08:10+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         }
       ],
-      "filings": [],
-      "errors": [
-        "SEC filings unavailable: HTTPError"
+      "filings": [
+        {
+          "form": "8-K",
+          "filed_at": "2026-09-02",
+          "description": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526380280/d291965d8k.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2026-07-29",
+          "description": "10-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm"
+        },
+        {
+          "form": "8-K",
+          "filed_at": "2026-07-29",
+          "description": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-20260729.htm"
+        }
       ],
+      "errors": [],
       "signal_score": 78,
       "stance": "Constructive",
       "risk_level": "normal",
       "rationale": [
         "Price is above its 20-day trend.",
         "Price remains above its 50-day trend.",
-        "Twenty-session momentum is positive at 0.2%.",
+        "Twenty-session momentum is positive at 0.0%.",
         "RSI is in a constructive, non-extreme range."
       ],
       "catalysts": [
@@ -1974,6 +3237,16 @@
           "type": "earnings",
           "date": "2026-10-28",
           "label": "Earnings in 48 days"
+        },
+        {
+          "type": "filing",
+          "date": "2026-09-02",
+          "label": "SEC 8-K filed"
+        },
+        {
+          "type": "filing",
+          "date": "2026-07-29",
+          "label": "SEC 10-K filed"
         }
       ]
     },
@@ -1981,18 +3254,18 @@
       "ticker": "NVDA",
       "name": "NVDA",
       "currency": "USD",
-      "price": 218.065,
+      "price": 218.325,
       "previous_close": 223.67,
-      "change_pct": -2.5059,
-      "return_5d_pct": -2.8274,
-      "return_20d_pct": -2.6886,
-      "ema20": 220.0598,
-      "ema50": 214.78,
-      "rsi14": 49.5826,
-      "atr_pct": 3.2547,
-      "volume_ratio": 0.2951,
-      "volatility20_pct": 43.5564,
-      "market_cap": 5265977804214.478,
+      "change_pct": -2.3897,
+      "return_5d_pct": -2.7116,
+      "return_20d_pct": -2.5726,
+      "ema20": 220.0845,
+      "ema50": 214.7902,
+      "rsi14": 49.7839,
+      "atr_pct": 3.2509,
+      "volume_ratio": 0.5155,
+      "volatility20_pct": 43.4772,
+      "market_cap": 5271734529190.063,
       "next_earnings": "2026-11-17",
       "earnings_days": 68,
       "chart": [
@@ -2234,7 +3507,7 @@
         },
         {
           "date": "2026-09-10",
-          "close": 218.065
+          "close": 218.325
         }
       ],
       "news": [
@@ -2243,48 +3516,81 @@
           "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-nvidia-gpu-servers-144926073.html",
           "publisher": "MT Newswires",
           "published_at": "2026-09-10T14:49:26+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
           "title": "Top Wide-Moat Stocks to Buy for Long-Term Wealth and Stability",
           "url": "https://finance.yahoo.com/markets/stocks/articles/top-wide-moat-stocks-buy-121000813.html",
           "publisher": "Zacks",
           "published_at": "2026-09-10T12:10:00+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
           "title": "Nvidia, D-Matrix Collaborate on New AI Systems",
           "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-d-matrix-collaborate-ai-140338041.html",
           "publisher": "MT Newswires",
           "published_at": "2026-09-10T14:03:38+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
-          "title": "Market Chatter: Justice Department Probes Nvidia Licensing Deal With Groq",
-          "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-justice-department-probes-084549477.html",
-          "publisher": "MT Newswires",
-          "published_at": "2026-09-10T08:45:49+00:00",
-          "source_type": "news"
+          "title": "Nvidia Will Pay Its Next Cash Dividend on Oct. 1. Here's How Many Shares of Nvidia (NVDA) Stock You'd Need for $10,000 in Yearly Dividends.",
+          "url": "https://finance.yahoo.com/m/eba19eaf-a56f-38f2-a1a4-0f7743a7703f/nvidia-will-pay-its-next-cash.html",
+          "publisher": "Motley Fool",
+          "published_at": "2026-09-10T15:30:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
-          "title": "Nvidia, Palantir Technologies to Collaborate on Sovereign AI for Critical Supply Chains",
-          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-palantir-technologies-collaborate-sovereign-093824579.html",
-          "publisher": "MT Newswires",
-          "published_at": "2026-09-10T09:38:24+00:00",
-          "source_type": "news"
+          "title": "Is Michael Burry Waving a White Flag? ‘Big Short’ Investor Reduces Bearish Bets on NVDA, CRWV",
+          "url": "https://finance.yahoo.com/m/56b7e5a3-3f46-39b9-b02e-f82bdb20a294/is-michael-burry-waving-a.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-09-10T15:16:08+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         }
       ],
-      "filings": [],
-      "errors": [
-        "SEC filings unavailable: HTTPError"
+      "filings": [
+        {
+          "form": "8-K",
+          "filed_at": "2026-09-03",
+          "description": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm"
+        },
+        {
+          "form": "10-Q",
+          "filed_at": "2026-08-26",
+          "description": "10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+        },
+        {
+          "form": "8-K",
+          "filed_at": "2026-08-26",
+          "description": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/nvda-20260826.htm"
+        },
+        {
+          "form": "8-K",
+          "filed_at": "2026-08-17",
+          "description": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm"
+        }
       ],
+      "errors": [],
       "signal_score": 56,
       "stance": "Watch",
       "risk_level": "elevated",
       "rationale": [
         "Price is below its 20-day trend.",
         "Price remains above its 50-day trend.",
-        "Twenty-session momentum is negative at -2.7%.",
+        "Twenty-session momentum is negative at -2.6%.",
         "RSI is in a constructive, non-extreme range."
       ],
       "catalysts": [
@@ -2292,6 +3598,16 @@
           "type": "earnings",
           "date": "2026-11-17",
           "label": "Earnings in 68 days"
+        },
+        {
+          "type": "filing",
+          "date": "2026-09-03",
+          "label": "SEC 8-K filed"
+        },
+        {
+          "type": "filing",
+          "date": "2026-08-26",
+          "label": "SEC 10-Q filed"
         }
       ]
     },
@@ -2299,18 +3615,18 @@
       "ticker": "GOOGL",
       "name": "GOOGL",
       "currency": "USD",
-      "price": 331.23,
+      "price": 332.21,
       "previous_close": 330.65,
-      "change_pct": 0.1754,
-      "return_5d_pct": -1.684,
-      "return_20d_pct": -3.5213,
-      "ema20": 340.5895,
-      "ema50": 345.9777,
-      "rsi14": 40.0624,
-      "atr_pct": 2.3756,
-      "volume_ratio": 0.3564,
-      "volatility20_pct": 17.7049,
-      "market_cap": 4051043493987.4824,
+      "change_pct": 0.4718,
+      "return_5d_pct": -1.3931,
+      "return_20d_pct": -3.2359,
+      "ema20": 340.6828,
+      "ema50": 346.0162,
+      "rsi14": 41.0281,
+      "atr_pct": 2.3835,
+      "volume_ratio": 0.609,
+      "volatility20_pct": 17.8078,
+      "market_cap": 4062906545702.6724,
       "next_earnings": "2026-10-28",
       "earnings_days": 48,
       "chart": [
@@ -2552,63 +3868,83 @@
         },
         {
           "date": "2026-09-10",
-          "close": 331.23
+          "close": 332.21
         }
       ],
       "news": [
         {
-          "title": "Alphabet's ROIC Is Strong, but Is GOOGL Stock a Buy Now?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/alphabets-roic-strong-googl-stock-155700730.html",
+          "title": "Alphabet's TPU Sales Could Drive Significant Google Cloud Upside, Oppenheimer Says",
+          "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-apos-tpu-sales-could-154932893.html",
+          "publisher": "MT Newswires",
+          "published_at": "2026-09-10T15:49:32+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "Market Chatter: Google, Fanuc Partner on AI-Backed Automated Welding System",
+          "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-google-fanuc-partner-161658773.html",
+          "publisher": "MT Newswires",
+          "published_at": "2026-09-10T16:16:58+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "Alphabet's Google Enters Five-Year Carbon Credit Agreement With Mitti Labs",
+          "url": "https://finance.yahoo.com/energy/articles/alphabet-apos-google-enters-five-160548808.html",
+          "publisher": "MT Newswires",
+          "published_at": "2026-09-10T16:05:48+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "ADBE Rides on Acrobat AI Expansion: Can it Outpace MSFT & GOOGL?",
+          "url": "https://finance.yahoo.com/technology/ai/articles/adbe-rides-acrobat-ai-expansion-171600435.html",
           "publisher": "Zacks",
-          "published_at": "2026-09-09T15:57:00+00:00",
-          "source_type": "news"
+          "published_at": "2026-09-10T17:16:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
-          "title": "Company News for Sep 10, 2026",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/company-news-sep-10-2026-132200852.html",
-          "publisher": "Zacks",
-          "published_at": "2026-09-10T13:22:00+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "META Vs GOOGL: Cathie Wood’s ARK Makes A Nearly $56M Mega-Cap Tech Rotation",
-          "url": "https://finance.yahoo.com/m/f00023e4-6bbd-377a-9fc0-70b6d1f89b81/meta-vs-googl%3A-cathie-wood%E2%80%99s.html",
-          "publisher": "Stocktwits",
-          "published_at": "2026-09-10T06:12:40+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Alphabet’s Dip is a Clear Buying Opportunity",
-          "url": "https://finance.yahoo.com/m/2d971a7d-f1a0-3dd1-9d1d-9a6cc08a5791/alphabet%E2%80%99s-dip-is-a-clear.html",
+          "title": "Google Is Buying Half a Nuclear Plant’s Output Through 2049. Cheap Power Just Became the Real AI Moat.",
+          "url": "https://finance.yahoo.com/m/8fbb46e1-b872-3d10-9ed9-d5fd0a71cb18/google-is-buying-half-a.html",
           "publisher": "24/7 Wall St.",
-          "published_at": "2026-09-10T12:10:29+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Microsoft Remains Down Over 12 Months: A Wall Street Bull Expects 75% Gains to Materialize Soon",
-          "url": "https://finance.yahoo.com/m/ae771ae5-8aa8-3129-8496-b587997c9165/microsoft-remains-down-over.html",
-          "publisher": "24/7 Wall St.",
-          "published_at": "2026-09-10T12:48:05+00:00",
-          "source_type": "news"
+          "published_at": "2026-09-10T17:47:44+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         }
       ],
-      "filings": [],
-      "errors": [
-        "SEC filings unavailable: HTTPError"
+      "filings": [
+        {
+          "form": "8-K",
+          "filed_at": "2026-08-10",
+          "description": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526342390/d171253d8k.htm"
+        }
       ],
-      "signal_score": 27,
+      "errors": [],
+      "signal_score": 28,
       "stance": "Cautious",
       "risk_level": "normal",
       "rationale": [
         "Price is below its 20-day trend.",
         "Price is below its 50-day trend.",
-        "Twenty-session momentum is negative at -3.5%."
+        "Twenty-session momentum is negative at -3.2%."
       ],
       "catalysts": [
         {
           "type": "earnings",
           "date": "2026-10-28",
           "label": "Earnings in 48 days"
+        },
+        {
+          "type": "filing",
+          "date": "2026-08-10",
+          "label": "SEC 8-K filed"
         }
       ]
     },
@@ -2616,18 +3952,18 @@
       "ticker": "AMZN",
       "name": "AMZN",
       "currency": "USD",
-      "price": 252.68,
+      "price": 252.305,
       "previous_close": 252.4,
-      "change_pct": 0.1109,
-      "return_5d_pct": -0.902,
-      "return_20d_pct": -5.4624,
-      "ema20": 258.1144,
-      "ema50": 255.9599,
-      "rsi14": 44.37,
-      "atr_pct": 2.4709,
-      "volume_ratio": 0.2422,
-      "volatility20_pct": 24.5092,
-      "market_cap": 2725485634371.6396,
+      "change_pct": -0.0376,
+      "return_5d_pct": -1.0491,
+      "return_20d_pct": -5.6027,
+      "ema20": 258.0787,
+      "ema50": 255.9452,
+      "rsi14": 43.9773,
+      "atr_pct": 2.4825,
+      "volume_ratio": 0.4293,
+      "volatility20_pct": 24.4855,
+      "market_cap": 2721440766782.1396,
       "next_earnings": "2026-10-29",
       "earnings_days": 49,
       "chart": [
@@ -2869,7 +4205,7 @@
         },
         {
           "date": "2026-09-10",
-          "close": 252.68
+          "close": 252.305
         }
       ],
       "news": [
@@ -2878,54 +4214,91 @@
           "url": "https://finance.yahoo.com/media-advertising/articles/amazon-reportedly-let-advertisers-run-143803288.html",
           "publisher": "MT Newswires",
           "published_at": "2026-09-10T14:38:03+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
           "title": "Anthropic Discloses Fourth Unauthorized System Hack During Cybersecurity Tests",
           "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-discloses-fourth-unauthorized-system-104642960.html",
           "publisher": "MT Newswires",
           "published_at": "2026-09-10T10:46:42+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "Update: Market Chatter: Anthropic Grants EU Cybersecurity Agency Access to Mythos Model",
+          "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-anthropic-grants-eu-154342604.html",
+          "publisher": "MT Newswires",
+          "published_at": "2026-09-10T15:43:42+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
           "title": "Market Chatter: Anthropic Grants EU Cybersecurity Agency Access to Mythos Model",
           "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-anthropic-grants-eu-092427898.html",
           "publisher": "MT Newswires",
           "published_at": "2026-09-10T09:24:27+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
           "title": "Anthropic Employees Say ‘AI Could Kill All Humans!’ Put Odds Above 10% This Decade",
           "url": "https://finance.yahoo.com/m/4c83e8a2-0f3d-3853-aa22-4225911d1155/anthropic-employees-say-%E2%80%98ai.html",
           "publisher": "24/7 Wall St.",
           "published_at": "2026-09-10T14:12:54+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Amazon (AMZN) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-amzn-sees-more-significant-214504623.html",
-          "publisher": "Zacks",
-          "published_at": "2026-09-09T21:45:04+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         }
       ],
-      "filings": [],
-      "errors": [
-        "SEC filings unavailable: HTTPError"
+      "filings": [
+        {
+          "form": "8-K",
+          "filed_at": "2026-09-09",
+          "description": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000036/amzn-20260908.htm"
+        },
+        {
+          "form": "10-Q",
+          "filed_at": "2026-07-31",
+          "description": "10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm"
+        },
+        {
+          "form": "8-K",
+          "filed_at": "2026-07-30",
+          "description": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260730.htm"
+        }
       ],
+      "errors": [],
       "signal_score": 26,
       "stance": "Cautious",
       "risk_level": "normal",
       "rationale": [
         "Price is below its 20-day trend.",
         "Price is below its 50-day trend.",
-        "Twenty-session momentum is negative at -5.5%."
+        "Twenty-session momentum is negative at -5.6%."
       ],
       "catalysts": [
         {
           "type": "earnings",
           "date": "2026-10-29",
           "label": "Earnings in 49 days"
+        },
+        {
+          "type": "filing",
+          "date": "2026-09-09",
+          "label": "SEC 8-K filed"
+        },
+        {
+          "type": "filing",
+          "date": "2026-07-31",
+          "label": "SEC 10-Q filed"
         }
       ]
     },
@@ -2933,18 +4306,18 @@
       "ticker": "AVGO",
       "name": "AVGO",
       "currency": "USD",
-      "price": 363.8099,
+      "price": 362.69,
       "previous_close": 364.38,
-      "change_pct": -0.1565,
-      "return_5d_pct": -0.934,
-      "return_20d_pct": -12.5562,
-      "ema20": 371.4419,
-      "ema50": 380.8541,
-      "rsi14": 42.8935,
-      "atr_pct": 3.4203,
-      "volume_ratio": 0.1977,
-      "volatility20_pct": 36.6556,
-      "market_cap": 1730854804649.7178,
+      "change_pct": -0.4638,
+      "return_5d_pct": -1.239,
+      "return_20d_pct": -12.8254,
+      "ema20": 371.3352,
+      "ema50": 380.8102,
+      "rsi14": 42.3197,
+      "atr_pct": 3.4445,
+      "volume_ratio": 0.3524,
+      "volatility20_pct": 36.6197,
+      "market_cap": 1725526773627.8062,
       "next_earnings": "2026-12-09",
       "earnings_days": 90,
       "chart": [
@@ -3186,63 +4559,94 @@
         },
         {
           "date": "2026-09-10",
-          "close": 363.8099
+          "close": 362.69
         }
       ],
       "news": [
+        {
+          "title": "OpenAI Picked Broadcom for Its First Custom AI Chip. The Race for Number Two Just Got Dangerous.",
+          "url": "https://finance.yahoo.com/m/6b17e61f-d805-3062-b700-83cbb8bfe569/openai-picked-broadcom-for.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-09-10T16:40:39+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "The Case for Broadcom Over Nvidia Strengthens in September",
+          "url": "https://finance.yahoo.com/m/2316fd49-ab5b-3869-9387-82c2a3adadb1/the-case-for-broadcom-over.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-09-10T16:58:19+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "Prediction: Broadcom Could Become One of the World’s Most Valuable Tech Companies",
+          "url": "https://finance.yahoo.com/m/7724f635-7932-3076-9604-fd13a878e3ff/prediction%3A-broadcom-could.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-09-10T15:30:32+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
         {
           "title": "One AI Stock is The Clear WInner as Yields Approach 5%",
           "url": "https://finance.yahoo.com/m/32d2e7f0-359e-300d-ab75-a64477353c9d/one-ai-stock-is-the-clear.html",
           "publisher": "24/7 Wall St.",
           "published_at": "2026-09-10T14:10:41+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
           "title": "Broadcom (AVGO) Faces Google Chip Risks, But Macquarie Sees a $40 Billion Anthropic Opportunity",
           "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-faces-google-chip-184606814.html",
           "publisher": "Insider Monkey",
           "published_at": "2026-09-09T18:46:06+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Not Nvidia. Not Broadcom. But This Semiconductor Stock Is Set to Grow Faster Than Any Other Major AI Chipmaker Through the End of the Decade.",
-          "url": "https://finance.yahoo.com/m/f03c6238-0be8-30de-a8da-daf7e6bf3396/not-nvidia.-not-broadcom.-but.html",
-          "publisher": "Motley Fool",
-          "published_at": "2026-09-10T08:50:00+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Wall Street Is Wrong About These 2 Chip Stocks",
-          "url": "https://finance.yahoo.com/m/67973396-ec01-3e3e-a9f1-948f5c34f7f1/wall-street-is-wrong-about.html",
-          "publisher": "Motley Fool",
-          "published_at": "2026-09-10T09:05:00+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Got $5,000? 3 No-Brainer Artificial Intelligence (AI) Stocks to Buy Right Now.",
-          "url": "https://finance.yahoo.com/m/7a96da97-f620-3a4f-b7c0-29c56510b837/got-%245%2C000%3F-3-no-brainer.html",
-          "publisher": "Motley Fool",
-          "published_at": "2026-09-10T13:50:00+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         }
       ],
-      "filings": [],
-      "errors": [
-        "SEC filings unavailable: HTTPError"
+      "filings": [
+        {
+          "form": "10-Q",
+          "filed_at": "2026-09-10",
+          "description": "10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm"
+        },
+        {
+          "form": "8-K",
+          "filed_at": "2026-09-02",
+          "description": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-20260902.htm"
+        }
       ],
-      "signal_score": 21,
+      "errors": [],
+      "signal_score": 20,
       "stance": "Cautious",
       "risk_level": "elevated",
       "rationale": [
         "Price is below its 20-day trend.",
         "Price is below its 50-day trend.",
-        "Twenty-session momentum is negative at -12.6%."
+        "Twenty-session momentum is negative at -12.8%."
       ],
       "catalysts": [
         {
           "type": "earnings",
           "date": "2026-12-09",
           "label": "Earnings in 90 days"
+        },
+        {
+          "type": "filing",
+          "date": "2026-09-10",
+          "label": "SEC 10-Q filed"
+        },
+        {
+          "type": "filing",
+          "date": "2026-09-02",
+          "label": "SEC 8-K filed"
         }
       ]
     }
@@ -3252,18 +4656,18 @@
       "ticker": "AAPL",
       "name": "AAPL",
       "currency": "USD",
-      "price": 322.9001,
+      "price": 323.9555,
       "previous_close": 315.34,
-      "change_pct": 2.3974,
-      "return_5d_pct": -0.6339,
-      "return_20d_pct": 6.8321,
-      "ema20": 317.2637,
-      "ema50": 313.028,
-      "rsi14": 56.2855,
-      "atr_pct": 2.3658,
-      "volume_ratio": 0.5,
-      "volatility20_pct": 21.1331,
-      "market_cap": 4711804144236.45,
+      "change_pct": 2.7321,
+      "return_5d_pct": -0.3091,
+      "return_20d_pct": 7.1813,
+      "ema20": 317.3642,
+      "ema50": 313.0694,
+      "rsi14": 57.1002,
+      "atr_pct": 2.4143,
+      "volume_ratio": 1.163,
+      "volatility20_pct": 21.5709,
+      "market_cap": 4727857385933.228,
       "next_earnings": "2026-10-29",
       "earnings_days": 49,
       "chart": [
@@ -3505,50 +4909,71 @@
         },
         {
           "date": "2026-09-10",
-          "close": 322.9001
+          "close": 323.9555
         }
       ],
       "news": [
         {
-          "title": "Apple Raises Prices on Existing iPhone Models in India by Up to 41%",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-raises-prices-existing-iphone-111306542.html",
+          "title": "Can Apple's Foldable iPhone Fuel the Next Growth Cycle for the Stock?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apples-foldable-iphone-fuel-next-164900181.html",
+          "publisher": "Zacks",
+          "published_at": "2026-09-10T16:49:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "Apple's Foldable Duo Represents 'Notable Form-Factor Change' for iPhone Lineup, UBS Says",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-apos-foldable-duo-represents-173151814.html",
           "publisher": "MT Newswires",
-          "published_at": "2026-09-10T11:13:06+00:00",
-          "source_type": "news"
+          "published_at": "2026-09-10T17:31:51+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
-          "title": "BofA Securities Cuts Price Target on Apple to $370 From $380, Keeps Buy Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-cuts-price-target-121529669.html",
-          "publisher": "MT Newswires",
-          "published_at": "2026-09-10T12:15:29+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Stocks to Watch Thursday: Apple, Oracle, TSMC",
-          "url": "https://finance.yahoo.com/m/ec679c90-387e-3f13-8089-8aa3e4c83fbf/stocks-to-watch-thursday%3A.html",
-          "publisher": "The Wall Street Journal",
-          "published_at": "2026-09-10T09:16:20+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "AAPL Stock Gains Overnight: Analyst Doubles iPhone Duo Revenue Forecast And Says Apple Is ‘Likely To Outperform’ Next Week",
-          "url": "https://finance.yahoo.com/m/6172ffcb-e4d2-3ddb-baec-da91f5be5cd9/aapl-stock-gains-overnight%3A.html",
+          "title": "AAPL’s Foldable iPhone Has Wall Street Split — Retail Calls Duo Reveal A ‘Modern Day Steve Jobs Moment’",
+          "url": "https://finance.yahoo.com/m/1117e73a-7b8c-351a-b4bd-61246783d8ba/aapl%E2%80%99s-foldable-iphone-has.html",
           "publisher": "Stocktwits",
-          "published_at": "2026-09-10T01:48:25+00:00",
-          "source_type": "news"
+          "published_at": "2026-09-10T17:34:56+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
-          "title": "iPhone 18 Pro Debuts C2 Modem As Apple Keeps Weaning Off Qualcomm — Pro Max Isn't Ready to Let Go",
-          "url": "https://finance.yahoo.com/technology/articles/iphone-18-pro-debuts-c2-072924002.html",
-          "publisher": "Benzinga",
-          "published_at": "2026-09-10T07:29:24+00:00",
-          "source_type": "news"
+          "title": "Apple Prioritizing Volume Over Margins With Modest Pricing Strategy, Morgan Stanley Says",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-prioritizing-volume-over-margins-154818404.html",
+          "publisher": "MT Newswires",
+          "published_at": "2026-09-10T15:48:18+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "Apple's iPhone Duo, AI Strategy Strengthen Growth Outlook, Morgan Stanley Says",
+          "url": "https://finance.yahoo.com/technology/articles/apple-apos-iphone-duo-ai-152816516.html",
+          "publisher": "MT Newswires",
+          "published_at": "2026-09-10T15:28:16+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         }
       ],
-      "filings": [],
-      "errors": [
-        "SEC filings unavailable: HTTPError"
+      "filings": [
+        {
+          "form": "10-Q",
+          "filed_at": "2026-07-31",
+          "description": "10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm"
+        },
+        {
+          "form": "8-K",
+          "filed_at": "2026-07-30",
+          "description": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000018/aapl-20260730.htm"
+        }
       ],
+      "errors": [],
       "setup_score": 92,
       "thesis": [
         "Price, 20-day EMA, and 50-day EMA are positively aligned.",
@@ -3556,13 +4981,13 @@
         "RSI sits in the preferred momentum band."
       ],
       "entry_zone": [
-        320.61,
-        325.19
+        321.61,
+        326.3
       ],
-      "model_target": 355.19,
-      "model_stop": 311.44,
+      "model_target": 356.35,
+      "model_stop": 312.22,
       "modeled_upside_pct": 10.0,
-      "reward_risk_ratio": 2.82,
+      "reward_risk_ratio": 2.76,
       "horizon": "1-2 months",
       "target_note": "Mechanical 3-ATR research scenario, bounded to 10-20%; not a forecast.",
       "research_allocation_cap_pct": 8,
@@ -3574,18 +4999,18 @@
       "ticker": "MU",
       "name": "MU",
       "currency": "USD",
-      "price": 985.16,
+      "price": 981.56,
       "previous_close": 1027.77,
-      "change_pct": -4.1459,
-      "return_5d_pct": 3.0416,
-      "return_20d_pct": 8.1061,
-      "ema20": 959.8046,
-      "ema50": 930.7422,
-      "rsi14": 54.3015,
-      "atr_pct": 5.3967,
-      "volume_ratio": 0.4239,
-      "volatility20_pct": 53.5577,
-      "market_cap": 1112632926308.7776,
+      "change_pct": -4.4961,
+      "return_5d_pct": 2.665,
+      "return_20d_pct": 7.711,
+      "ema20": 959.4617,
+      "ema50": 930.601,
+      "rsi14": 53.8277,
+      "atr_pct": 5.4794,
+      "volume_ratio": 0.7044,
+      "volatility20_pct": 53.9486,
+      "market_cap": 1108567138538.2524,
       "next_earnings": "2026-09-30",
       "earnings_days": 20,
       "chart": [
@@ -3827,50 +5252,65 @@
         },
         {
           "date": "2026-09-10",
-          "close": 985.16
+          "close": 981.56
         }
       ],
       "news": [
+        {
+          "title": "A $1 Trillion Micron Sounds Absurd. Then You See the 10-Fold Earnings Forecast.",
+          "url": "https://finance.yahoo.com/m/e03727f1-0fd8-335f-8cd5-fa80f21773cc/a-%241-trillion-micron-sounds.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-09-10T17:00:41+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "Micron Stock Slips as Intel-Backed Start-up Takes Aim at Memory-Chip Market",
+          "url": "https://finance.yahoo.com/m/a285e435-1619-3b25-b243-e254279dbae1/micron-stock-slips-as.html",
+          "publisher": "Barrons.com",
+          "published_at": "2026-09-10T15:10:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "‘I Am the House Now,’ Bessent Warns — But Bond Traders Keep Raising Yields Anyway",
+          "url": "https://finance.yahoo.com/m/be2976b3-ca90-3d4c-abff-4fc0adc8911f/%E2%80%98i-am-the-house-now%2C%E2%80%99-bessent.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-09-10T15:09:14+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "Can Seagate Sustain Its Strong Revenue Growth in Fiscal 2027?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/seagate-sustain-strong-revenue-growth-150700755.html",
+          "publisher": "Zacks",
+          "published_at": "2026-09-10T15:07:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
         {
           "title": "Micron Is 1.6 Points From Taking the No. 2 Spot in DRAM",
           "url": "https://finance.yahoo.com/m/85f5b4da-cf85-38a5-b365-4864a83d0bfc/micron-is-1.6-points-from.html",
           "publisher": "Motley Fool",
           "published_at": "2026-09-10T14:34:01+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Micron Could Be the Next Nvidia For Patient Investors",
-          "url": "https://finance.yahoo.com/m/f98b83f4-42f7-31b5-be33-9a4d56532208/micron-could-be-the-next.html",
-          "publisher": "24/7 Wall St.",
-          "published_at": "2026-09-10T14:00:27+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Forget the AI Headlines. AHBM Holders Should Be Watching Memory Chip Prices",
-          "url": "https://finance.yahoo.com/m/97955c7e-e198-36b3-98f2-510333652a46/forget-the-ai-headlines.-ahbm.html",
-          "publisher": "24/7 Wall St.",
-          "published_at": "2026-09-10T14:00:22+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "From $8.7B Profit to $5.8B Loss: Why Micron’s Boom-and-Bust Risk Is Far From Over",
-          "url": "https://finance.yahoo.com/m/031b459a-7eae-3475-8977-a6711d2a3546/from-%248.7b-profit-to-%245.8b.html",
-          "publisher": "24/7 Wall St.",
-          "published_at": "2026-09-10T14:00:09+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Memory Stocks Slide as Rates and Oil Swamp JPMorgan’s Overweight Call: SK Hynix Sinks 5%, Western Digital Drops 3%, Micron Slips",
-          "url": "https://finance.yahoo.com/m/0d3d5e69-5ba0-37f5-ba19-6d9edb3cae0b/memory-stocks-slide-as-rates.html",
-          "publisher": "24/7 Wall St.",
-          "published_at": "2026-09-10T13:22:16+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         }
       ],
-      "filings": [],
-      "errors": [
-        "SEC filings unavailable: HTTPError"
+      "filings": [
+        {
+          "form": "8-K",
+          "filed_at": "2026-08-26",
+          "description": "FORM 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926101067/tm2624017d1_8k.htm"
+        }
       ],
+      "errors": [],
       "setup_score": 92,
       "thesis": [
         "Price, 20-day EMA, and 50-day EMA are positively aligned.",
@@ -3878,16 +5318,16 @@
         "RSI sits in the preferred momentum band."
       ],
       "entry_zone": [
-        969.21,
-        1001.11
+        965.42,
+        997.7
       ],
-      "model_target": 1144.66,
-      "model_stop": 905.41,
-      "modeled_upside_pct": 16.2,
+      "model_target": 1142.91,
+      "model_stop": 900.88,
+      "modeled_upside_pct": 16.4,
       "reward_risk_ratio": 2.0,
       "horizon": "1-2 months",
       "target_note": "Mechanical 3-ATR research scenario, bounded to 10-20%; not a forecast.",
-      "research_allocation_cap_pct": 3.4,
+      "research_allocation_cap_pct": 3.3,
       "risk_flags": [
         "High daily range",
         "Earnings inside three weeks"
@@ -3897,18 +5337,18 @@
       "ticker": "META",
       "name": "META",
       "currency": "USD",
-      "price": 658.26,
+      "price": 649.205,
       "previous_close": 653.69,
-      "change_pct": 0.6991,
-      "return_5d_pct": 11.0332,
-      "return_20d_pct": 13.7186,
-      "ema20": 599.0613,
-      "ema50": 595.6265,
-      "rsi14": 71.2885,
-      "atr_pct": 3.2533,
-      "volume_ratio": 0.5042,
-      "volatility20_pct": 36.3026,
-      "market_cap": 1676921472546.4905,
+      "change_pct": -0.6861,
+      "return_5d_pct": 9.5058,
+      "return_20d_pct": 12.1543,
+      "ema20": 598.1989,
+      "ema50": 595.2714,
+      "rsi14": 68.4213,
+      "atr_pct": 3.2987,
+      "volume_ratio": 0.7494,
+      "volatility20_pct": 36.6041,
+      "market_cap": 1653853822337.6084,
       "next_earnings": "2026-10-28",
       "earnings_days": 48,
       "chart": [
@@ -4150,86 +5590,107 @@
         },
         {
           "date": "2026-09-10",
-          "close": 658.26
+          "close": 649.205
         }
       ],
       "news": [
         {
-          "title": "Meta Platforms Agreed to Pay Up to $18 Billion and Set Some Limits for Younger Users. Is the Stock a Buy?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-agreed-pay-18-143000368.html",
-          "publisher": "Motley Fool",
-          "published_at": "2026-09-10T14:30:00+00:00",
-          "source_type": "news"
+          "title": "Meta Platforms' Weak Trust Score Could Limit Muse Adoption, Oppenheimer Says",
+          "url": "https://finance.yahoo.com/technology/ai/articles/meta-platforms-apos-weak-trust-161707541.html",
+          "publisher": "MT Newswires",
+          "published_at": "2026-09-10T16:17:07+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
-          "title": "Andrew Tulloch leaving Meta for Anthropic after less than a year",
-          "url": "https://finance.yahoo.com/technology/ai/articles/andrew-tulloch-leaving-meta-anthropic-141456932.html",
-          "publisher": "Quartz",
-          "published_at": "2026-09-10T14:14:56+00:00",
-          "source_type": "news"
+          "title": "Meta Stock Scores Wall Street Upgrade After Muse AI App Launch",
+          "url": "https://finance.yahoo.com/m/5bea9f22-d52a-33cc-aea8-f0339b8edaac/meta-stock-scores-wall-street.html",
+          "publisher": "Investor's Business Daily",
+          "published_at": "2026-09-10T15:14:27+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
           "title": "Meta upgraded, Nvidia initiated: Wall Street's top analyst calls",
           "url": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-upgraded-okta-downgraded-134312557.html",
           "publisher": "The Fly",
           "published_at": "2026-09-10T13:52:16+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
-          "title": "META Stock On Track To Extend Gains After Hitting 1-Month High, But Wall Street Divided On When Muse AI Agent Will Be A 'Game Changer'",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/meta-stock-track-extend-gains-124143859.html",
-          "publisher": "Stocktwits",
-          "published_at": "2026-09-10T12:41:43+00:00",
-          "source_type": "news"
+          "title": "Meta AI Researcher Andrew Tulloch Reportedly Resigns",
+          "url": "https://finance.yahoo.com/technology/ai/articles/meta-ai-researcher-andrew-tulloch-103846863.html",
+          "publisher": "MT Newswires",
+          "published_at": "2026-09-10T10:38:46+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
-          "title": "Meta Makes New AI Bet on WhatsApp and Instagram",
-          "url": "https://finance.yahoo.com/technology/ai/articles/meta-makes-ai-bet-whatsapp-124131651.html",
-          "publisher": "GuruFocus.com",
-          "published_at": "2026-09-10T12:41:31+00:00",
-          "source_type": "news"
+          "title": "Meta’s Muse Hits Top 3 in App Store. Why Wall Street Is Split on the Stock.",
+          "url": "https://finance.yahoo.com/m/0cc15606-2614-30c4-9fad-f340ee8552f8/meta%E2%80%99s-muse-hits-top-3-in-app.html",
+          "publisher": "Barrons.com",
+          "published_at": "2026-09-10T14:38:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         }
       ],
-      "filings": [],
-      "errors": [
-        "SEC filings unavailable: HTTPError"
+      "filings": [
+        {
+          "form": "10-Q",
+          "filed_at": "2026-07-30",
+          "description": "10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm"
+        },
+        {
+          "form": "8-K",
+          "filed_at": "2026-07-29",
+          "description": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-20260729.htm"
+        }
       ],
+      "errors": [],
       "setup_score": 80,
       "thesis": [
         "Price, 20-day EMA, and 50-day EMA are positively aligned.",
         "One-month momentum is positive without being extreme."
       ],
       "entry_zone": [
-        651.84,
-        664.68
+        642.78,
+        655.63
       ],
-      "model_target": 724.09,
-      "model_stop": 626.14,
+      "model_target": 714.13,
+      "model_stop": 617.08,
       "modeled_upside_pct": 10.0,
-      "reward_risk_ratio": 2.05,
+      "reward_risk_ratio": 2.02,
       "horizon": "1-2 months",
       "target_note": "Mechanical 3-ATR research scenario, bounded to 10-20%; not a forecast.",
-      "research_allocation_cap_pct": 5.0,
+      "research_allocation_cap_pct": 4.9,
       "risk_flags": [
-        "Momentum is extended"
+        "No mechanical risk flag"
       ]
     },
     {
       "ticker": "TSLA",
       "name": "TSLA",
       "currency": "USD",
-      "price": 367.37,
+      "price": 365.355,
       "previous_close": 367.81,
-      "change_pct": -0.1196,
-      "return_5d_pct": 2.9019,
-      "return_20d_pct": 12.1706,
-      "ema20": 355.9592,
-      "ema50": 359.0402,
-      "rsi14": 55.375,
-      "atr_pct": 3.989,
-      "volume_ratio": 0.3129,
-      "volatility20_pct": 50.5396,
-      "market_cap": 1451577148895.5952,
+      "change_pct": -0.6675,
+      "return_5d_pct": 2.3375,
+      "return_20d_pct": 11.5554,
+      "ema20": 355.7673,
+      "ema50": 358.9612,
+      "rsi14": 54.4986,
+      "atr_pct": 4.011,
+      "volume_ratio": 0.5283,
+      "volatility20_pct": 50.6768,
+      "market_cap": 1442986931525.8936,
       "next_earnings": "2026-10-21",
       "earnings_days": 41,
       "chart": [
@@ -4471,50 +5932,58 @@
         },
         {
           "date": "2026-09-10",
-          "close": 367.37
+          "close": 365.355
         }
       ],
       "news": [
+        {
+          "title": "Will Tesla's China Discounts Lift Q3 Sales or Hurt Margins Further?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/teslas-china-discounts-lift-q3-151300292.html",
+          "publisher": "Zacks",
+          "published_at": "2026-09-10T15:13:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
         {
           "title": "TSLA Critic Gordon Johnson Rips Cybercab Launch After Elon Musk's ‘Storm of Cybercabs’ Promise: ‘The Robotaxi Story Was Never About Robotaxis'",
           "url": "https://finance.yahoo.com/markets/stocks/articles/tsla-critic-gordon-johnson-rips-033022550.html",
           "publisher": "Benzinga",
           "published_at": "2026-09-10T03:30:22+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
           "title": "Could Tesla’s (TSLA) Cybercab Unlock a New Growth Driver?",
           "url": "https://finance.yahoo.com/technology/ai/articles/could-tesla-tsla-cybercab-unlock-200632774.html",
           "publisher": "Insider Monkey",
           "published_at": "2026-09-09T20:06:32+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "A Disappointed Worker Says Jobs Were Doable Before 2013. Now 'Skeleton Crew Culture' Means Doing the Work of 2 or More People With a Smile",
+          "url": "https://finance.yahoo.com/m/eaee4baa-54a4-3068-8fbb-8f69afc6b05c/a-disappointed-worker-says.html",
+          "publisher": "Benzinga",
+          "published_at": "2026-09-10T15:45:09+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
           "title": "Dow, S&P 500, Nasdaq Futures Edge Higher Ahead Of PPI, Jobless Claims: NVDA, AAPL, META, ORCL, TSM, TSLA, SLS In Focus",
           "url": "https://finance.yahoo.com/m/9f918845-f1a7-3ec1-8d72-25f381ca3b00/dow%2C-s%26p-500%2C-nasdaq-futures.html",
           "publisher": "Stocktwits",
           "published_at": "2026-09-10T08:45:46+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Can Ford Overcome Tariff and Commodity Cost Headwinds in 2026?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ford-overcome-tariff-commodity-cost-142600509.html",
-          "publisher": "Zacks",
-          "published_at": "2026-09-10T14:26:00+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Why Are Ford's China Partnerships Drawing Regulatory Scrutiny?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-fords-china-partnerships-drawing-142300521.html",
-          "publisher": "Zacks",
-          "published_at": "2026-09-10T14:23:00+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         }
       ],
       "filings": [],
-      "errors": [
-        "SEC filings unavailable: HTTPError"
-      ],
+      "errors": [],
       "setup_score": 79,
       "thesis": [
         "Price remains above the intermediate trend.",
@@ -4522,36 +5991,36 @@
         "RSI sits in the preferred momentum band."
       ],
       "entry_zone": [
-        362.97,
-        371.77
+        360.96,
+        369.75
       ],
-      "model_target": 411.33,
-      "model_stop": 345.39,
+      "model_target": 409.32,
+      "model_stop": 343.37,
       "modeled_upside_pct": 12.0,
       "reward_risk_ratio": 2.0,
       "horizon": "1-2 months",
       "target_note": "Mechanical 3-ATR research scenario, bounded to 10-20%; not a forecast.",
       "research_allocation_cap_pct": 3.6,
       "risk_flags": [
-        "No mechanical risk flag"
+        "High daily range"
       ]
     },
     {
       "ticker": "MSFT",
       "name": "MSFT",
       "currency": "USD",
-      "price": 492.68,
+      "price": 491.7,
       "previous_close": 491.65,
-      "change_pct": 0.2095,
-      "return_5d_pct": -0.8333,
-      "return_20d_pct": 0.2391,
-      "ema20": 490.6033,
-      "ema50": 463.5788,
-      "rsi14": 55.3377,
-      "atr_pct": 2.21,
-      "volume_ratio": 0.1838,
-      "volatility20_pct": 21.2512,
-      "market_cap": 3658417698119.5605,
+      "change_pct": 0.0102,
+      "return_5d_pct": -1.0306,
+      "return_20d_pct": 0.0397,
+      "ema20": 490.51,
+      "ema50": 463.5404,
+      "rsi14": 54.843,
+      "atr_pct": 2.2307,
+      "volume_ratio": 0.3723,
+      "volatility20_pct": 21.2401,
+      "market_cap": 3651140808568.566,
       "next_earnings": "2026-10-28",
       "earnings_days": 48,
       "chart": [
@@ -4793,63 +6262,90 @@
         },
         {
           "date": "2026-09-10",
-          "close": 492.68
+          "close": 491.7
         }
       ],
       "news": [
+        {
+          "title": "Is Microsoft Stock Overvalued At 28x Earnings?",
+          "url": "https://finance.yahoo.com/m/623e0773-c392-317b-b0ef-1755a33ff63c/is-microsoft-stock-overvalued.html",
+          "publisher": "Trefis",
+          "published_at": "2026-09-10T16:52:16+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "Can MSFT Stock Rally on the Back of Dynamics 365 Business Applications?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/msft-stock-rally-back-dynamics-150000786.html",
+          "publisher": "Zacks",
+          "published_at": "2026-09-10T15:00:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
+        {
+          "title": "Microsoft, Talkdesk Expand Collaboration for Azure-Backed Software Purchases",
+          "url": "https://finance.yahoo.com/technology/articles/microsoft-talkdesk-expand-collaboration-azure-162945347.html",
+          "publisher": "MT Newswires",
+          "published_at": "2026-09-10T16:29:45+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
+        },
         {
           "title": "Market Chatter: Microsoft-Backed OpenAI Faces Senate Scrutiny Over Handling of Hugging Face Breach",
           "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-microsoft-backed-openai-100805835.html",
           "publisher": "MT Newswires",
           "published_at": "2026-09-10T10:08:05+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         },
         {
           "title": "Market Chatter: OpenAI Tightens ChatGPT Ad Policy to Exclude Competing AI Products",
           "url": "https://finance.yahoo.com/media-advertising/articles/market-chatter-openai-tightens-chatgpt-100541690.html",
           "publisher": "MT Newswires",
           "published_at": "2026-09-10T10:05:41+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Market Chatter: Microsoft-Backed OpenAI's Rogue Agents Found on At Least 10 Additional Sites",
-          "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-microsoft-backed-openai-083356618.html",
-          "publisher": "MT Newswires",
-          "published_at": "2026-09-10T08:33:56+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "Microsoft-Backed OpenAI Pushes for Federal Regulations",
-          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-backed-openai-pushes-federal-112627138.html",
-          "publisher": "MT Newswires",
-          "published_at": "2026-09-10T11:26:27+00:00",
-          "source_type": "news"
-        },
-        {
-          "title": "RingCentral Introduces ChatGPT Plugin, MCP Connectors for Claude",
-          "url": "https://finance.yahoo.com/technology/ai/articles/ringcentral-introduces-chatgpt-plugin-mcp-130810839.html",
-          "publisher": "MT Newswires",
-          "published_at": "2026-09-10T13:08:10+00:00",
-          "source_type": "news"
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company"
         }
       ],
-      "filings": [],
-      "errors": [
-        "SEC filings unavailable: HTTPError"
+      "filings": [
+        {
+          "form": "8-K",
+          "filed_at": "2026-09-02",
+          "description": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526380280/d291965d8k.htm"
+        },
+        {
+          "form": "10-K",
+          "filed_at": "2026-07-29",
+          "description": "10-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm"
+        },
+        {
+          "form": "8-K",
+          "filed_at": "2026-07-29",
+          "description": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-20260729.htm"
+        }
       ],
+      "errors": [],
       "setup_score": 77,
       "thesis": [
         "Price, 20-day EMA, and 50-day EMA are positively aligned.",
         "RSI sits in the preferred momentum band."
       ],
       "entry_zone": [
-        489.41,
-        495.95
+        488.41,
+        494.99
       ],
-      "model_target": 541.95,
-      "model_stop": 476.35,
+      "model_target": 540.87,
+      "model_stop": 475.25,
       "modeled_upside_pct": 10.0,
-      "reward_risk_ratio": 3.02,
+      "reward_risk_ratio": 2.99,
       "horizon": "1-2 months",
       "target_note": "Mechanical 3-ATR research scenario, bounded to 10-20%; not a forecast.",
       "research_allocation_cap_pct": 8,
@@ -4863,28 +6359,42 @@
       "id": "market-data",
       "label": "Market and news collector",
       "status": "complete",
-      "duration_ms": 6106,
+      "duration_ms": 6851,
       "summary": "Collected 15/15 price snapshots."
     },
     {
       "id": "sec-filings",
       "label": "SEC filings collector",
       "status": "complete",
-      "duration_ms": 335,
-      "summary": "Linked 0 recent filing(s)."
+      "duration_ms": 2546,
+      "summary": "Linked 20 recent filing(s)."
+    },
+    {
+      "id": "global-market-pulse",
+      "label": "Global overnight market collector",
+      "status": "complete",
+      "duration_ms": 1114,
+      "summary": "Collected 10/10 overnight indicators."
+    },
+    {
+      "id": "headline-feeds",
+      "label": "International and video feed collector",
+      "status": "complete",
+      "duration_ms": 252,
+      "summary": "Indexed 54 headlines from 6/6 feeds."
     },
     {
       "id": "portfolio-monitor",
       "label": "Portfolio monitor",
       "status": "complete",
-      "duration_ms": 1,
-      "summary": "Scored 10 holdings and raised 2 alert(s)."
+      "duration_ms": 3,
+      "summary": "Scored 10 holdings and raised 3 alert(s)."
     },
     {
       "id": "mega-cap-screener",
       "label": "Mega-cap screener",
       "status": "complete",
-      "duration_ms": 1,
+      "duration_ms": 2,
       "summary": "Ranked 5 mega-cap candidate(s)."
     },
     {
@@ -4895,11 +6405,18 @@
       "summary": "Portfolio risk classified as high."
     },
     {
+      "id": "intelligence-triage",
+      "label": "Source triage and deduplication",
+      "status": "complete",
+      "duration_ms": 16,
+      "summary": "Reduced the scan to 50 source-linked items; 5 are high priority."
+    },
+    {
       "id": "lead-synthesizer",
       "label": "Lead synthesizer",
       "status": "complete",
       "duration_ms": 0,
-      "summary": "2 high-priority items need review before the open."
+      "summary": "5 high-priority source items need review before the open."
     },
     {
       "id": "quality-controller",
@@ -4921,6 +6438,48 @@
       "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
       "cost": "Free; no API key",
       "covers": "Recent company filings"
+    },
+    {
+      "name": "YouTube channel Atom feeds",
+      "url": "https://developers.google.com/youtube/v3/guides/push_notifications",
+      "cost": "Free; no API key; titles and links only",
+      "covers": "Recent videos from configured financial-news channels"
+    },
+    {
+      "name": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/rss/feed/nar",
+      "cost": "Free RSS/Atom; personal research",
+      "covers": "Asia · asia-markets · headline metadata only"
+    },
+    {
+      "name": "CNA Asia",
+      "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6511",
+      "cost": "Free RSS/Atom; personal research",
+      "covers": "Asia · asia-markets · headline metadata only"
+    },
+    {
+      "name": "CNA Business",
+      "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6936",
+      "cost": "Free RSS/Atom; personal research",
+      "covers": "Asia · business · headline metadata only"
+    },
+    {
+      "name": "CNBC Television on YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCvJJ_dzjViJCoLf5uKUTwoA",
+      "cost": "Free RSS/Atom; personal research",
+      "covers": "Global · markets · headline metadata only"
+    },
+    {
+      "name": "Bloomberg Television on YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCIALMKvObZNtJ6AmdCLP7Lg",
+      "cost": "Free RSS/Atom; personal research",
+      "covers": "Global · markets · headline metadata only"
+    },
+    {
+      "name": "Yahoo Finance on YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCEAZeUIeJs0IjQiqTCdVSIg",
+      "cost": "Free RSS/Atom; personal research",
+      "covers": "US · markets · headline metadata only"
     }
   ]
 }
