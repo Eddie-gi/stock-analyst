@@ -120,7 +120,7 @@ class AgentOrchestrator:
         )
 
         return {
-            "schema_version": 2,
+            "schema_version": 3,
             "run_id": generated_at.strftime("%Y%m%dT%H%M%SZ"),
             "generated_at": generated_at.isoformat(),
             "is_demo": False,
@@ -150,15 +150,15 @@ class AgentOrchestrator:
                 {
                     "name": "YouTube channel Atom feeds",
                     "url": "https://developers.google.com/youtube/v3/guides/push_notifications",
-                    "cost": "Free; no API key; titles and links only",
-                    "covers": "Recent videos from configured financial-news channels",
+                    "cost": "Free; no API key",
+                    "covers": "Recent video titles, links, and feed-provided descriptions",
                 },
                 *[
                     {
                         "name": source.name,
                         "url": source.url,
                         "cost": "Free RSS/Atom; personal research",
-                        "covers": f"{source.region} · {source.topic} · headline metadata only",
+                        "covers": f"{source.region} · {source.topic} · headlines and feed-provided descriptions",
                     }
                     for source in self.settings.source_feeds
                 ],

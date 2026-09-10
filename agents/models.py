@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import html
+import re
 from dataclasses import asdict, dataclass, field
 from datetime import datetime
 from typing import Any
@@ -14,6 +16,7 @@ class NewsItem:
     source_type: str = "news"
     region: str = "US"
     topic: str = "company"
+    summary: str | None = None
 
 
 @dataclass(slots=True)
@@ -97,3 +100,25 @@ def finite_float(value: Any) -> float | None:
     if number != number or number in (float("inf"), float("-inf")):
         return None
     return round(number, 4)
+
+
+def concise_summary(value: Any, title: str = "", *, max_chars: int = 360) -> str | None:
+    """Turn a feed-provided description into one or two plain-text sentences."""
+    if value is None:
+        return None
+    text = html.unescape(re.sub(r"<[^>]+>", " ", str(value)))
+    text = re.sub(r"https?://\S+", "", text)
+    text = re.sub(r"\s+", " ", text).strip(" -|\n\t")
+    if not text:
+        return None
+    comparable = lambda item: re.sub(r"[^a-z0-9]+", "", item.casefold())
+    if comparable(text) == comparable(title):
+        return None
+    sentences = [part.strip() for part in re.split(r"(?<=[.!?])\s+", text) if part.strip()]
+    result = " ".join(sentences[:2]) if sentences else text
+    if len(result) > max_chars:
+        cut = result.rfind(" ", 0, max_chars - 1)
+        result = result[: cut if cut > max_chars // 2 else max_chars - 1].rstrip(" ,;:-") + "."
+    elif result[-1] not in ".!?":
+        result += "."
+    return result

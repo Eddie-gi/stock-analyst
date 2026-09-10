@@ -36,6 +36,10 @@ class IntelligenceAgent:
                     source_type="filing",
                     region="US",
                     topic="filings",
+                    summary=(
+                        f"SEC EDGAR lists {_indefinite_article(filing['form'])} {filing['form']} filing for {holding['ticker']}. "
+                        "Open the primary filing to review the disclosed event and any material details."
+                    ),
                 )
                 for filing in holding.get("filings", [])
             )
@@ -47,7 +51,7 @@ class IntelligenceAgent:
             if key in seen:
                 continue
             seen.add(key)
-            tickers = _find_tickers(item.title, watchlist)
+            tickers = _find_tickers(f"{item.title} {item.summary or ''}", watchlist)
             topic = _infer_topic(item.title, item.topic)
             age_hours = _age_hours(item.published_at, generated_at)
             if age_hours is not None and age_hours > (168 if item.source_type == "filing" else 72):
@@ -57,6 +61,7 @@ class IntelligenceAgent:
                 {
                     "id": hashlib.sha1(f"{item.url}|{item.title}".encode("utf-8")).hexdigest()[:12],
                     "title": item.title,
+                    "summary": _summary(item, tickers, topic),
                     "url": item.url,
                     "publisher": item.publisher,
                     "published_at": item.published_at,
@@ -124,6 +129,36 @@ class IntelligenceAgent:
 def _dedupe_key(item: NewsItem) -> str:
     title = re.sub(r"[^a-z0-9]+", "", item.title.casefold())
     return title[:180] or item.url
+
+
+def _summary(item: NewsItem, tickers: list[str], topic: str) -> str:
+    if item.summary:
+        return item.summary
+    subject = f" involving {', '.join(tickers)}" if tickers else ""
+    readable_topic = topic.replace("-", " ")
+    if item.source_type == "filing":
+        return (
+            f"SEC EDGAR published a new regulatory filing{subject}. "
+            "Open the primary document to review the disclosed event and any material details."
+        )
+    if item.source_type == "video":
+        return (
+            f"{item.publisher} published a recent market video about {readable_topic}{subject}. "
+            "Signal Desk indexed its title and source metadata; the full transcript was not analyzed."
+        )
+    if item.source_type == "international":
+        return (
+            f"{item.publisher} published a recent {item.region} report about {readable_topic}{subject}. "
+            "Open the original source to assess its implications for the US session."
+        )
+    return (
+        f"{item.publisher} published a recent {readable_topic} report{subject}. "
+        "Open the original source to verify the details and assess their significance."
+    )
+
+
+def _indefinite_article(value: str) -> str:
+    return "an" if value[:1].casefold() in {"a", "e", "i", "o", "u", "8"} else "a"
 
 
 def _find_tickers(title: str, watchlist: list[str]) -> list[str]:

@@ -20,7 +20,7 @@ def validate(path: Path) -> list[str]:
     missing = sorted(required - report.keys())
     if missing:
         errors.append(f"missing top-level keys: {', '.join(missing)}")
-    if report.get("schema_version") != 2:
+    if report.get("schema_version") != 3:
         errors.append("unsupported schema_version")
     if not isinstance(report.get("portfolio"), list) or not report.get("portfolio"):
         errors.append("portfolio must contain at least one holding")
@@ -43,6 +43,9 @@ def validate(path: Path) -> list[str]:
     for item in intelligence.get("review_queue", []):
         if not item.get("title") or not item.get("publisher"):
             errors.append("intelligence item is missing a title or publisher")
+        summary = item.get("summary")
+        if not isinstance(summary, str) or not summary.strip() or len(summary) > 420:
+            errors.append("intelligence item needs a concise source summary")
         if urlparse(item.get("url", "")).scheme not in {"https", "http"}:
             errors.append("intelligence item has an unsafe source URL")
         if item.get("priority") not in {"must-review", "scan", "background"}:

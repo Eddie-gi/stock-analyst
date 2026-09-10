@@ -27,10 +27,10 @@ flowchart LR
 
 - **Market and news collector** retrieves six months of adjusted daily history, current quote metadata, earnings dates, and recent Yahoo Finance search results.
 - **SEC filings collector** links recent 8-K, 10-Q, 10-K, 6-K, 20-F, 40-F, and proxy filings from the keyless EDGAR API.
-- **International feed collector** indexes headline metadata from Nikkei Asia and Channel NewsAsia business/Asia feeds.
-- **Video feed collector** indexes recent titles, timestamps, and links from the official CNBC Television, Bloomberg Television, and Yahoo Finance YouTube channels without requiring an API key or copying transcripts.
+- **International feed collector** indexes headline metadata and concise feed-provided descriptions from Nikkei Asia and Channel NewsAsia business/Asia feeds.
+- **Video feed collector** indexes recent titles, timestamps, links, and short feed-provided descriptions from the official CNBC Television, Bloomberg Television, and Yahoo Finance YouTube channels without requiring an API key or copying transcripts.
 - **Overnight collector** records Japan, Hong Kong, China, South Korea, Taiwan, Australia, Europe, oil, the dollar, and volatility as early context for the US session.
-- **Source triage agent** removes duplicate headlines, tags watchlist names and themes, balances source types, explains why each item was surfaced, and limits the queue to a configurable size.
+- **Source triage agent** removes duplicate headlines, adds a transparent one- or two-sentence source summary (or a metadata-only fallback), tags watchlist names and themes, explains why each item was surfaced, and limits the queue to a configurable size.
 - **Portfolio monitor** computes EMA, RSI, ATR, volume, and return signals for the configured long-term holdings.
 - **Mega-cap screener** filters the configured technology universe to companies currently above the market-cap threshold and ranks mechanical 1–2 month research setups.
 - **Risk auditor** flags event, volatility, and data-completeness risk and adds bounded research-only sizing heuristics.
@@ -90,7 +90,7 @@ The screener is a curated seed list that is filtered using current market cap; i
 
 - [yfinance](https://ranaroussi.github.io/yfinance/) is open source and uses publicly available Yahoo Finance interfaces intended for personal research. Its data may be delayed, incomplete, or temporarily unavailable.
 - [SEC EDGAR APIs](https://www.sec.gov/search-filings/edgar-application-programming-interfaces) are free and keyless. Set `SEC_USER_AGENT` to identify the application and a real contact email.
-- RSS and YouTube ingestion stores headline/video-title metadata and source links only. It does not copy article bodies, video transcripts, comments, or engagement metrics. Linked publishers may have their own access restrictions and terms.
+- RSS and YouTube ingestion stores headline/video-title metadata, short feed-provided descriptions, and source links only. It does not copy article bodies, video transcripts, comments, or engagement metrics. Linked publishers may have their own access restrictions and terms.
 - The system intentionally does not scrape X, Reddit, paywalled analyst research, or social comments. Those sources add identity, manipulation, terms-of-service, and noise concerns; the provider boundary under `agents/providers/` remains the controlled extension point.
 - A modeled target is a transparent 3-ATR scenario bounded to the requested 10–20% range, not a probability estimate or expected return.
 - Market holidays are not independently modeled; the weekday job can still publish a research refresh on a US market holiday.

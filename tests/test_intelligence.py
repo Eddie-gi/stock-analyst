@@ -12,12 +12,14 @@ from scripts.should_run_premarket import should_run
 
 
 class FeedTests(unittest.TestCase):
-    def test_parses_rss_and_atom_without_article_bodies(self) -> None:
+    def test_parses_rss_and_atom_with_concise_source_summaries(self) -> None:
         source = FeedSource("Test", "https://example.com/feed", "international", "Asia", "markets", 10)
-        rss = b"""<rss><channel><item><title>Asia chips rise</title><link>https://example.com/a</link><pubDate>Wed, 09 Sep 2026 10:00:00 GMT</pubDate></item></channel></rss>"""
-        atom = b"""<feed xmlns='http://www.w3.org/2005/Atom'><entry><title>Market video</title><link rel='alternate' href='https://youtube.com/watch?v=x'/><author><name>Channel</name></author><published>2026-09-09T11:00:00Z</published></entry></feed>"""
+        rss = b"""<rss><channel><item><title>Asia chips rise</title><link>https://example.com/a</link><description>Chip shares advanced in Tokyo. Export-policy headlines remain in focus. A third sentence is omitted.</description><pubDate>Wed, 09 Sep 2026 10:00:00 GMT</pubDate></item></channel></rss>"""
+        atom = b"""<feed xmlns='http://www.w3.org/2005/Atom'><entry><title>Market video</title><link rel='alternate' href='https://youtube.com/watch?v=x'/><author><name>Channel</name></author><summary>A short premarket discussion.</summary><published>2026-09-09T11:00:00Z</published></entry></feed>"""
         self.assertEqual(parse_feed(rss, source)[0].title, "Asia chips rise")
+        self.assertEqual(parse_feed(rss, source)[0].summary, "Chip shares advanced in Tokyo. Export-policy headlines remain in focus.")
         self.assertEqual(parse_feed(atom, source)[0].publisher, "Channel")
+        self.assertEqual(parse_feed(atom, source)[0].summary, "A short premarket discussion.")
 
     def test_triage_prioritizes_filing_and_watchlist_match(self) -> None:
         now = datetime(2026, 9, 10, 11, tzinfo=timezone.utc)
@@ -28,6 +30,7 @@ class FeedTests(unittest.TestCase):
         self.assertEqual(result["must_review_count"], 2)
         self.assertEqual(result["review_queue"][0]["source_type"], "filing")
         self.assertIn("NVDA", result["review_queue"][1]["tickers"])
+        self.assertTrue(all(item["summary"] for item in result["review_queue"]))
 
 
 class PremarketGateTests(unittest.TestCase):

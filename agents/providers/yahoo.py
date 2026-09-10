@@ -7,7 +7,7 @@ import pandas as pd
 import yfinance as yf
 
 from ..indicators import calculate_indicators, make_chart
-from ..models import MarketSnapshot, NewsItem, finite_float
+from ..models import MarketSnapshot, NewsItem, concise_summary, finite_float
 from ..config import GlobalMarket
 
 
@@ -149,6 +149,12 @@ def _parse_news_item(item: dict[str, Any]) -> NewsItem:
     if isinstance(provider, dict):
         provider = provider.get("displayName") or provider.get("name") or "Yahoo Finance"
     published = content.get("pubDate") or item.get("providerPublishTime")
+    description = (
+        content.get("summary")
+        or content.get("description")
+        or item.get("summary")
+        or item.get("description")
+    )
     if isinstance(published, (int, float)):
         published = datetime.fromtimestamp(published, tz=timezone.utc).isoformat()
     return NewsItem(
@@ -159,4 +165,5 @@ def _parse_news_item(item: dict[str, Any]) -> NewsItem:
         source_type="company-news",
         region="US",
         topic="company",
+        summary=concise_summary(description, title),
     )

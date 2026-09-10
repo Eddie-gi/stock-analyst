@@ -10,7 +10,7 @@ from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
 from ..config import FeedSource
-from ..models import FeedHealth, NewsItem
+from ..models import FeedHealth, NewsItem, concise_summary
 
 
 class RssFeedProvider:
@@ -79,6 +79,12 @@ def parse_feed(payload: bytes | str, source: FeedSource) -> list[NewsItem]:
             or _child_text(node, "updated")
             or _child_text(node, "date")
         )
+        description = (
+            _child_text(node, "description")
+            or _child_text(node, "summary")
+            or _child_text(node, "content")
+            or _descendant_text(node, "description")
+        )
         items.append(
             NewsItem(
                 title=title,
@@ -88,6 +94,7 @@ def parse_feed(payload: bytes | str, source: FeedSource) -> list[NewsItem]:
                 source_type=source.source_type,
                 region=source.region,
                 topic=source.topic,
+                summary=concise_summary(description, title),
             )
         )
     return items
