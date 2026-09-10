@@ -83,6 +83,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .source-kind-company-news { @apply border-slate-300/15 bg-slate-300/7 text-slate-300; }
   .filter-chip { @apply shrink-0 rounded-full border border-white/8 bg-white/[0.02] px-3 py-1.5 text-sm text-slate-400 transition hover:border-white/15 hover:text-slate-200; }
   .filter-chip-active { @apply border-cyan-300/30 bg-cyan-300/10 text-cyan-200; }
+  .source-search { @apply h-10 w-full rounded-lg border border-white/10 bg-white/[0.025] py-2 pr-3 pl-9 text-sm text-slate-100 outline-none transition placeholder:text-slate-600 focus:border-cyan-300/35 focus:ring-2 focus:ring-cyan-300/10; }
   .ticker-chip { @apply rounded-md border border-white/8 bg-white/[0.04] px-1.5 py-0.5 font-mono text-[11px] font-semibold text-slate-400; }
   .source-directory { @apply flex items-start justify-between gap-3 rounded-xl border border-white/8 bg-white/[0.02] p-3.5 transition hover:border-cyan-300/20 hover:bg-cyan-300/[0.025]; }
   .feed-health { @apply flex items-center gap-3 rounded-xl border border-white/8 bg-white/[0.02] p-3.5 transition hover:border-white/15; }
