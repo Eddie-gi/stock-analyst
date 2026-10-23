@@ -1,0 +1,6454 @@
+{
+  "schema_version": 3,
+  "run_id": "20261023T123504Z",
+  "generated_at": "2026-10-23T12:35:04.784702+00:00",
+  "is_demo": false,
+  "market": {
+    "session": "premarket",
+    "as_of_et": "2026-10-23T08:35:04.784702-04:00",
+    "next_scheduled_refresh": "One premarket report between 5:30 and 9:20 AM ET on weekdays"
+  },
+  "summary": {
+    "headline": "4 high-priority source items need review before the open.",
+    "detail": "Constructive trends: AAPL, TSLA. Top mechanical setup: AAPL (89/100). Upcoming earnings increase portfolio event risk. The scan includes 17 international item(s). 10 recent market video(s) were indexed.",
+    "risk_level": "high",
+    "constructive_count": 2,
+    "holdings_count": 10,
+    "candidate_count": 5,
+    "disclaimer": "Decision-support only. This is not personalized investment advice and no order is placed."
+  },
+  "quality": {
+    "score": 100,
+    "source_count": 70,
+    "price_coverage_pct": 100,
+    "news_coverage_pct": 100,
+    "feed_coverage_pct": 100,
+    "global_market_coverage_pct": 100,
+    "publisher_count": 13,
+    "provider_warning_count": 10,
+    "provider_warnings": [
+      "AAPL: SEC filings unavailable: HTTPError",
+      "TSLA: SEC filings unavailable: HTTPError",
+      "MSFT: SEC filings unavailable: HTTPError",
+      "AMZN: SEC filings unavailable: HTTPError",
+      "NVDA: SEC filings unavailable: HTTPError",
+      "META: SEC filings unavailable: HTTPError",
+      "AVGO: SEC filings unavailable: HTTPError",
+      "GOOGL: SEC filings unavailable: HTTPError",
+      "MU: SEC filings unavailable: HTTPError",
+      "SNDK: SEC filings unavailable: HTTPError"
+    ],
+    "age_minutes": 0,
+    "stale": false,
+    "warnings": [
+      "10 provider warning(s) were recorded."
+    ]
+  },
+  "risk": {
+    "level": "high",
+    "high_risk_tickers": [
+      "MSFT",
+      "AMZN",
+      "META",
+      "GOOGL",
+      "MU",
+      "SNDK"
+    ],
+    "earnings_cluster": [
+      "AAPL",
+      "MSFT",
+      "AMZN",
+      "GOOGL",
+      "SNDK"
+    ],
+    "notes": [
+      "High or unknown event risk: MSFT, AMZN, META, GOOGL, MU, SNDK.",
+      "Earnings risk is clustered across 5 holdings in the next 14 days.",
+      "Allocation caps are volatility heuristics for research, not personalized sizing advice."
+    ]
+  },
+  "alerts": [
+    {
+      "ticker": "AMZN",
+      "severity": "high",
+      "type": "earnings",
+      "title": "Earnings in 6 days",
+      "detail": "Review primary earnings materials and position risk before the event.",
+      "date": "2026-10-29"
+    },
+    {
+      "ticker": "GOOGL",
+      "severity": "high",
+      "type": "earnings",
+      "title": "Earnings in 5 days",
+      "detail": "Review primary earnings materials and position risk before the event.",
+      "date": "2026-10-28"
+    },
+    {
+      "ticker": "META",
+      "severity": "high",
+      "type": "price",
+      "title": "Large one-session move: -7.0%",
+      "detail": "Check the linked news and filings for a company-specific cause."
+    },
+    {
+      "ticker": "MSFT",
+      "severity": "high",
+      "type": "earnings",
+      "title": "Earnings in 5 days",
+      "detail": "Review primary earnings materials and position risk before the event.",
+      "date": "2026-10-28"
+    },
+    {
+      "ticker": "MU",
+      "severity": "high",
+      "type": "price",
+      "title": "Large one-session move: -6.3%",
+      "detail": "Check the linked news and filings for a company-specific cause."
+    },
+    {
+      "ticker": "MU",
+      "severity": "high",
+      "type": "volatility",
+      "title": "Daily range is elevated at 5.7%",
+      "detail": "Wide average ranges increase gap and stop-loss risk; review exposure before adding risk."
+    },
+    {
+      "ticker": "SNDK",
+      "severity": "high",
+      "type": "earnings",
+      "title": "Earnings in 6 days",
+      "detail": "Review primary earnings materials and position risk before the event.",
+      "date": "2026-10-29"
+    },
+    {
+      "ticker": "SNDK",
+      "severity": "high",
+      "type": "price",
+      "title": "Large one-session move: -8.5%",
+      "detail": "Check the linked news and filings for a company-specific cause."
+    },
+    {
+      "ticker": "SNDK",
+      "severity": "high",
+      "type": "volatility",
+      "title": "Daily range is elevated at 7.8%",
+      "detail": "Wide average ranges increase gap and stop-loss risk; review exposure before adding risk."
+    },
+    {
+      "ticker": "AAPL",
+      "severity": "elevated",
+      "type": "earnings",
+      "title": "Earnings in 10 days",
+      "detail": "Review primary earnings materials and position risk before the event.",
+      "date": "2026-11-02"
+    },
+    {
+      "ticker": "META",
+      "severity": "elevated",
+      "type": "volume",
+      "title": "Volume is 2.0x normal",
+      "detail": "Unusual participation can confirm a move or signal event-driven risk."
+    }
+  ],
+  "intelligence": {
+    "headline": "4 source items need a closer look before the open.",
+    "digest": [
+      "17 Asia/international headlines are in the review window.",
+      "10 recent market videos were indexed; titles are triaged without copying transcripts.",
+      "Fresh coverage mentions AAPL, AVGO, GOOGL, META, MU, NVDA.",
+      "Most active theme: Semiconductors (13 items)."
+    ],
+    "review_queue": [
+      {
+        "id": "e46b1d9da9bd",
+        "title": "Apple Is Just $42 Billion Away From Passing Nvidia as the World’s Most Valuable Company",
+        "summary": "24/7 Wall St. published a recent semiconductors report involving AAPL, NVDA. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-just-42-billion-away-113052754.html",
+        "publisher": "24/7 Wall St.",
+        "published_at": "2026-10-23T11:30:52+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "AAPL",
+          "NVDA"
+        ],
+        "priority_score": 94,
+        "priority": "must-review",
+        "why_flagged": "Matches watchlist: AAPL, NVDA. Tagged semiconductors. Published within six hours.",
+        "age_hours": 1.1
+      },
+      {
+        "id": "a647ce554ce7",
+        "title": "State Street SPDR Portfolio S&P 500 ETF (SPYM) Adds NVIDIA and Apple on Wednesday",
+        "summary": "GuruFocus.com published a recent semiconductors report involving AAPL, NVDA. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-spdr-portfolio-p-110516469.html",
+        "publisher": "GuruFocus.com",
+        "published_at": "2026-10-23T11:05:16+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "AAPL",
+          "NVDA"
+        ],
+        "priority_score": 94,
+        "priority": "must-review",
+        "why_flagged": "Matches watchlist: AAPL, NVDA. Tagged semiconductors. Published within six hours.",
+        "age_hours": 1.5
+      },
+      {
+        "id": "1f3b4aa65bed",
+        "title": "State Street SPDR S&P 500 ETF (SPY) Sells NVIDIA and Apple on Oct. 21",
+        "summary": "GuruFocus.com published a recent semiconductors report involving AAPL, NVDA. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-spdr-p-500-110449956.html",
+        "publisher": "GuruFocus.com",
+        "published_at": "2026-10-23T11:04:49+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "AAPL",
+          "NVDA"
+        ],
+        "priority_score": 94,
+        "priority": "must-review",
+        "why_flagged": "Matches watchlist: AAPL, NVDA. Tagged semiconductors. Published within six hours.",
+        "age_hours": 1.5
+      },
+      {
+        "id": "31cc16f71450",
+        "title": "Better Memory Stock: Micron vs. Sandisk",
+        "summary": "Motley Fool published a recent semiconductors report involving MU, SNDK. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/better-memory-stock-micron-vs-090400090.html",
+        "publisher": "Motley Fool",
+        "published_at": "2026-10-23T09:04:00+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "MU",
+          "SNDK"
+        ],
+        "priority_score": 94,
+        "priority": "must-review",
+        "why_flagged": "Matches watchlist: MU, SNDK. Tagged semiconductors. Published within six hours.",
+        "age_hours": 3.5
+      },
+      {
+        "id": "05d6a9696fe0",
+        "title": "Nvidia Stock Edges Up. CEO Jensen Huang Makes $10 Billion Kazakhstan AI Power Play",
+        "summary": "GuruFocus.com published a recent semiconductors report involving NVDA. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-stock-edges-ceo-jensen-123120704.html",
+        "publisher": "GuruFocus.com",
+        "published_at": "2026-10-23T12:31:20+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "NVDA"
+        ],
+        "priority_score": 90,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: NVDA. Tagged semiconductors. Published within six hours.",
+        "age_hours": 0.1
+      },
+      {
+        "id": "de4322a85bc0",
+        "title": "SanDisk Stock Rises After Brutal Sell-Off Ahead of Earnings",
+        "summary": "GuruFocus.com published a recent earnings report involving SNDK. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stock-rises-brutal-sell-122724896.html",
+        "publisher": "GuruFocus.com",
+        "published_at": "2026-10-23T12:27:24+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "earnings",
+        "tickers": [
+          "SNDK"
+        ],
+        "priority_score": 90,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: SNDK. Tagged earnings. Published within six hours.",
+        "age_hours": 0.1
+      },
+      {
+        "id": "d5567315a153",
+        "title": "Stock Split Watch: Is Micron Next?",
+        "summary": "Motley Fool published a recent semiconductors report involving MU. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stock-split-watch-micron-next-122202385.html",
+        "publisher": "Motley Fool",
+        "published_at": "2026-10-23T12:22:02+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "MU"
+        ],
+        "priority_score": 90,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: MU. Tagged semiconductors. Published within six hours.",
+        "age_hours": 0.2
+      },
+      {
+        "id": "11403053ff45",
+        "title": "Higgsfield Extends Series B With New Investment From TCV and NVIDIA",
+        "summary": "PR Newswire published a recent semiconductors report involving NVDA. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/higgsfield-extends-series-b-investment-121700094.html",
+        "publisher": "PR Newswire",
+        "published_at": "2026-10-23T12:17:00+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "NVDA"
+        ],
+        "priority_score": 90,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: NVDA. Tagged semiconductors. Published within six hours.",
+        "age_hours": 0.3
+      },
+      {
+        "id": "dd402aebd2ba",
+        "title": "Micron Stock Leads Chip Rebound. Dip Buyers Buckle Up.",
+        "summary": "Barrons.com published a recent semiconductors report involving MU. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/m/0790a5a8-c06b-38d0-8217-8a90361ebbb5/micron-stock-leads-chip.html",
+        "publisher": "Barrons.com",
+        "published_at": "2026-10-23T11:10:00+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "MU"
+        ],
+        "priority_score": 90,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: MU. Tagged semiconductors. Published within six hours.",
+        "age_hours": 1.4
+      },
+      {
+        "id": "0280804d3c2a",
+        "title": "Two Critical Nvidia Stock Flaws and Other Reasons This Analyst Says Sell",
+        "summary": "Barrons.com published a recent semiconductors report involving NVDA. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/m/9cdb41d6-a291-37eb-bff7-347d06660a9d/two-critical-nvidia-stock.html",
+        "publisher": "Barrons.com",
+        "published_at": "2026-10-23T11:06:00+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "NVDA"
+        ],
+        "priority_score": 90,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: NVDA. Tagged semiconductors. Published within six hours.",
+        "age_hours": 1.5
+      },
+      {
+        "id": "7b9ee7a4de97",
+        "title": "What iShares MSCI USA Value Factor ETF (VLUE) Bought: Micron Leads on Oct. 21",
+        "summary": "GuruFocus.com published a recent semiconductors report involving MU. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-msci-usa-value-factor-110542527.html",
+        "publisher": "GuruFocus.com",
+        "published_at": "2026-10-23T11:05:42+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "MU"
+        ],
+        "priority_score": 90,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: MU. Tagged semiconductors. Published within six hours.",
+        "age_hours": 1.5
+      },
+      {
+        "id": "a0586bfe4aea",
+        "title": "Broadcom (AVGO) Sees $89.8 Million in Net ETF Buying on Oct. 21",
+        "summary": "GuruFocus.com published a recent semiconductors report involving AVGO. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-avgo-sees-89-8-110057827.html",
+        "publisher": "GuruFocus.com",
+        "published_at": "2026-10-23T11:00:57+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [
+          "AVGO"
+        ],
+        "priority_score": 90,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: AVGO. Tagged semiconductors. Published within six hours.",
+        "age_hours": 1.6
+      },
+      {
+        "id": "8ce8d63e3e35",
+        "title": "Exclusive-New Mexico's outside lawyers could collect up to $1.27 billion in Meta case",
+        "summary": "CNA Business published a recent Asia report about business involving META. Open the original source to assess its implications for the US session.",
+        "url": "https://www.channelnewsasia.com/business/exclusive-new-mexicos-outside-lawyers-could-collect-up-127-billion-in-meta-case-6486076",
+        "publisher": "CNA Business",
+        "published_at": "2026-10-23T10:05:14+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "business",
+        "tickers": [
+          "META"
+        ],
+        "priority_score": 90,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: META. Early Asia read-through. Published within six hours.",
+        "age_hours": 2.5
+      },
+      {
+        "id": "6d35105e87b4",
+        "title": "India's Infosys lowers annual revenue growth forecast",
+        "summary": "CNA Business published a recent Asia report about earnings. Open the original source to assess its implications for the US session.",
+        "url": "https://www.channelnewsasia.com/business/indias-infosys-lowers-annual-revenue-growth-forecast-6486266",
+        "publisher": "CNA Business",
+        "published_at": "2026-10-23T10:46:43+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "earnings",
+        "tickers": [],
+        "priority_score": 87,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Tagged earnings. Published within six hours.",
+        "age_hours": 1.8
+      },
+      {
+        "id": "5732c4ac5226",
+        "title": "Earnings flood, Fed meeting pose pivotal tests for rickety AI market rally",
+        "summary": "CNA Business published a recent Asia report about policy. Open the original source to assess its implications for the US session.",
+        "url": "https://www.channelnewsasia.com/business/earnings-flood-fed-meeting-pose-pivotal-tests-rickety-ai-market-rally-6486066",
+        "publisher": "CNA Business",
+        "published_at": "2026-10-23T10:05:57+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "policy",
+        "tickers": [],
+        "priority_score": 87,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Tagged policy. Published within six hours.",
+        "age_hours": 2.5
+      },
+      {
+        "id": "c495264d837d",
+        "title": "MU, SNDK, SKHY Stocks Bounce After Thursday’s Markdown, But Strategists Split: ‘Great Buying Opportunity’ Versus ‘The Kospi Has Peaked’",
+        "summary": "Stocktwits published a recent company report involving MU, SNDK. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mu-sndk-skhy-stocks-bounce-120135266.html",
+        "publisher": "Stocktwits",
+        "published_at": "2026-10-23T12:01:35+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "company",
+        "tickers": [
+          "MU",
+          "SNDK"
+        ],
+        "priority_score": 85,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: MU, SNDK. Published within six hours.",
+        "age_hours": 0.6
+      },
+      {
+        "id": "ef5640a38c22",
+        "title": "State Street Comm Services SPDR (XLC) Adds Meta and Alphabet on Oct. 21",
+        "summary": "GuruFocus.com published a recent company report involving GOOGL, META. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-comm-services-spdr-110535877.html",
+        "publisher": "GuruFocus.com",
+        "published_at": "2026-10-23T11:05:35+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "company",
+        "tickers": [
+          "GOOGL",
+          "META"
+        ],
+        "priority_score": 85,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: GOOGL, META. Published within six hours.",
+        "age_hours": 1.5
+      },
+      {
+        "id": "cbf22e2f7480",
+        "title": "Moderna, Meta, SpaceX, AT&T, CoreWeave, Sandisk, and More Stocks That Explain Today’s Market",
+        "summary": "Barrons.com published a recent company report involving META, SNDK. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/m/f96806d8-9583-3620-89cf-a7ccb8de8237/moderna%2C-meta%2C-spacex%2C-at%26t%2C.html",
+        "publisher": "Barrons.com",
+        "published_at": "2026-10-23T10:45:00+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "company",
+        "tickers": [
+          "META",
+          "SNDK"
+        ],
+        "priority_score": 85,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: META, SNDK. Published within six hours.",
+        "age_hours": 1.8
+      },
+      {
+        "id": "df56c1987173",
+        "title": "Dow Jones Futures Fall After Moderna Crashes, Meta Fuels AI Meltdown. Warren Buffett Market Is Thriving.",
+        "summary": "Investor's Business Daily published a recent company report involving META. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/m/47e878bb-824d-3243-a8e9-b86b1c3f85d3/dow-jones-futures-fall-after.html",
+        "publisher": "Investor's Business Daily",
+        "published_at": "2026-10-23T12:14:41+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "company",
+        "tickers": [
+          "META"
+        ],
+        "priority_score": 81,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: META. Published within six hours.",
+        "age_hours": 0.3
+      },
+      {
+        "id": "a02c0ef0cce2",
+        "title": "Tesla And 2 Other Top Founder Led Stocks",
+        "summary": "Simply Wall St. published a recent company report involving TSLA. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-2-other-top-founder-120935582.html",
+        "publisher": "Simply Wall St.",
+        "published_at": "2026-10-23T12:09:35+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "company",
+        "tickers": [
+          "TSLA"
+        ],
+        "priority_score": 81,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: TSLA. Published within six hours.",
+        "age_hours": 0.4
+      },
+      {
+        "id": "0e6f497ec20c",
+        "title": "Energea Expands U.S. Portfolio with $20 Million Commitment for Tesla Superchargers",
+        "summary": "Business Wire published a recent company report involving TSLA. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/energy/articles/energea-expands-u-portfolio-20-120000608.html",
+        "publisher": "Business Wire",
+        "published_at": "2026-10-23T12:00:00+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "company",
+        "tickers": [
+          "TSLA"
+        ],
+        "priority_score": 81,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: TSLA. Published within six hours.",
+        "age_hours": 0.6
+      },
+      {
+        "id": "4eb606bd9b5c",
+        "title": "Should You Buy Amazon Stock Before Oct. 29?",
+        "summary": "Motley Fool published a recent company report involving AMZN. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/buy-amazon-stock-oct-29-112200594.html",
+        "publisher": "Motley Fool",
+        "published_at": "2026-10-23T11:22:00+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "company",
+        "tickers": [
+          "AMZN"
+        ],
+        "priority_score": 81,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: AMZN. Published within six hours.",
+        "age_hours": 1.2
+      },
+      {
+        "id": "ef482c557f99",
+        "title": "Microsoft Has a $1 Trillion Opportunity Hiding in Plain Sight",
+        "summary": "24/7 Wall St. published a recent company report involving MSFT. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-1-trillion-opportunity-hiding-111552020.html",
+        "publisher": "24/7 Wall St.",
+        "published_at": "2026-10-23T11:15:52+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "company",
+        "tickers": [
+          "MSFT"
+        ],
+        "priority_score": 81,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: MSFT. Published within six hours.",
+        "age_hours": 1.3
+      },
+      {
+        "id": "131ece7b3cab",
+        "title": "What SPDR Portfolio S&P 500 Value ETF (SPYV) Bought: Apple Leads on Wednesday",
+        "summary": "GuruFocus.com published a recent company report involving AAPL. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-portfolio-p-500-value-110531373.html",
+        "publisher": "GuruFocus.com",
+        "published_at": "2026-10-23T11:05:31+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "company",
+        "tickers": [
+          "AAPL"
+        ],
+        "priority_score": 81,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: AAPL. Published within six hours.",
+        "age_hours": 1.5
+      },
+      {
+        "id": "195454deaa8d",
+        "title": "AI Chips Today - Boosting AI Compute Efficiency Without Extra Power Consumption",
+        "summary": "Simply Wall St. published a recent semiconductors report. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/ai-chips-today-boosting-ai-113732454.html",
+        "publisher": "Simply Wall St.",
+        "published_at": "2026-10-23T11:37:32+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [],
+        "priority_score": 78,
+        "priority": "scan",
+        "why_flagged": "Tagged semiconductors. Published within six hours.",
+        "age_hours": 1.0
+      },
+      {
+        "id": "2dc5841485b1",
+        "title": "Global equity funds attract inflows for a fifth consecutive week",
+        "summary": "CNA Business published a recent Asia report about business. Open the original source to assess its implications for the US session.",
+        "url": "https://www.channelnewsasia.com/business/global-equity-funds-attract-inflows-fifth-consecutive-week-6486361",
+        "publisher": "CNA Business",
+        "published_at": "2026-10-23T11:10:27+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "business",
+        "tickers": [],
+        "priority_score": 78,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Published within six hours.",
+        "age_hours": 1.4
+      },
+      {
+        "id": "fe5c40c4f2d2",
+        "title": "What iShares PHLX SOX Semiconductor (SOXX) Bought: AMD Leads on Wednesday",
+        "summary": "GuruFocus.com published a recent semiconductors report. Open the original source to verify the details and assess their significance.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-phlx-sox-semiconductor-soxx-110351635.html",
+        "publisher": "GuruFocus.com",
+        "published_at": "2026-10-23T11:03:51+00:00",
+        "source_type": "company-news",
+        "region": "US",
+        "topic": "semiconductors",
+        "tickers": [],
+        "priority_score": 78,
+        "priority": "scan",
+        "why_flagged": "Tagged semiconductors. Published within six hours.",
+        "age_hours": 1.5
+      },
+      {
+        "id": "773ad4909f5d",
+        "title": "Wall Street futures dip after AI rout, telecoms slide",
+        "summary": "CNA Business published a recent Asia report about business. Open the original source to assess its implications for the US session.",
+        "url": "https://www.channelnewsasia.com/business/wall-street-futures-dip-after-ai-rout-telecoms-slide-6486271",
+        "publisher": "CNA Business",
+        "published_at": "2026-10-23T10:44:11+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "business",
+        "tickers": [],
+        "priority_score": 78,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Published within six hours.",
+        "age_hours": 1.8
+      },
+      {
+        "id": "da7948e9e5fb",
+        "title": "The world's oldest cave paintings in Indonesia under threat of wildfires",
+        "summary": "In a cave in South Sulawesi's Maros-Pangkep, an artwork depicting human-like figures interacting with a pig was dated by researchers from Australia's Griffith University to be at least 51,200 years old.",
+        "url": "https://www.channelnewsasia.com/asia/indonesia-forest-fire-worlds-oldest-cave-paintings-6485476",
+        "publisher": "CNA Asia",
+        "published_at": "2026-10-23T10:38:10+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "asia-markets",
+        "tickers": [],
+        "priority_score": 78,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Published within six hours.",
+        "age_hours": 1.9
+      },
+      {
+        "id": "62052eea4551",
+        "title": "Bolt, Stellantis plan autonomous driving experiment in Greater Paris from 2028",
+        "summary": "CNA Business published a recent Asia report about business. Open the original source to assess its implications for the US session.",
+        "url": "https://www.channelnewsasia.com/business/bolt-stellantis-plan-autonomous-driving-experiment-in-greater-paris-2028-6486221",
+        "publisher": "CNA Business",
+        "published_at": "2026-10-23T10:31:17+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "business",
+        "tickers": [],
+        "priority_score": 78,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Published within six hours.",
+        "age_hours": 2.1
+      },
+      {
+        "id": "092e1f9adaed",
+        "title": "AI-discovered bugs may soon trigger fresh disruptions, cyber experts say",
+        "summary": "CNA Business published a recent Asia report about business. Open the original source to assess its implications for the US session.",
+        "url": "https://www.channelnewsasia.com/business/ai-discovered-bugs-may-soon-trigger-fresh-disruptions-cyber-experts-say-6486016",
+        "publisher": "CNA Business",
+        "published_at": "2026-10-23T10:03:18+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "business",
+        "tickers": [],
+        "priority_score": 78,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Published within six hours.",
+        "age_hours": 2.5
+      },
+      {
+        "id": "28517553ba83",
+        "title": "New 'Scentronic' technology can detect and transmit aromas remotely",
+        "summary": "CNA Business published a recent Asia report about business. Open the original source to assess its implications for the US session.",
+        "url": "https://www.channelnewsasia.com/business/new-scentronic-technology-can-detect-and-transmit-aromas-remotely-6486011",
+        "publisher": "CNA Business",
+        "published_at": "2026-10-23T10:03:23+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "business",
+        "tickers": [],
+        "priority_score": 78,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Published within six hours.",
+        "age_hours": 2.5
+      },
+      {
+        "id": "5a082db74b4d",
+        "title": "Gucci's sales slump sends parent company Kering's shares tumbling",
+        "summary": "Weak demand in China and Japan weighed on the luxury brand's third-quarter performance, complicating efforts to revive its struggling parent company.",
+        "url": "https://www.channelnewsasia.com/obsessions/gucci-sales-slump-kering-shares-fall-6485921",
+        "publisher": "CNA Business",
+        "published_at": "2026-10-23T09:51:51+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "business",
+        "tickers": [],
+        "priority_score": 78,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Published within six hours.",
+        "age_hours": 2.7
+      },
+      {
+        "id": "1aeb62a97e11",
+        "title": "Indonesia seizes 1.1 tonnes of ketamine in major haul",
+        "summary": "Indonesian authorities seized the drugs from a foreign vessel in Sumatran waters.",
+        "url": "https://www.channelnewsasia.com/asia/indonesia-seizes-11-tonnes-ketamine-vessel-sumatran-waters-6485381",
+        "publisher": "CNA Asia",
+        "published_at": "2026-10-23T09:44:00+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "asia-markets",
+        "tickers": [],
+        "priority_score": 78,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Published within six hours.",
+        "age_hours": 2.9
+      },
+      {
+        "id": "0973cc8816e6",
+        "title": "Generations of women sustain Kelantan's famed Siti Khadijah Market",
+        "summary": "Women make up more than 90 per cent of traders at Siti Khadijah Market, one of Kelantan’s best-known attractions.",
+        "url": "https://www.channelnewsasia.com/asia/siti-khadijah-market-kelantan-malaysia-tourists-women-traders-6485801",
+        "publisher": "CNA Asia",
+        "published_at": "2026-10-23T09:12:35+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "asia-markets",
+        "tickers": [],
+        "priority_score": 78,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Published within six hours.",
+        "age_hours": 3.4
+      },
+      {
+        "id": "3d4bf1ded451",
+        "title": "Bank of Japan warns of risks from AI market shock, cyberattacks",
+        "summary": "CNA Business published a recent Asia report about business. Open the original source to assess its implications for the US session.",
+        "url": "https://www.channelnewsasia.com/business/bank-japan-warns-risks-ai-market-shock-cyberattacks-6485781",
+        "publisher": "CNA Business",
+        "published_at": "2026-10-23T08:45:41+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "business",
+        "tickers": [],
+        "priority_score": 78,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Published within six hours.",
+        "age_hours": 3.8
+      },
+      {
+        "id": "10710e63eff3",
+        "title": "China says US should stop discriminatory measures against Chinese research institutions",
+        "summary": "The comments were made in relation to the US Department of Defense putting US research funding restrictions on dozens of Chinese universities.",
+        "url": "https://www.channelnewsasia.com/east-asia/china-united-states-stop-discriminatory-measures-research-institutions-6485691",
+        "publisher": "CNA Asia",
+        "published_at": "2026-10-23T08:27:36+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "asia-markets",
+        "tickers": [],
+        "priority_score": 78,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Published within six hours.",
+        "age_hours": 4.1
+      },
+      {
+        "id": "58cfd58c8e3c",
+        "title": "Sarawak state assembly to be dissolved on Oct 26, paving way for election within 60 days",
+        "summary": "The dissolution of the Sarawak state assembly follows a series of state elections across Malaysia over the past year, including in Sabah, Johor and Negeri Sembilan, with Melaka set to head to the polls on Nov 14.",
+        "url": "https://www.channelnewsasia.com/asia/sarawak-dissolved-state-assembly-elections-6481586",
+        "publisher": "CNA Asia",
+        "published_at": "2026-10-23T07:49:33+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "asia-markets",
+        "tickers": [],
+        "priority_score": 78,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Published within six hours.",
+        "age_hours": 4.8
+      },
+      {
+        "id": "c2c44cff642f",
+        "title": "Malaysia opposition bloc PN survives deregistration for now, but internal rifts cloud political future: Analysts",
+        "summary": "Perikatan Nasional can now contest next month’s Melaka election under its own name and symbol, after securing a temporary legal reprieve from deregistration.",
+        "url": "https://www.channelnewsasia.com/asia/malaysia-perikatan-nasional-deregistration-opposition-elections-political-future-6478011",
+        "publisher": "CNA Asia",
+        "published_at": "2026-10-23T07:26:50+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "asia-markets",
+        "tickers": [],
+        "priority_score": 78,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Published within six hours.",
+        "age_hours": 5.1
+      },
+      {
+        "id": "08449ee9eec1",
+        "title": "Ambani's US$3.2 billion Jio Indian IPO lures investors as bids surge on final day",
+        "summary": "Jio Platforms', India's largest ever, is being closely watched as a test of investor appetite for large listings at a time when AI-linked stocks are facing increased scrutiny.",
+        "url": "https://www.channelnewsasia.com/business/mukesh-ambani-jio-ipo-india-investors-6485616",
+        "publisher": "CNA Asia",
+        "published_at": "2026-10-23T07:21:00+00:00",
+        "source_type": "international",
+        "region": "Asia",
+        "topic": "asia-markets",
+        "tickers": [],
+        "priority_score": 78,
+        "priority": "scan",
+        "why_flagged": "Early Asia read-through. Published within six hours.",
+        "age_hours": 5.2
+      },
+      {
+        "id": "ae80ba5592a5",
+        "title": "Tech slides on AI slowdown fears as Meta unveils a no-vote stock split and jobless claims fall",
+        "summary": "Tech stocks slid on October 22, 2026, as worries about an AI slowdown followed earnings from Tesla, SpaceX and Meta, with Microsoft, Amazon and Alphabet still to come. Interactive Brokers senior economist Jose Torres weighs in on 3.7% inflation, jobless claims falling to a three-month low, Brent back above $110, and a new Goldman Sachs note estimating that.",
+        "url": "https://www.youtube.com/watch?v=qrKcaDs9nNs",
+        "publisher": "Yahoo Finance",
+        "published_at": "2026-10-22T21:15:10+00:00",
+        "source_type": "video",
+        "region": "US",
+        "topic": "markets",
+        "tickers": [
+          "AMZN",
+          "GOOGL",
+          "META",
+          "MSFT",
+          "TSLA"
+        ],
+        "priority_score": 72,
+        "priority": "scan",
+        "why_flagged": "Matches watchlist: AMZN, GOOGL, META, MSFT, TSLA. Recent video from a configured market channel. Published within 24 hours.",
+        "age_hours": 15.3
+      },
+      {
+        "id": "b5cf8890992c",
+        "title": "AI Trade Faces Earnings Test: Market Snapshot",
+        "summary": "Some of the world's biggest tech names delivered earnings this week that drew mixed reactions from investors. The results come as jitters over the trade increasingly shift from cash flows and profits to how the technology’s massive build-out is being financed.",
+        "url": "https://www.youtube.com/watch?v=eOib5PyyJDw",
+        "publisher": "Bloomberg Television",
+        "published_at": "2026-10-23T06:57:39+00:00",
+        "source_type": "video",
+        "region": "Global",
+        "topic": "earnings",
+        "tickers": [],
+        "priority_score": 69,
+        "priority": "background",
+        "why_flagged": "Recent video from a configured market channel. Tagged earnings. Published within six hours.",
+        "age_hours": 5.6
+      },
+      {
+        "id": "4f62e930ed7e",
+        "title": "Apple’s iPhone Duo hands-on: What works and what doesn’t on its first foldable",
+        "summary": "Apple's foldable iPhone Duo hits stores Friday, but preorders sold out almost immediately, with deliveries pushing into January. Yahoo Finance tech editor Dan Howley goes hands-on with the phone, from its 7.6-inch inner display and 5.4-inch outer screen to its cameras and Duo Preview, which lets the person in the photo see the shot before it's taken.",
+        "url": "https://www.youtube.com/watch?v=Yje9AXnw9qc",
+        "publisher": "Yahoo Finance",
+        "published_at": "2026-10-23T01:00:31+00:00",
+        "source_type": "video",
+        "region": "US",
+        "topic": "markets",
+        "tickers": [
+          "AAPL"
+        ],
+        "priority_score": 66,
+        "priority": "background",
+        "why_flagged": "Matches watchlist: AAPL. Recent video from a configured market channel. Published within 24 hours.",
+        "age_hours": 11.6
+      },
+      {
+        "id": "69a30d889d19",
+        "title": "Can Meta Win the AI Race? Deutsche Bank Weighs In",
+        "summary": "Meta shares came under pressure after the company announced it will give shareholders a new nonvoting Class C share for every share they own, a structure that helps fund its AI buildout while letting Mark Zuckerberg keep control. RBC Capital Markets equity analyst Brad Erickson explains why some of the dilution language in the filing spooked investors, why.",
+        "url": "https://www.youtube.com/watch?v=tFD3HvOJEt4",
+        "publisher": "Yahoo Finance",
+        "published_at": "2026-10-22T23:00:28+00:00",
+        "source_type": "video",
+        "region": "US",
+        "topic": "markets",
+        "tickers": [
+          "META"
+        ],
+        "priority_score": 66,
+        "priority": "background",
+        "why_flagged": "Matches watchlist: META. Recent video from a configured market channel. Published within 24 hours.",
+        "age_hours": 13.6
+      },
+      {
+        "id": "ae9349e5ad36",
+        "title": "The bond market is pricing Meta for trouble | Market Hang",
+        "summary": "Jen Saarbach of The Wall Street Skinny opened on the one price that moved while Meta's stock fell 6%: its five-year credit default swaps, which Markit and ICE both put at a record on Wednesday, in a range of roughly 114 to 119 basis points against about 50 a year ago. Meta beat on revenue, up 26% to $65 billion, and still posted its first negative free.",
+        "url": "https://www.youtube.com/watch?v=ninjutU1Si8",
+        "publisher": "Yahoo Finance",
+        "published_at": "2026-10-22T17:53:41+00:00",
+        "source_type": "video",
+        "region": "US",
+        "topic": "markets",
+        "tickers": [
+          "META"
+        ],
+        "priority_score": 66,
+        "priority": "background",
+        "why_flagged": "Matches watchlist: META. Recent video from a configured market channel. Published within 24 hours.",
+        "age_hours": 18.7
+      },
+      {
+        "id": "9bfda09cc2e0",
+        "title": "OpenAI Targets $1.25 Trillion Valuation in New Funding Round",
+        "summary": "A rout in the artificial intelligence trade faded, offering global stock investors some respite in the final session of a volatile week, with further gains in oil prices keeping sentiment cautious. Bloomberg has learned OpenAI, which is seeking to raise around $30 billion in a fresh funding round, is now targeting a valuation of $1.25 trillion during the.",
+        "url": "https://www.youtube.com/watch?v=-DTZRLWncNc",
+        "publisher": "Bloomberg Television",
+        "published_at": "2026-10-23T12:11:51+00:00",
+        "source_type": "video",
+        "region": "Global",
+        "topic": "markets",
+        "tickers": [],
+        "priority_score": 60,
+        "priority": "background",
+        "why_flagged": "Recent video from a configured market channel. Published within six hours.",
+        "age_hours": 0.4
+      },
+      {
+        "id": "0f4bcc97f434",
+        "title": "Treasury Rally Pauses After Rush to Safety; Oil Extends Gain Amid Supply Woes",
+        "summary": "Declines in yields ease after a selloff in tech stocks drove investors to Treasuries. Oil heads for a third consecutive weekly gain as escalating attacks on Saudi Arabia stoke supply concerns.",
+        "url": "https://www.youtube.com/watch?v=J08RoxSQZ8s",
+        "publisher": "Bloomberg Television",
+        "published_at": "2026-10-23T11:23:52+00:00",
+        "source_type": "video",
+        "region": "Global",
+        "topic": "markets",
+        "tickers": [],
+        "priority_score": 60,
+        "priority": "background",
+        "why_flagged": "Recent video from a configured market channel. Published within six hours.",
+        "age_hours": 1.2
+      },
+      {
+        "id": "be849df933bf",
+        "title": "Volvo CEO Says China Market Gone, Luxury Weakness Remains",
+        "summary": "Volvo plunged by about 30% to a record low after the Swedish automaker’s chief executive officer said the market for Western-developed cars in China is disappearing fast, prompting it to cut 2,500 more jobs. Luxury powerhouses including Hermès and Cartier are suffering steeper slumps in China, in a sign that a spending pullback by the country’s wealthy.",
+        "url": "https://www.youtube.com/watch?v=nCzsxmgD7ls",
+        "publisher": "Bloomberg Television",
+        "published_at": "2026-10-23T10:59:10+00:00",
+        "source_type": "video",
+        "region": "Global",
+        "topic": "markets",
+        "tickers": [],
+        "priority_score": 60,
+        "priority": "background",
+        "why_flagged": "Recent video from a configured market channel. Published within six hours.",
+        "age_hours": 1.6
+      },
+      {
+        "id": "aa4694094063",
+        "title": "AI IPOs Stall While Private Markets Heat Up",
+        "summary": "AI IPOs are hitting the brakes as public markets cool. But with private money still flowing to giants like OpenAI and DeepSeek, companies might be tempted to stay private for longer.",
+        "url": "https://www.youtube.com/shorts/WOz29qDc2Ww",
+        "publisher": "Bloomberg Television",
+        "published_at": "2026-10-23T09:23:57+00:00",
+        "source_type": "video",
+        "region": "Global",
+        "topic": "markets",
+        "tickers": [],
+        "priority_score": 60,
+        "priority": "background",
+        "why_flagged": "Recent video from a configured market channel. Published within six hours.",
+        "age_hours": 3.2
+      },
+      {
+        "id": "e6f6839e55f7",
+        "title": "French Authorities Brace for Weekend Protests",
+        "summary": "French authorities are bracing for a new round of protests Saturday. The military is preparing to back up police in a bid to prevent a repeat of last weekend’s riots.",
+        "url": "https://www.youtube.com/watch?v=vFgWXF3iHlo",
+        "publisher": "Bloomberg Television",
+        "published_at": "2026-10-23T08:45:51+00:00",
+        "source_type": "video",
+        "region": "Global",
+        "topic": "markets",
+        "tickers": [],
+        "priority_score": 60,
+        "priority": "background",
+        "why_flagged": "Recent video from a configured market channel. Published within six hours.",
+        "age_hours": 3.8
+      }
+    ],
+    "must_review_count": 4,
+    "scan_count": 37,
+    "estimated_review_minutes": 7,
+    "themes": [
+      {
+        "id": "semiconductors",
+        "label": "Semiconductors",
+        "count": 13,
+        "tickers": [
+          "AAPL",
+          "AVGO",
+          "MU",
+          "NVDA",
+          "SNDK"
+        ]
+      },
+      {
+        "id": "company",
+        "label": "Company",
+        "count": 9,
+        "tickers": [
+          "AAPL",
+          "AMZN",
+          "GOOGL",
+          "META",
+          "MSFT",
+          "MU",
+          "SNDK",
+          "TSLA"
+        ]
+      },
+      {
+        "id": "markets",
+        "label": "Markets",
+        "count": 9,
+        "tickers": [
+          "AAPL",
+          "AMZN",
+          "GOOGL",
+          "META",
+          "MSFT",
+          "TSLA"
+        ]
+      },
+      {
+        "id": "business",
+        "label": "Business",
+        "count": 8,
+        "tickers": [
+          "META"
+        ]
+      },
+      {
+        "id": "asia-markets",
+        "label": "Asia Markets",
+        "count": 7,
+        "tickers": []
+      },
+      {
+        "id": "earnings",
+        "label": "Earnings",
+        "count": 3,
+        "tickers": [
+          "SNDK"
+        ]
+      }
+    ],
+    "coverage": {
+      "total_items": 50,
+      "international_items": 17,
+      "video_items": 10,
+      "filing_items": 0,
+      "publisher_count": 13,
+      "publishers": [
+        "24/7 Wall St.",
+        "Barrons.com",
+        "Bloomberg Television",
+        "Business Wire",
+        "CNA Asia",
+        "CNA Business",
+        "GuruFocus.com",
+        "Investor's Business Daily",
+        "Motley Fool",
+        "PR Newswire",
+        "Simply Wall St.",
+        "Stocktwits",
+        "Yahoo Finance"
+      ],
+      "regions": [
+        "Asia",
+        "Global",
+        "US"
+      ],
+      "healthy_feeds": 6,
+      "total_feeds": 6
+    },
+    "feed_health": [
+      {
+        "name": "Nikkei Asia",
+        "url": "https://asia.nikkei.com/rss/feed/nar",
+        "source_type": "international",
+        "region": "Asia",
+        "status": "healthy",
+        "item_count": 10,
+        "latest_published_at": null,
+        "error": null
+      },
+      {
+        "name": "CNA Asia",
+        "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6511",
+        "source_type": "international",
+        "region": "Asia",
+        "status": "healthy",
+        "item_count": 10,
+        "latest_published_at": "2026-10-23T10:38:10+00:00",
+        "error": null
+      },
+      {
+        "name": "CNA Business",
+        "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6936",
+        "source_type": "international",
+        "region": "Asia",
+        "status": "healthy",
+        "item_count": 10,
+        "latest_published_at": "2026-10-23T11:10:27+00:00",
+        "error": null
+      },
+      {
+        "name": "CNBC Television on YouTube",
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCvJJ_dzjViJCoLf5uKUTwoA",
+        "source_type": "video",
+        "region": "Global",
+        "status": "healthy",
+        "item_count": 8,
+        "latest_published_at": "2026-10-22T14:00:26+00:00",
+        "error": null
+      },
+      {
+        "name": "Bloomberg Television on YouTube",
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCIALMKvObZNtJ6AmdCLP7Lg",
+        "source_type": "video",
+        "region": "Global",
+        "status": "healthy",
+        "item_count": 8,
+        "latest_published_at": "2026-10-23T12:11:51+00:00",
+        "error": null
+      },
+      {
+        "name": "Yahoo Finance on YouTube",
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCEAZeUIeJs0IjQiqTCdVSIg",
+        "source_type": "video",
+        "region": "US",
+        "status": "healthy",
+        "item_count": 8,
+        "latest_published_at": "2026-10-23T01:00:31+00:00",
+        "error": null
+      }
+    ]
+  },
+  "global_markets": [
+    {
+      "symbol": "^N225",
+      "label": "Nikkei 225",
+      "region": "Japan",
+      "category": "index",
+      "price": 62693.1602,
+      "change_pct": -0.3413,
+      "return_5d_pct": -4.0278,
+      "as_of": "2026-10-23T00:00:00+09:00",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/^N225",
+      "status": "available"
+    },
+    {
+      "symbol": "^HSI",
+      "label": "Hang Seng",
+      "region": "Hong Kong",
+      "category": "index",
+      "price": 23093.3691,
+      "change_pct": 0.6919,
+      "return_5d_pct": -4.0284,
+      "as_of": "2026-10-23T00:00:00+08:00",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/^HSI",
+      "status": "available"
+    },
+    {
+      "symbol": "000001.SS",
+      "label": "Shanghai Composite",
+      "region": "China",
+      "category": "index",
+      "price": 3690.4753,
+      "change_pct": 0.8871,
+      "return_5d_pct": -0.6945,
+      "as_of": "2026-10-23T00:00:00+08:00",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/000001.SS",
+      "status": "available"
+    },
+    {
+      "symbol": "^KS11",
+      "label": "KOSPI",
+      "region": "South Korea",
+      "category": "index",
+      "price": 5550.2998,
+      "change_pct": 0.2987,
+      "return_5d_pct": -2.0774,
+      "as_of": "2026-10-23T00:00:00+09:00",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/^KS11",
+      "status": "available"
+    },
+    {
+      "symbol": "^TWII",
+      "label": "Taiwan Weighted",
+      "region": "Taiwan",
+      "category": "index",
+      "price": 46041.4297,
+      "change_pct": -1.805,
+      "return_5d_pct": -1.9767,
+      "as_of": "2026-10-22T00:00:00+08:00",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/^TWII",
+      "status": "available"
+    },
+    {
+      "symbol": "^AXJO",
+      "label": "ASX 200",
+      "region": "Australia",
+      "category": "index",
+      "price": 8795.2002,
+      "change_pct": 0.0227,
+      "return_5d_pct": -0.1306,
+      "as_of": "2026-10-23T00:00:00+11:00",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/^AXJO",
+      "status": "available"
+    },
+    {
+      "symbol": "^STOXX50E",
+      "label": "Euro Stoxx 50",
+      "region": "Europe",
+      "category": "index",
+      "price": 6042.6802,
+      "change_pct": -0.7283,
+      "return_5d_pct": -2.6039,
+      "as_of": "2026-10-23T00:00:00+02:00",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/^STOXX50E",
+      "status": "available"
+    },
+    {
+      "symbol": "CL=F",
+      "label": "WTI Crude",
+      "region": "Global",
+      "category": "commodity",
+      "price": 101.33,
+      "change_pct": 1.8699,
+      "return_5d_pct": -0.0789,
+      "as_of": "2026-10-23T00:00:00-04:00",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CL=F",
+      "status": "available"
+    },
+    {
+      "symbol": "DX-Y.NYB",
+      "label": "US Dollar Index",
+      "region": "Global",
+      "category": "currency",
+      "price": 101.758,
+      "change_pct": 0.1457,
+      "return_5d_pct": -0.0805,
+      "as_of": "2026-10-23T00:00:00-04:00",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DX-Y.NYB",
+      "status": "available"
+    },
+    {
+      "symbol": "^VIX",
+      "label": "VIX",
+      "region": "US",
+      "category": "volatility",
+      "price": 19.71,
+      "change_pct": 3.5733,
+      "return_5d_pct": -1.4007,
+      "as_of": "2026-10-23T00:00:00-05:00",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/^VIX",
+      "status": "available"
+    }
+  ],
+  "portfolio": [
+    {
+      "ticker": "AAPL",
+      "name": "AAPL",
+      "currency": "USD",
+      "price": 348.22,
+      "previous_close": 343.99,
+      "change_pct": 1.2297,
+      "return_5d_pct": 1.8187,
+      "return_20d_pct": 3.6616,
+      "ema20": 339.1609,
+      "ema50": 331.0512,
+      "rsi14": 64.7563,
+      "atr_pct": 1.8506,
+      "volume_ratio": 1.2286,
+      "volatility20_pct": 16.6959,
+      "market_cap": 5081985377415.161,
+      "next_earnings": "2026-11-02",
+      "earnings_days": 10,
+      "chart": [
+        {
+          "date": "2026-07-30",
+          "close": 333.1427
+        },
+        {
+          "date": "2026-07-31",
+          "close": 308.6438
+        },
+        {
+          "date": "2026-08-03",
+          "close": 303.1586
+        },
+        {
+          "date": "2026-08-04",
+          "close": 309.1134
+        },
+        {
+          "date": "2026-08-05",
+          "close": 310.732
+        },
+        {
+          "date": "2026-08-06",
+          "close": 312.1408
+        },
+        {
+          "date": "2026-08-07",
+          "close": 313.06
+        },
+        {
+          "date": "2026-08-10",
+          "close": 308.26
+        },
+        {
+          "date": "2026-08-11",
+          "close": 304.91
+        },
+        {
+          "date": "2026-08-12",
+          "close": 302.25
+        },
+        {
+          "date": "2026-08-13",
+          "close": 305.26
+        },
+        {
+          "date": "2026-08-14",
+          "close": 305.93
+        },
+        {
+          "date": "2026-08-17",
+          "close": 305.59
+        },
+        {
+          "date": "2026-08-18",
+          "close": 310.03
+        },
+        {
+          "date": "2026-08-19",
+          "close": 316.83
+        },
+        {
+          "date": "2026-08-20",
+          "close": 311.3
+        },
+        {
+          "date": "2026-08-21",
+          "close": 309.35
+        },
+        {
+          "date": "2026-08-24",
+          "close": 310.34
+        },
+        {
+          "date": "2026-08-25",
+          "close": 309.9
+        },
+        {
+          "date": "2026-08-26",
+          "close": 313.45
+        },
+        {
+          "date": "2026-08-27",
+          "close": 314.58
+        },
+        {
+          "date": "2026-08-28",
+          "close": 319.7
+        },
+        {
+          "date": "2026-08-31",
+          "close": 316.85
+        },
+        {
+          "date": "2026-09-01",
+          "close": 325.13
+        },
+        {
+          "date": "2026-09-02",
+          "close": 324.96
+        },
+        {
+          "date": "2026-09-03",
+          "close": 328.21
+        },
+        {
+          "date": "2026-09-04",
+          "close": 319.97
+        },
+        {
+          "date": "2026-09-08",
+          "close": 316.22
+        },
+        {
+          "date": "2026-09-09",
+          "close": 315.34
+        },
+        {
+          "date": "2026-09-10",
+          "close": 326.57
+        },
+        {
+          "date": "2026-09-11",
+          "close": 332.27
+        },
+        {
+          "date": "2026-09-14",
+          "close": 333.08
+        },
+        {
+          "date": "2026-09-15",
+          "close": 331.34
+        },
+        {
+          "date": "2026-09-16",
+          "close": 332.41
+        },
+        {
+          "date": "2026-09-17",
+          "close": 337.0
+        },
+        {
+          "date": "2026-09-18",
+          "close": 336.13
+        },
+        {
+          "date": "2026-09-21",
+          "close": 338.98
+        },
+        {
+          "date": "2026-09-22",
+          "close": 339.75
+        },
+        {
+          "date": "2026-09-23",
+          "close": 337.02
+        },
+        {
+          "date": "2026-09-24",
+          "close": 335.92
+        },
+        {
+          "date": "2026-09-25",
+          "close": 341.07
+        },
+        {
+          "date": "2026-09-28",
+          "close": 338.4
+        },
+        {
+          "date": "2026-09-29",
+          "close": 329.4
+        },
+        {
+          "date": "2026-09-30",
+          "close": 333.02
+        },
+        {
+          "date": "2026-10-01",
+          "close": 330.32
+        },
+        {
+          "date": "2026-10-02",
+          "close": 333.69
+        },
+        {
+          "date": "2026-10-05",
+          "close": 332.89
+        },
+        {
+          "date": "2026-10-06",
+          "close": 333.63
+        },
+        {
+          "date": "2026-10-07",
+          "close": 336.67
+        },
+        {
+          "date": "2026-10-08",
+          "close": 340.42
+        },
+        {
+          "date": "2026-10-09",
+          "close": 336.64
+        },
+        {
+          "date": "2026-10-12",
+          "close": 340.97
+        },
+        {
+          "date": "2026-10-13",
+          "close": 341.27
+        },
+        {
+          "date": "2026-10-14",
+          "close": 342.96
+        },
+        {
+          "date": "2026-10-15",
+          "close": 342.0
+        },
+        {
+          "date": "2026-10-16",
+          "close": 343.46
+        },
+        {
+          "date": "2026-10-19",
+          "close": 342.94
+        },
+        {
+          "date": "2026-10-20",
+          "close": 339.5
+        },
+        {
+          "date": "2026-10-21",
+          "close": 343.99
+        },
+        {
+          "date": "2026-10-22",
+          "close": 348.22
+        }
+      ],
+      "news": [
+        {
+          "title": "Dow Jones Futures Fall After Moderna Crashes, Meta Fuels AI Meltdown. Warren Buffett Market Is Thriving.",
+          "url": "https://finance.yahoo.com/m/47e878bb-824d-3243-a8e9-b86b1c3f85d3/dow-jones-futures-fall-after.html",
+          "publisher": "Investor's Business Daily",
+          "published_at": "2026-10-23T12:14:41+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Apple Is Just $42 Billion Away From Passing Nvidia as the World’s Most Valuable Company",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-just-42-billion-away-113052754.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-23T11:30:52+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "3 Investment Grade Bond Ideas Riding Big Tech AI Capex Plans",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-investment-grade-bond-ideas-111614808.html",
+          "publisher": "Simply Wall St.",
+          "published_at": "2026-10-23T11:16:14+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "What SPDR Portfolio S&P 500 Value ETF (SPYV) Bought: Apple Leads on Wednesday",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-portfolio-p-500-value-110531373.html",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-10-23T11:05:31+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "State Street SPDR Portfolio S&P 500 ETF (SPYM) Adds NVIDIA and Apple on Wednesday",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-spdr-portfolio-p-110516469.html",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-10-23T11:05:16+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        }
+      ],
+      "filings": [],
+      "errors": [
+        "SEC filings unavailable: HTTPError"
+      ],
+      "signal_score": 81,
+      "stance": "Constructive",
+      "risk_level": "normal",
+      "rationale": [
+        "Price is above its 20-day trend.",
+        "Price remains above its 50-day trend.",
+        "Twenty-session momentum is positive at 3.7%.",
+        "RSI is in a constructive, non-extreme range."
+      ],
+      "catalysts": [
+        {
+          "type": "earnings",
+          "date": "2026-11-02",
+          "label": "Earnings in 10 days"
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "name": "TSLA",
+      "currency": "USD",
+      "price": 374.58,
+      "previous_close": 386.47,
+      "change_pct": -3.0766,
+      "return_5d_pct": 3.3495,
+      "return_20d_pct": -0.889,
+      "ema20": 370.7165,
+      "ema50": 366.8219,
+      "rsi14": 52.8063,
+      "atr_pct": 3.3685,
+      "volume_ratio": 1.3985,
+      "volatility20_pct": 35.9321,
+      "market_cap": 1480613607634.5295,
+      "next_earnings": "2026-10-21",
+      "earnings_days": -2,
+      "chart": [
+        {
+          "date": "2026-07-30",
+          "close": 308.85
+        },
+        {
+          "date": "2026-07-31",
+          "close": 311.21
+        },
+        {
+          "date": "2026-08-03",
+          "close": 322.08
+        },
+        {
+          "date": "2026-08-04",
+          "close": 327.35
+        },
+        {
+          "date": "2026-08-05",
+          "close": 321.55
+        },
+        {
+          "date": "2026-08-06",
+          "close": 319.53
+        },
+        {
+          "date": "2026-08-07",
+          "close": 328.58
+        },
+        {
+          "date": "2026-08-10",
+          "close": 330.88
+        },
+        {
+          "date": "2026-08-11",
+          "close": 332.81
+        },
+        {
+          "date": "2026-08-12",
+          "close": 327.51
+        },
+        {
+          "date": "2026-08-13",
+          "close": 339.96
+        },
+        {
+          "date": "2026-08-14",
+          "close": 342.27
+        },
+        {
+          "date": "2026-08-17",
+          "close": 339.3
+        },
+        {
+          "date": "2026-08-18",
+          "close": 336.87
+        },
+        {
+          "date": "2026-08-19",
+          "close": 351.12
+        },
+        {
+          "date": "2026-08-20",
+          "close": 345.13
+        },
+        {
+          "date": "2026-08-21",
+          "close": 362.86
+        },
+        {
+          "date": "2026-08-24",
+          "close": 348.95
+        },
+        {
+          "date": "2026-08-25",
+          "close": 350.25
+        },
+        {
+          "date": "2026-08-26",
+          "close": 345.82
+        },
+        {
+          "date": "2026-08-27",
+          "close": 354.81
+        },
+        {
+          "date": "2026-08-28",
+          "close": 348.75
+        },
+        {
+          "date": "2026-08-31",
+          "close": 367.95
+        },
+        {
+          "date": "2026-09-01",
+          "close": 356.09
+        },
+        {
+          "date": "2026-09-02",
+          "close": 357.01
+        },
+        {
+          "date": "2026-09-03",
+          "close": 376.37
+        },
+        {
+          "date": "2026-09-04",
+          "close": 354.08
+        },
+        {
+          "date": "2026-09-08",
+          "close": 368.16
+        },
+        {
+          "date": "2026-09-09",
+          "close": 367.81
+        },
+        {
+          "date": "2026-09-10",
+          "close": 363.56
+        },
+        {
+          "date": "2026-09-11",
+          "close": 365.44
+        },
+        {
+          "date": "2026-09-14",
+          "close": 358.97
+        },
+        {
+          "date": "2026-09-15",
+          "close": 356.58
+        },
+        {
+          "date": "2026-09-16",
+          "close": 358.08
+        },
+        {
+          "date": "2026-09-17",
+          "close": 366.2
+        },
+        {
+          "date": "2026-09-18",
+          "close": 364.27
+        },
+        {
+          "date": "2026-09-21",
+          "close": 375.3
+        },
+        {
+          "date": "2026-09-22",
+          "close": 378.9
+        },
+        {
+          "date": "2026-09-23",
+          "close": 380.12
+        },
+        {
+          "date": "2026-09-24",
+          "close": 377.94
+        },
+        {
+          "date": "2026-09-25",
+          "close": 372.11
+        },
+        {
+          "date": "2026-09-28",
+          "close": 357.45
+        },
+        {
+          "date": "2026-09-29",
+          "close": 352.84
+        },
+        {
+          "date": "2026-09-30",
+          "close": 354.81
+        },
+        {
+          "date": "2026-10-01",
+          "close": 354.11
+        },
+        {
+          "date": "2026-10-02",
+          "close": 370.59
+        },
+        {
+          "date": "2026-10-05",
+          "close": 378.73
+        },
+        {
+          "date": "2026-10-06",
+          "close": 380.68
+        },
+        {
+          "date": "2026-10-07",
+          "close": 377.81
+        },
+        {
+          "date": "2026-10-08",
+          "close": 375.0
+        },
+        {
+          "date": "2026-10-09",
+          "close": 382.7
+        },
+        {
+          "date": "2026-10-12",
+          "close": 378.03
+        },
+        {
+          "date": "2026-10-13",
+          "close": 375.23
+        },
+        {
+          "date": "2026-10-14",
+          "close": 367.16
+        },
+        {
+          "date": "2026-10-15",
+          "close": 362.44
+        },
+        {
+          "date": "2026-10-16",
+          "close": 354.72
+        },
+        {
+          "date": "2026-10-19",
+          "close": 368.06
+        },
+        {
+          "date": "2026-10-20",
+          "close": 373.71
+        },
+        {
+          "date": "2026-10-21",
+          "close": 386.47
+        },
+        {
+          "date": "2026-10-22",
+          "close": 374.58
+        }
+      ],
+      "news": [
+        {
+          "title": "SanDisk Stock Rises After Brutal Sell-Off Ahead of Earnings",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stock-rises-brutal-sell-122724896.html",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-10-23T12:27:24+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "SpaceX Drops 9% as Spending Fears Take Over",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-drops-9-spending-fears-121413422.html",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-10-23T12:14:13+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Stocks Down Pre-Bell Amid Tech Selloff",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-down-pre-bell-amid-121035032.html",
+          "publisher": "MT Newswires",
+          "published_at": "2026-10-23T12:10:35+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Tesla And 2 Other Top Founder Led Stocks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-2-other-top-founder-120935582.html",
+          "publisher": "Simply Wall St.",
+          "published_at": "2026-10-23T12:09:35+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Energea Expands U.S. Portfolio with $20 Million Commitment for Tesla Superchargers",
+          "url": "https://finance.yahoo.com/energy/articles/energea-expands-u-portfolio-20-120000608.html",
+          "publisher": "Business Wire",
+          "published_at": "2026-10-23T12:00:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        }
+      ],
+      "filings": [],
+      "errors": [
+        "SEC filings unavailable: HTTPError"
+      ],
+      "signal_score": 77,
+      "stance": "Constructive",
+      "risk_level": "elevated",
+      "rationale": [
+        "Price is above its 20-day trend.",
+        "Price remains above its 50-day trend.",
+        "Twenty-session momentum is negative at -0.9%.",
+        "RSI is in a constructive, non-extreme range."
+      ],
+      "catalysts": []
+    },
+    {
+      "ticker": "MSFT",
+      "name": "MSFT",
+      "currency": "USD",
+      "price": 521.08,
+      "previous_close": 532.95,
+      "change_pct": -2.2272,
+      "return_5d_pct": -3.4035,
+      "return_20d_pct": 4.6493,
+      "ema20": 524.8024,
+      "ema50": 504.1467,
+      "rsi14": 50.5272,
+      "atr_pct": 2.182,
+      "volume_ratio": 0.9856,
+      "volatility20_pct": 22.7973,
+      "market_cap": 3869303371351.6924,
+      "next_earnings": "2026-10-28",
+      "earnings_days": 5,
+      "chart": [
+        {
+          "date": "2026-07-30",
+          "close": 450.2524
+        },
+        {
+          "date": "2026-07-31",
+          "close": 463.8468
+        },
+        {
+          "date": "2026-08-03",
+          "close": 486.7337
+        },
+        {
+          "date": "2026-08-04",
+          "close": 491.884
+        },
+        {
+          "date": "2026-08-05",
+          "close": 486.5441
+        },
+        {
+          "date": "2026-08-06",
+          "close": 498.9207
+        },
+        {
+          "date": "2026-08-07",
+          "close": 499.0505
+        },
+        {
+          "date": "2026-08-10",
+          "close": 505.1091
+        },
+        {
+          "date": "2026-08-11",
+          "close": 502.8633
+        },
+        {
+          "date": "2026-08-12",
+          "close": 491.5047
+        },
+        {
+          "date": "2026-08-13",
+          "close": 495.9464
+        },
+        {
+          "date": "2026-08-14",
+          "close": 494.4691
+        },
+        {
+          "date": "2026-08-17",
+          "close": 479.4474
+        },
+        {
+          "date": "2026-08-18",
+          "close": 480.725
+        },
+        {
+          "date": "2026-08-19",
+          "close": 483.4
+        },
+        {
+          "date": "2026-08-20",
+          "close": 481.15
+        },
+        {
+          "date": "2026-08-21",
+          "close": 483.24
+        },
+        {
+          "date": "2026-08-24",
+          "close": 487.31
+        },
+        {
+          "date": "2026-08-25",
+          "close": 491.71
+        },
+        {
+          "date": "2026-08-26",
+          "close": 496.37
+        },
+        {
+          "date": "2026-08-27",
+          "close": 505.06
+        },
+        {
+          "date": "2026-08-28",
+          "close": 513.53
+        },
+        {
+          "date": "2026-08-31",
+          "close": 507.29
+        },
+        {
+          "date": "2026-09-01",
+          "close": 501.02
+        },
+        {
+          "date": "2026-09-02",
+          "close": 496.82
+        },
+        {
+          "date": "2026-09-03",
+          "close": 510.12
+        },
+        {
+          "date": "2026-09-04",
+          "close": 499.7
+        },
+        {
+          "date": "2026-09-08",
+          "close": 493.95
+        },
+        {
+          "date": "2026-09-09",
+          "close": 491.65
+        },
+        {
+          "date": "2026-09-10",
+          "close": 492.44
+        },
+        {
+          "date": "2026-09-11",
+          "close": 495.63
+        },
+        {
+          "date": "2026-09-14",
+          "close": 505.41
+        },
+        {
+          "date": "2026-09-15",
+          "close": 497.12
+        },
+        {
+          "date": "2026-09-16",
+          "close": 490.3
+        },
+        {
+          "date": "2026-09-17",
+          "close": 497.75
+        },
+        {
+          "date": "2026-09-18",
+          "close": 493.78
+        },
+        {
+          "date": "2026-09-21",
+          "close": 501.61
+        },
+        {
+          "date": "2026-09-22",
+          "close": 498.0
+        },
+        {
+          "date": "2026-09-23",
+          "close": 500.59
+        },
+        {
+          "date": "2026-09-24",
+          "close": 497.93
+        },
+        {
+          "date": "2026-09-25",
+          "close": 516.17
+        },
+        {
+          "date": "2026-09-28",
+          "close": 509.22
+        },
+        {
+          "date": "2026-09-29",
+          "close": 508.96
+        },
+        {
+          "date": "2026-09-30",
+          "close": 512.9
+        },
+        {
+          "date": "2026-10-01",
+          "close": 512.8
+        },
+        {
+          "date": "2026-10-02",
+          "close": 517.53
+        },
+        {
+          "date": "2026-10-05",
+          "close": 525.18
+        },
+        {
+          "date": "2026-10-06",
+          "close": 529.3
+        },
+        {
+          "date": "2026-10-07",
+          "close": 529.76
+        },
+        {
+          "date": "2026-10-08",
+          "close": 522.61
+        },
+        {
+          "date": "2026-10-09",
+          "close": 535.07
+        },
+        {
+          "date": "2026-10-12",
+          "close": 541.15
+        },
+        {
+          "date": "2026-10-13",
+          "close": 543.45
+        },
+        {
+          "date": "2026-10-14",
+          "close": 533.69
+        },
+        {
+          "date": "2026-10-15",
+          "close": 539.44
+        },
+        {
+          "date": "2026-10-16",
+          "close": 529.05
+        },
+        {
+          "date": "2026-10-19",
+          "close": 533.52
+        },
+        {
+          "date": "2026-10-20",
+          "close": 531.87
+        },
+        {
+          "date": "2026-10-21",
+          "close": 532.95
+        },
+        {
+          "date": "2026-10-22",
+          "close": 521.08
+        }
+      ],
+      "news": [
+        {
+          "title": "Salesforce Is Betting Big on AI. The Payoff Could Be Bigger Than Investors Expect",
+          "url": "https://finance.yahoo.com/technology/ai/articles/salesforce-betting-big-ai-payoff-120027746.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-23T12:00:27+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "OpenAI Just Cut Its Valuation Target by $150 Billion",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/openai-just-cut-valuation-target-114523865.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-23T11:45:23+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Apple Is Just $42 Billion Away From Passing Nvidia as the World’s Most Valuable Company",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-just-42-billion-away-113052754.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-23T11:30:52+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Nebius Has Cratered Over The Last 3 Months: This Wall Street Ratings Firm Says 2.5X Returns Will Materialize Soon",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-cratered-over-last-3-111553069.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-23T11:15:53+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Microsoft Has a $1 Trillion Opportunity Hiding in Plain Sight",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-1-trillion-opportunity-hiding-111552020.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-23T11:15:52+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        }
+      ],
+      "filings": [],
+      "errors": [
+        "SEC filings unavailable: HTTPError"
+      ],
+      "signal_score": 56,
+      "stance": "Watch",
+      "risk_level": "high",
+      "rationale": [
+        "Price is below its 20-day trend.",
+        "Price remains above its 50-day trend.",
+        "Twenty-session momentum is positive at 4.6%.",
+        "RSI is in a constructive, non-extreme range."
+      ],
+      "catalysts": [
+        {
+          "type": "earnings",
+          "date": "2026-10-28",
+          "label": "Earnings in 5 days"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "name": "AMZN",
+      "currency": "USD",
+      "price": 250.38,
+      "previous_close": 262.37,
+      "change_pct": -4.5699,
+      "return_5d_pct": -1.7193,
+      "return_20d_pct": 0.401,
+      "ema20": 255.8529,
+      "ema50": 255.1871,
+      "rsi14": 45.1157,
+      "atr_pct": 2.7453,
+      "volume_ratio": 1.3425,
+      "volatility20_pct": 31.8067,
+      "market_cap": 2700677244824.9067,
+      "next_earnings": "2026-10-29",
+      "earnings_days": 6,
+      "chart": [
+        {
+          "date": "2026-07-30",
+          "close": 235.5
+        },
+        {
+          "date": "2026-07-31",
+          "close": 271.58
+        },
+        {
+          "date": "2026-08-03",
+          "close": 284.02
+        },
+        {
+          "date": "2026-08-04",
+          "close": 277.42
+        },
+        {
+          "date": "2026-08-05",
+          "close": 272.65
+        },
+        {
+          "date": "2026-08-06",
+          "close": 272.26
+        },
+        {
+          "date": "2026-08-07",
+          "close": 274.48
+        },
+        {
+          "date": "2026-08-10",
+          "close": 278.09
+        },
+        {
+          "date": "2026-08-11",
+          "close": 272.27
+        },
+        {
+          "date": "2026-08-12",
+          "close": 267.28
+        },
+        {
+          "date": "2026-08-13",
+          "close": 265.13
+        },
+        {
+          "date": "2026-08-14",
+          "close": 262.65
+        },
+        {
+          "date": "2026-08-17",
+          "close": 261.31
+        },
+        {
+          "date": "2026-08-18",
+          "close": 259.45
+        },
+        {
+          "date": "2026-08-19",
+          "close": 265.84
+        },
+        {
+          "date": "2026-08-20",
+          "close": 260.11
+        },
+        {
+          "date": "2026-08-21",
+          "close": 258.63
+        },
+        {
+          "date": "2026-08-24",
+          "close": 262.07
+        },
+        {
+          "date": "2026-08-25",
+          "close": 261.06
+        },
+        {
+          "date": "2026-08-26",
+          "close": 260.28
+        },
+        {
+          "date": "2026-08-27",
+          "close": 256.26
+        },
+        {
+          "date": "2026-08-28",
+          "close": 266.43
+        },
+        {
+          "date": "2026-08-31",
+          "close": 259.77
+        },
+        {
+          "date": "2026-09-01",
+          "close": 254.92
+        },
+        {
+          "date": "2026-09-02",
+          "close": 254.98
+        },
+        {
+          "date": "2026-09-03",
+          "close": 258.9
+        },
+        {
+          "date": "2026-09-04",
+          "close": 258.51
+        },
+        {
+          "date": "2026-09-08",
+          "close": 256.97
+        },
+        {
+          "date": "2026-09-09",
+          "close": 252.4
+        },
+        {
+          "date": "2026-09-10",
+          "close": 251.89
+        },
+        {
+          "date": "2026-09-11",
+          "close": 256.78
+        },
+        {
+          "date": "2026-09-14",
+          "close": 253.54
+        },
+        {
+          "date": "2026-09-15",
+          "close": 248.42
+        },
+        {
+          "date": "2026-09-16",
+          "close": 245.96
+        },
+        {
+          "date": "2026-09-17",
+          "close": 251.19
+        },
+        {
+          "date": "2026-09-18",
+          "close": 253.71
+        },
+        {
+          "date": "2026-09-21",
+          "close": 258.45
+        },
+        {
+          "date": "2026-09-22",
+          "close": 254.98
+        },
+        {
+          "date": "2026-09-23",
+          "close": 249.27
+        },
+        {
+          "date": "2026-09-24",
+          "close": 249.38
+        },
+        {
+          "date": "2026-09-25",
+          "close": 249.67
+        },
+        {
+          "date": "2026-09-28",
+          "close": 246.15
+        },
+        {
+          "date": "2026-09-29",
+          "close": 246.67
+        },
+        {
+          "date": "2026-09-30",
+          "close": 249.15
+        },
+        {
+          "date": "2026-10-01",
+          "close": 248.23
+        },
+        {
+          "date": "2026-10-02",
+          "close": 251.52
+        },
+        {
+          "date": "2026-10-05",
+          "close": 251.4
+        },
+        {
+          "date": "2026-10-06",
+          "close": 256.29
+        },
+        {
+          "date": "2026-10-07",
+          "close": 259.92
+        },
+        {
+          "date": "2026-10-08",
+          "close": 254.06
+        },
+        {
+          "date": "2026-10-09",
+          "close": 262.43
+        },
+        {
+          "date": "2026-10-12",
+          "close": 259.53
+        },
+        {
+          "date": "2026-10-13",
+          "close": 258.58
+        },
+        {
+          "date": "2026-10-14",
+          "close": 254.08
+        },
+        {
+          "date": "2026-10-15",
+          "close": 254.76
+        },
+        {
+          "date": "2026-10-16",
+          "close": 250.0
+        },
+        {
+          "date": "2026-10-19",
+          "close": 262.45
+        },
+        {
+          "date": "2026-10-20",
+          "close": 262.63
+        },
+        {
+          "date": "2026-10-21",
+          "close": 262.37
+        },
+        {
+          "date": "2026-10-22",
+          "close": 250.38
+        }
+      ],
+      "news": [
+        {
+          "title": "OpenAI Just Cut Its Valuation Target by $150 Billion",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/openai-just-cut-valuation-target-114523865.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-23T11:45:23+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Apple Is Just $42 Billion Away From Passing Nvidia as the World’s Most Valuable Company",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-just-42-billion-away-113052754.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-23T11:30:52+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Should You Buy Amazon Stock Before Oct. 29?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-amazon-stock-oct-29-112200594.html",
+          "publisher": "Motley Fool",
+          "published_at": "2026-10-23T11:22:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Microsoft Has a $1 Trillion Opportunity Hiding in Plain Sight",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-1-trillion-opportunity-hiding-111552020.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-23T11:15:52+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Two Critical Nvidia Stock Flaws and Other Reasons This Analyst Says Sell",
+          "url": "https://finance.yahoo.com/m/9cdb41d6-a291-37eb-bff7-347d06660a9d/two-critical-nvidia-stock.html",
+          "publisher": "Barrons.com",
+          "published_at": "2026-10-23T11:06:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        }
+      ],
+      "filings": [],
+      "errors": [
+        "SEC filings unavailable: HTTPError"
+      ],
+      "signal_score": 33,
+      "stance": "Cautious",
+      "risk_level": "high",
+      "rationale": [
+        "Price is below its 20-day trend.",
+        "Price is below its 50-day trend.",
+        "Twenty-session momentum is positive at 0.4%.",
+        "RSI is in a constructive, non-extreme range."
+      ],
+      "catalysts": [
+        {
+          "type": "earnings",
+          "date": "2026-10-29",
+          "label": "Earnings in 6 days"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVDA",
+      "currency": "USD",
+      "price": 212.21,
+      "previous_close": 221.97,
+      "change_pct": -4.397,
+      "return_5d_pct": -2.3109,
+      "return_20d_pct": -5.5081,
+      "ema20": 222.67,
+      "ema50": 221.3106,
+      "rsi14": 39.0884,
+      "atr_pct": 2.9421,
+      "volume_ratio": 1.1801,
+      "volatility20_pct": 28.6166,
+      "market_cap": 5124235032119.751,
+      "next_earnings": "2026-11-17",
+      "earnings_days": 25,
+      "chart": [
+        {
+          "date": "2026-07-30",
+          "close": 194.822
+        },
+        {
+          "date": "2026-07-31",
+          "close": 200.5256
+        },
+        {
+          "date": "2026-08-03",
+          "close": 206.409
+        },
+        {
+          "date": "2026-08-04",
+          "close": 211.7031
+        },
+        {
+          "date": "2026-08-05",
+          "close": 218.975
+        },
+        {
+          "date": "2026-08-06",
+          "close": 218.7452
+        },
+        {
+          "date": "2026-08-07",
+          "close": 223.7097
+        },
+        {
+          "date": "2026-08-10",
+          "close": 217.3068
+        },
+        {
+          "date": "2026-08-11",
+          "close": 217.2569
+        },
+        {
+          "date": "2026-08-12",
+          "close": 223.8395
+        },
+        {
+          "date": "2026-08-13",
+          "close": 225.0482
+        },
+        {
+          "date": "2026-08-14",
+          "close": 224.9083
+        },
+        {
+          "date": "2026-08-17",
+          "close": 224.7585
+        },
+        {
+          "date": "2026-08-18",
+          "close": 219.4944
+        },
+        {
+          "date": "2026-08-19",
+          "close": 217.3168
+        },
+        {
+          "date": "2026-08-20",
+          "close": 216.6076
+        },
+        {
+          "date": "2026-08-21",
+          "close": 214.48
+        },
+        {
+          "date": "2026-08-24",
+          "close": 208.247
+        },
+        {
+          "date": "2026-08-25",
+          "close": 212.8119
+        },
+        {
+          "date": "2026-08-26",
+          "close": 209.4257
+        },
+        {
+          "date": "2026-08-27",
+          "close": 227.7252
+        },
+        {
+          "date": "2026-08-28",
+          "close": 217.3068
+        },
+        {
+          "date": "2026-08-31",
+          "close": 220.5332
+        },
+        {
+          "date": "2026-09-01",
+          "close": 217.197
+        },
+        {
+          "date": "2026-09-02",
+          "close": 224.1592
+        },
+        {
+          "date": "2026-09-03",
+          "close": 228.1947
+        },
+        {
+          "date": "2026-09-04",
+          "close": 230.1025
+        },
+        {
+          "date": "2026-09-08",
+          "close": 225.4777
+        },
+        {
+          "date": "2026-09-09",
+          "close": 223.42
+        },
+        {
+          "date": "2026-09-10",
+          "close": 218.36
+        },
+        {
+          "date": "2026-09-11",
+          "close": 218.29
+        },
+        {
+          "date": "2026-09-14",
+          "close": 210.96
+        },
+        {
+          "date": "2026-09-15",
+          "close": 212.17
+        },
+        {
+          "date": "2026-09-16",
+          "close": 213.9
+        },
+        {
+          "date": "2026-09-17",
+          "close": 219.34
+        },
+        {
+          "date": "2026-09-18",
+          "close": 222.27
+        },
+        {
+          "date": "2026-09-21",
+          "close": 227.38
+        },
+        {
+          "date": "2026-09-22",
+          "close": 228.87
+        },
+        {
+          "date": "2026-09-23",
+          "close": 225.51
+        },
+        {
+          "date": "2026-09-24",
+          "close": 224.58
+        },
+        {
+          "date": "2026-09-25",
+          "close": 225.07
+        },
+        {
+          "date": "2026-09-28",
+          "close": 228.86
+        },
+        {
+          "date": "2026-09-29",
+          "close": 227.21
+        },
+        {
+          "date": "2026-09-30",
+          "close": 228.38
+        },
+        {
+          "date": "2026-10-01",
+          "close": 230.86
+        },
+        {
+          "date": "2026-10-02",
+          "close": 233.95
+        },
+        {
+          "date": "2026-10-05",
+          "close": 238.9
+        },
+        {
+          "date": "2026-10-06",
+          "close": 239.24
+        },
+        {
+          "date": "2026-10-07",
+          "close": 237.47
+        },
+        {
+          "date": "2026-10-08",
+          "close": 230.48
+        },
+        {
+          "date": "2026-10-09",
+          "close": 229.28
+        },
+        {
+          "date": "2026-10-12",
+          "close": 226.32
+        },
+        {
+          "date": "2026-10-13",
+          "close": 228.52
+        },
+        {
+          "date": "2026-10-14",
+          "close": 221.3
+        },
+        {
+          "date": "2026-10-15",
+          "close": 217.23
+        },
+        {
+          "date": "2026-10-16",
+          "close": 214.13
+        },
+        {
+          "date": "2026-10-19",
+          "close": 217.09
+        },
+        {
+          "date": "2026-10-20",
+          "close": 216.47
+        },
+        {
+          "date": "2026-10-21",
+          "close": 221.97
+        },
+        {
+          "date": "2026-10-22",
+          "close": 212.21
+        }
+      ],
+      "news": [
+        {
+          "title": "Nvidia Stock Edges Up. CEO Jensen Huang Makes $10 Billion Kazakhstan AI Power Play",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-stock-edges-ceo-jensen-123120704.html",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-10-23T12:31:20+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Tech Sell-Off: 2 Growth Stocks Investors Might Wish They'd Bought on the Dip",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tech-sell-off-2-growth-122900141.html",
+          "publisher": "Motley Fool",
+          "published_at": "2026-10-23T12:29:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "3 Things Investors Might Not Know About Rivian's $4.5 Billion Loan",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-things-investors-might-not-122500312.html",
+          "publisher": "Motley Fool",
+          "published_at": "2026-10-23T12:25:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Stock Split Watch: Is Micron Next?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-split-watch-micron-next-122202385.html",
+          "publisher": "Motley Fool",
+          "published_at": "2026-10-23T12:22:02+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Higgsfield Extends Series B With New Investment From TCV and NVIDIA",
+          "url": "https://finance.yahoo.com/technology/ai/articles/higgsfield-extends-series-b-investment-121700094.html",
+          "publisher": "PR Newswire",
+          "published_at": "2026-10-23T12:17:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        }
+      ],
+      "filings": [],
+      "errors": [
+        "SEC filings unavailable: HTTPError"
+      ],
+      "signal_score": 26,
+      "stance": "Cautious",
+      "risk_level": "normal",
+      "rationale": [
+        "Price is below its 20-day trend.",
+        "Price is below its 50-day trend.",
+        "Twenty-session momentum is negative at -5.5%."
+      ],
+      "catalysts": [
+        {
+          "type": "earnings",
+          "date": "2026-11-17",
+          "label": "Earnings in 25 days"
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "name": "META",
+      "currency": "USD",
+      "price": 648.85,
+      "previous_close": 697.52,
+      "change_pct": -6.9776,
+      "return_5d_pct": -11.9272,
+      "return_20d_pct": -16.5563,
+      "ema20": 707.8791,
+      "ema50": 679.9728,
+      "rsi14": 36.8565,
+      "atr_pct": 4.1438,
+      "volume_ratio": 2.0443,
+      "volatility20_pct": 41.581,
+      "market_cap": 1652949351896.274,
+      "next_earnings": "2026-10-21",
+      "earnings_days": -2,
+      "chart": [
+        {
+          "date": "2026-07-30",
+          "close": 538.605
+        },
+        {
+          "date": "2026-07-31",
+          "close": 556.271
+        },
+        {
+          "date": "2026-08-03",
+          "close": 589.7745
+        },
+        {
+          "date": "2026-08-04",
+          "close": 587.4764
+        },
+        {
+          "date": "2026-08-05",
+          "close": 588.3057
+        },
+        {
+          "date": "2026-08-06",
+          "close": 589.4349
+        },
+        {
+          "date": "2026-08-07",
+          "close": 591.6331
+        },
+        {
+          "date": "2026-08-10",
+          "close": 594.4509
+        },
+        {
+          "date": "2026-08-11",
+          "close": 598.6475
+        },
+        {
+          "date": "2026-08-12",
+          "close": 578.3935
+        },
+        {
+          "date": "2026-08-13",
+          "close": 594.5008
+        },
+        {
+          "date": "2026-08-14",
+          "close": 589.3848
+        },
+        {
+          "date": "2026-08-17",
+          "close": 568.5213
+        },
+        {
+          "date": "2026-08-18",
+          "close": 543.2413
+        },
+        {
+          "date": "2026-08-19",
+          "close": 545.5994
+        },
+        {
+          "date": "2026-08-20",
+          "close": 545.3996
+        },
+        {
+          "date": "2026-08-21",
+          "close": 549.4664
+        },
+        {
+          "date": "2026-08-24",
+          "close": 558.5792
+        },
+        {
+          "date": "2026-08-25",
+          "close": 569.6005
+        },
+        {
+          "date": "2026-08-26",
+          "close": 575.6857
+        },
+        {
+          "date": "2026-08-27",
+          "close": 570.6496
+        },
+        {
+          "date": "2026-08-28",
+          "close": 577.5642
+        },
+        {
+          "date": "2026-08-31",
+          "close": 571.8887
+        },
+        {
+          "date": "2026-09-01",
+          "close": 578.0837
+        },
+        {
+          "date": "2026-09-02",
+          "close": 592.3824
+        },
+        {
+          "date": "2026-09-03",
+          "close": 610.1984
+        },
+        {
+          "date": "2026-09-04",
+          "close": 616.2836
+        },
+        {
+          "date": "2026-09-08",
+          "close": 612.9962
+        },
+        {
+          "date": "2026-09-09",
+          "close": 653.1745
+        },
+        {
+          "date": "2026-09-10",
+          "close": 643.8719
+        },
+        {
+          "date": "2026-09-11",
+          "close": 647.519
+        },
+        {
+          "date": "2026-09-14",
+          "close": 665.0751
+        },
+        {
+          "date": "2026-09-15",
+          "close": 669.7115
+        },
+        {
+          "date": "2026-09-16",
+          "close": 672.7791
+        },
+        {
+          "date": "2026-09-17",
+          "close": 681.772
+        },
+        {
+          "date": "2026-09-18",
+          "close": 665.225
+        },
+        {
+          "date": "2026-09-21",
+          "close": 741.25
+        },
+        {
+          "date": "2026-09-22",
+          "close": 736.6
+        },
+        {
+          "date": "2026-09-23",
+          "close": 744.1
+        },
+        {
+          "date": "2026-09-24",
+          "close": 777.59
+        },
+        {
+          "date": "2026-09-25",
+          "close": 751.66
+        },
+        {
+          "date": "2026-09-28",
+          "close": 715.62
+        },
+        {
+          "date": "2026-09-29",
+          "close": 738.79
+        },
+        {
+          "date": "2026-09-30",
+          "close": 725.18
+        },
+        {
+          "date": "2026-10-01",
+          "close": 725.93
+        },
+        {
+          "date": "2026-10-02",
+          "close": 728.08
+        },
+        {
+          "date": "2026-10-05",
+          "close": 741.9
+        },
+        {
+          "date": "2026-10-06",
+          "close": 738.88
+        },
+        {
+          "date": "2026-10-07",
+          "close": 721.31
+        },
+        {
+          "date": "2026-10-08",
+          "close": 720.89
+        },
+        {
+          "date": "2026-10-09",
+          "close": 718.67
+        },
+        {
+          "date": "2026-10-12",
+          "close": 742.96
+        },
+        {
+          "date": "2026-10-13",
+          "close": 762.5
+        },
+        {
+          "date": "2026-10-14",
+          "close": 737.54
+        },
+        {
+          "date": "2026-10-15",
+          "close": 736.72
+        },
+        {
+          "date": "2026-10-16",
+          "close": 709.33
+        },
+        {
+          "date": "2026-10-19",
+          "close": 705.44
+        },
+        {
+          "date": "2026-10-20",
+          "close": 694.25
+        },
+        {
+          "date": "2026-10-21",
+          "close": 697.52
+        },
+        {
+          "date": "2026-10-22",
+          "close": 648.85
+        }
+      ],
+      "news": [
+        {
+          "title": "Higgsfield Extends Series B With New Investment From TCV and NVIDIA",
+          "url": "https://finance.yahoo.com/technology/ai/articles/higgsfield-extends-series-b-investment-121700094.html",
+          "publisher": "PR Newswire",
+          "published_at": "2026-10-23T12:17:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Dow Jones Futures Fall After Moderna Crashes, Meta Fuels AI Meltdown. Warren Buffett Market Is Thriving.",
+          "url": "https://finance.yahoo.com/m/47e878bb-824d-3243-a8e9-b86b1c3f85d3/dow-jones-futures-fall-after.html",
+          "publisher": "Investor's Business Daily",
+          "published_at": "2026-10-23T12:14:41+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Stocks Down Pre-Bell Amid Tech Selloff",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-down-pre-bell-amid-121035032.html",
+          "publisher": "MT Newswires",
+          "published_at": "2026-10-23T12:10:35+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Here Are Friday’s Top Wall Street Analyst Research Calls: Deckers Outdoor, Globe Life, Guardant Health, Hess Midstream LP, Kimberly-Clark,  Natera, NVR, SpaceX, Thermo Fisher Scientific, and More",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/friday-top-wall-street-analyst-115151576.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-23T11:51:51+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "US equity funds post inflows for a second straight week",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-funds-post-inflows-114336410.html",
+          "publisher": "Reuters",
+          "published_at": "2026-10-23T11:43:36+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        }
+      ],
+      "filings": [],
+      "errors": [
+        "SEC filings unavailable: HTTPError"
+      ],
+      "signal_score": 22,
+      "stance": "Cautious",
+      "risk_level": "high",
+      "rationale": [
+        "Price is below its 20-day trend.",
+        "Price is below its 50-day trend.",
+        "Twenty-session momentum is negative at -16.6%.",
+        "Latest volume is meaningfully above its 20-session average."
+      ],
+      "catalysts": []
+    },
+    {
+      "ticker": "AVGO",
+      "name": "AVGO",
+      "currency": "USD",
+      "price": 323.24,
+      "previous_close": 337.8,
+      "change_pct": -4.3102,
+      "return_5d_pct": -6.1249,
+      "return_20d_pct": -7.7406,
+      "ema20": 346.8606,
+      "ema50": 358.8687,
+      "rsi14": 34.86,
+      "atr_pct": 3.5724,
+      "volume_ratio": 1.2831,
+      "volatility20_pct": 37.5928,
+      "market_cap": 1543028070945.1208,
+      "next_earnings": "2026-12-09",
+      "earnings_days": 47,
+      "chart": [
+        {
+          "date": "2026-07-30",
+          "close": 387.135
+        },
+        {
+          "date": "2026-07-31",
+          "close": 388.5724
+        },
+        {
+          "date": "2026-08-03",
+          "close": 391.5171
+        },
+        {
+          "date": "2026-08-04",
+          "close": 417.3999
+        },
+        {
+          "date": "2026-08-05",
+          "close": 417.5197
+        },
+        {
+          "date": "2026-08-06",
+          "close": 419.8056
+        },
+        {
+          "date": "2026-08-07",
+          "close": 426.9825
+        },
+        {
+          "date": "2026-08-10",
+          "close": 421.6322
+        },
+        {
+          "date": "2026-08-11",
+          "close": 415.3237
+        },
+        {
+          "date": "2026-08-12",
+          "close": 415.2938
+        },
+        {
+          "date": "2026-08-13",
+          "close": 417.0605
+        },
+        {
+          "date": "2026-08-14",
+          "close": 392.2757
+        },
+        {
+          "date": "2026-08-17",
+          "close": 391.7167
+        },
+        {
+          "date": "2026-08-18",
+          "close": 379.3093
+        },
+        {
+          "date": "2026-08-19",
+          "close": 361.8211
+        },
+        {
+          "date": "2026-08-20",
+          "close": 363.3683
+        },
+        {
+          "date": "2026-08-21",
+          "close": 367.7803
+        },
+        {
+          "date": "2026-08-24",
+          "close": 358.1079
+        },
+        {
+          "date": "2026-08-25",
+          "close": 356.0916
+        },
+        {
+          "date": "2026-08-26",
+          "close": 354.9437
+        },
+        {
+          "date": "2026-08-27",
+          "close": 370.8647
+        },
+        {
+          "date": "2026-08-28",
+          "close": 368.1197
+        },
+        {
+          "date": "2026-08-31",
+          "close": 369.6668
+        },
+        {
+          "date": "2026-09-01",
+          "close": 369.0081
+        },
+        {
+          "date": "2026-09-02",
+          "close": 366.5725
+        },
+        {
+          "date": "2026-09-03",
+          "close": 356.5108
+        },
+        {
+          "date": "2026-09-04",
+          "close": 357.2495
+        },
+        {
+          "date": "2026-09-08",
+          "close": 367.8901
+        },
+        {
+          "date": "2026-09-09",
+          "close": 363.7177
+        },
+        {
+          "date": "2026-09-10",
+          "close": 360.1741
+        },
+        {
+          "date": "2026-09-11",
+          "close": 361.332
+        },
+        {
+          "date": "2026-09-14",
+          "close": 344.0934
+        },
+        {
+          "date": "2026-09-15",
+          "close": 338.6533
+        },
+        {
+          "date": "2026-09-16",
+          "close": 338.8929
+        },
+        {
+          "date": "2026-09-17",
+          "close": 346.6687
+        },
+        {
+          "date": "2026-09-18",
+          "close": 356.96
+        },
+        {
+          "date": "2026-09-21",
+          "close": 362.66
+        },
+        {
+          "date": "2026-09-22",
+          "close": 364.54
+        },
+        {
+          "date": "2026-09-23",
+          "close": 354.99
+        },
+        {
+          "date": "2026-09-24",
+          "close": 350.36
+        },
+        {
+          "date": "2026-09-25",
+          "close": 352.81
+        },
+        {
+          "date": "2026-09-28",
+          "close": 349.57
+        },
+        {
+          "date": "2026-09-29",
+          "close": 355.1
+        },
+        {
+          "date": "2026-09-30",
+          "close": 351.19
+        },
+        {
+          "date": "2026-10-01",
+          "close": 343.64
+        },
+        {
+          "date": "2026-10-02",
+          "close": 355.14
+        },
+        {
+          "date": "2026-10-05",
+          "close": 362.51
+        },
+        {
+          "date": "2026-10-06",
+          "close": 375.81
+        },
+        {
+          "date": "2026-10-07",
+          "close": 376.51
+        },
+        {
+          "date": "2026-10-08",
+          "close": 360.14
+        },
+        {
+          "date": "2026-10-09",
+          "close": 361.54
+        },
+        {
+          "date": "2026-10-12",
+          "close": 354.73
+        },
+        {
+          "date": "2026-10-13",
+          "close": 357.31
+        },
+        {
+          "date": "2026-10-14",
+          "close": 346.25
+        },
+        {
+          "date": "2026-10-15",
+          "close": 344.33
+        },
+        {
+          "date": "2026-10-16",
+          "close": 328.75
+        },
+        {
+          "date": "2026-10-19",
+          "close": 334.59
+        },
+        {
+          "date": "2026-10-20",
+          "close": 334.37
+        },
+        {
+          "date": "2026-10-21",
+          "close": 337.8
+        },
+        {
+          "date": "2026-10-22",
+          "close": 323.24
+        }
+      ],
+      "news": [
+        {
+          "title": "AI Chips Today - Boosting AI Compute Efficiency Without Extra Power Consumption",
+          "url": "https://finance.yahoo.com/technology/ai/articles/ai-chips-today-boosting-ai-113732454.html",
+          "publisher": "Simply Wall St.",
+          "published_at": "2026-10-23T11:37:32+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "What iShares PHLX SOX Semiconductor (SOXX) Bought: AMD Leads on Wednesday",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-phlx-sox-semiconductor-soxx-110351635.html",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-10-23T11:03:51+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Broadcom (AVGO) Sees $89.8 Million in Net ETF Buying on Oct. 21",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-avgo-sees-89-8-110057827.html",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-10-23T11:00:57+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Is Texas Instruments Stock Really Expensive?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-stock-really-expensive-103506270.html",
+          "publisher": "Trefis",
+          "published_at": "2026-10-23T10:35:06+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "What Would It Take For Qualcomm Stock To Move Higher?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-stock-move-higher-090200396.html",
+          "publisher": "Trefis",
+          "published_at": "2026-10-23T09:02:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        }
+      ],
+      "filings": [],
+      "errors": [
+        "SEC filings unavailable: HTTPError"
+      ],
+      "signal_score": 19,
+      "stance": "Cautious",
+      "risk_level": "elevated",
+      "rationale": [
+        "Price is below its 20-day trend.",
+        "Price is below its 50-day trend.",
+        "Twenty-session momentum is negative at -7.7%.",
+        "RSI shows weak momentum despite possible oversold conditions."
+      ],
+      "catalysts": [
+        {
+          "type": "earnings",
+          "date": "2026-12-09",
+          "label": "Earnings in 47 days"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "GOOGL",
+      "currency": "USD",
+      "price": 324.22,
+      "previous_close": 334.76,
+      "change_pct": -3.1485,
+      "return_5d_pct": -7.1588,
+      "return_20d_pct": -5.2985,
+      "ema20": 342.7656,
+      "ema50": 344.9294,
+      "rsi14": 33.4714,
+      "atr_pct": 2.753,
+      "volume_ratio": 1.1545,
+      "volatility20_pct": 20.2936,
+      "market_cap": 3965189485835.9395,
+      "next_earnings": "2026-10-28",
+      "earnings_days": 5,
+      "chart": [
+        {
+          "date": "2026-07-30",
+          "close": 333.4457
+        },
+        {
+          "date": "2026-07-31",
+          "close": 355.9012
+        },
+        {
+          "date": "2026-08-03",
+          "close": 373.2701
+        },
+        {
+          "date": "2026-08-04",
+          "close": 377.4074
+        },
+        {
+          "date": "2026-08-05",
+          "close": 362.1972
+        },
+        {
+          "date": "2026-08-06",
+          "close": 357.5202
+        },
+        {
+          "date": "2026-08-07",
+          "close": 354.0724
+        },
+        {
+          "date": "2026-08-10",
+          "close": 357.2903
+        },
+        {
+          "date": "2026-08-11",
+          "close": 343.5791
+        },
+        {
+          "date": "2026-08-12",
+          "close": 343.3193
+        },
+        {
+          "date": "2026-08-13",
+          "close": 346.1375
+        },
+        {
+          "date": "2026-08-14",
+          "close": 345.6778
+        },
+        {
+          "date": "2026-08-17",
+          "close": 343.779
+        },
+        {
+          "date": "2026-08-18",
+          "close": 343.9789
+        },
+        {
+          "date": "2026-08-19",
+          "close": 344.4986
+        },
+        {
+          "date": "2026-08-20",
+          "close": 340.4512
+        },
+        {
+          "date": "2026-08-21",
+          "close": 344.5985
+        },
+        {
+          "date": "2026-08-24",
+          "close": 347.8364
+        },
+        {
+          "date": "2026-08-25",
+          "close": 346.7371
+        },
+        {
+          "date": "2026-08-26",
+          "close": 341.7803
+        },
+        {
+          "date": "2026-08-27",
+          "close": 340.4312
+        },
+        {
+          "date": "2026-08-28",
+          "close": 346.3674
+        },
+        {
+          "date": "2026-08-31",
+          "close": 339.132
+        },
+        {
+          "date": "2026-09-01",
+          "close": 334.8048
+        },
+        {
+          "date": "2026-09-02",
+          "close": 336.9034
+        },
+        {
+          "date": "2026-09-03",
+          "close": 342.26
+        },
+        {
+          "date": "2026-09-04",
+          "close": 338.46
+        },
+        {
+          "date": "2026-09-08",
+          "close": 338.36
+        },
+        {
+          "date": "2026-09-09",
+          "close": 330.65
+        },
+        {
+          "date": "2026-09-10",
+          "close": 332.6
+        },
+        {
+          "date": "2026-09-11",
+          "close": 338.5
+        },
+        {
+          "date": "2026-09-14",
+          "close": 349.39
+        },
+        {
+          "date": "2026-09-15",
+          "close": 344.98
+        },
+        {
+          "date": "2026-09-16",
+          "close": 342.87
+        },
+        {
+          "date": "2026-09-17",
+          "close": 347.33
+        },
+        {
+          "date": "2026-09-18",
+          "close": 349.54
+        },
+        {
+          "date": "2026-09-21",
+          "close": 354.97
+        },
+        {
+          "date": "2026-09-22",
+          "close": 351.16
+        },
+        {
+          "date": "2026-09-23",
+          "close": 337.83
+        },
+        {
+          "date": "2026-09-24",
+          "close": 342.36
+        },
+        {
+          "date": "2026-09-25",
+          "close": 343.92
+        },
+        {
+          "date": "2026-09-28",
+          "close": 342.75
+        },
+        {
+          "date": "2026-09-29",
+          "close": 340.92
+        },
+        {
+          "date": "2026-09-30",
+          "close": 344.08
+        },
+        {
+          "date": "2026-10-01",
+          "close": 338.24
+        },
+        {
+          "date": "2026-10-02",
+          "close": 343.5
+        },
+        {
+          "date": "2026-10-05",
+          "close": 346.47
+        },
+        {
+          "date": "2026-10-06",
+          "close": 347.68
+        },
+        {
+          "date": "2026-10-07",
+          "close": 350.5
+        },
+        {
+          "date": "2026-10-08",
+          "close": 348.29
+        },
+        {
+          "date": "2026-10-09",
+          "close": 351.66
+        },
+        {
+          "date": "2026-10-12",
+          "close": 352.72
+        },
+        {
+          "date": "2026-10-13",
+          "close": 353.78
+        },
+        {
+          "date": "2026-10-14",
+          "close": 347.64
+        },
+        {
+          "date": "2026-10-15",
+          "close": 349.22
+        },
+        {
+          "date": "2026-10-16",
+          "close": 340.59
+        },
+        {
+          "date": "2026-10-19",
+          "close": 344.18
+        },
+        {
+          "date": "2026-10-20",
+          "close": 340.28
+        },
+        {
+          "date": "2026-10-21",
+          "close": 334.76
+        },
+        {
+          "date": "2026-10-22",
+          "close": 324.22
+        }
+      ],
+      "news": [
+        {
+          "title": "Apple Is Just $42 Billion Away From Passing Nvidia as the World’s Most Valuable Company",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-just-42-billion-away-113052754.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-23T11:30:52+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Microsoft Has a $1 Trillion Opportunity Hiding in Plain Sight",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-1-trillion-opportunity-hiding-111552020.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-23T11:15:52+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "State Street Comm Services SPDR (XLC) Adds Meta and Alphabet on Oct. 21",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-comm-services-spdr-110535877.html",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-10-23T11:05:35+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "State Street SPDR Portfolio S&P 500 ETF (SPYM) Adds NVIDIA and Apple on Wednesday",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-spdr-portfolio-p-110516469.html",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-10-23T11:05:16+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "State Street SPDR S&P 500 ETF (SPY) Sells NVIDIA and Apple on Oct. 21",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-spdr-p-500-110449956.html",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-10-23T11:04:49+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        }
+      ],
+      "filings": [],
+      "errors": [
+        "SEC filings unavailable: HTTPError"
+      ],
+      "signal_score": 16,
+      "stance": "Cautious",
+      "risk_level": "high",
+      "rationale": [
+        "Price is below its 20-day trend.",
+        "Price is below its 50-day trend.",
+        "Twenty-session momentum is negative at -5.3%.",
+        "RSI shows weak momentum despite possible oversold conditions."
+      ],
+      "catalysts": [
+        {
+          "type": "earnings",
+          "date": "2026-10-28",
+          "label": "Earnings in 5 days"
+        }
+      ]
+    },
+    {
+      "ticker": "MU",
+      "name": "MU",
+      "currency": "USD",
+      "price": 856.49,
+      "previous_close": 913.67,
+      "change_pct": -6.2583,
+      "return_5d_pct": -8.0269,
+      "return_20d_pct": -20.7218,
+      "ema20": 961.1681,
+      "ema50": 969.8453,
+      "rsi14": 34.6646,
+      "atr_pct": 5.6968,
+      "volume_ratio": 1.1866,
+      "volatility20_pct": 46.748,
+      "market_cap": 969052655796.8252,
+      "next_earnings": "2026-12-23",
+      "earnings_days": 61,
+      "chart": [
+        {
+          "date": "2026-07-30",
+          "close": 874.5223
+        },
+        {
+          "date": "2026-07-31",
+          "close": 822.9005
+        },
+        {
+          "date": "2026-08-03",
+          "close": 829.3694
+        },
+        {
+          "date": "2026-08-04",
+          "close": 892.5295
+        },
+        {
+          "date": "2026-08-05",
+          "close": 893.0494
+        },
+        {
+          "date": "2026-08-06",
+          "close": 881.3312
+        },
+        {
+          "date": "2026-08-07",
+          "close": 877.4319
+        },
+        {
+          "date": "2026-08-10",
+          "close": 860.8645
+        },
+        {
+          "date": "2026-08-11",
+          "close": 868.3834
+        },
+        {
+          "date": "2026-08-12",
+          "close": 911.1466
+        },
+        {
+          "date": "2026-08-13",
+          "close": 949.6805
+        },
+        {
+          "date": "2026-08-14",
+          "close": 971.5071
+        },
+        {
+          "date": "2026-08-17",
+          "close": 1011.5908
+        },
+        {
+          "date": "2026-08-18",
+          "close": 940.612
+        },
+        {
+          "date": "2026-08-19",
+          "close": 936.9625
+        },
+        {
+          "date": "2026-08-20",
+          "close": 974.1767
+        },
+        {
+          "date": "2026-08-21",
+          "close": 966.6279
+        },
+        {
+          "date": "2026-08-24",
+          "close": 910.2867
+        },
+        {
+          "date": "2026-08-25",
+          "close": 932.8232
+        },
+        {
+          "date": "2026-08-26",
+          "close": 938.2524
+        },
+        {
+          "date": "2026-08-27",
+          "close": 935.2428
+        },
+        {
+          "date": "2026-08-28",
+          "close": 932.7132
+        },
+        {
+          "date": "2026-08-31",
+          "close": 958.5791
+        },
+        {
+          "date": "2026-09-01",
+          "close": 933.2931
+        },
+        {
+          "date": "2026-09-02",
+          "close": 955.9296
+        },
+        {
+          "date": "2026-09-03",
+          "close": 958.0092
+        },
+        {
+          "date": "2026-09-04",
+          "close": 1016.4301
+        },
+        {
+          "date": "2026-09-08",
+          "close": 1000.1026
+        },
+        {
+          "date": "2026-09-09",
+          "close": 1027.6083
+        },
+        {
+          "date": "2026-09-10",
+          "close": 977.2562
+        },
+        {
+          "date": "2026-09-11",
+          "close": 975.1066
+        },
+        {
+          "date": "2026-09-14",
+          "close": 923.8846
+        },
+        {
+          "date": "2026-09-15",
+          "close": 927.454
+        },
+        {
+          "date": "2026-09-16",
+          "close": 926.4042
+        },
+        {
+          "date": "2026-09-17",
+          "close": 977.3462
+        },
+        {
+          "date": "2026-09-18",
+          "close": 1015.6401
+        },
+        {
+          "date": "2026-09-21",
+          "close": 1043.7957
+        },
+        {
+          "date": "2026-09-22",
+          "close": 1095.9875
+        },
+        {
+          "date": "2026-09-23",
+          "close": 1071.7113
+        },
+        {
+          "date": "2026-09-24",
+          "close": 1080.36
+        },
+        {
+          "date": "2026-09-25",
+          "close": 1082.1097
+        },
+        {
+          "date": "2026-09-28",
+          "close": 1053.8141
+        },
+        {
+          "date": "2026-09-29",
+          "close": 1064.9124
+        },
+        {
+          "date": "2026-09-30",
+          "close": 1064.9424
+        },
+        {
+          "date": "2026-10-01",
+          "close": 1097.2173
+        },
+        {
+          "date": "2026-10-02",
+          "close": 1074.7208
+        },
+        {
+          "date": "2026-10-05",
+          "close": 1063.7925
+        },
+        {
+          "date": "2026-10-06",
+          "close": 1045.3955
+        },
+        {
+          "date": "2026-10-07",
+          "close": 1087.8289
+        },
+        {
+          "date": "2026-10-08",
+          "close": 1035.677
+        },
+        {
+          "date": "2026-10-09",
+          "close": 1028.8381
+        },
+        {
+          "date": "2026-10-12",
+          "close": 988.8843
+        },
+        {
+          "date": "2026-10-13",
+          "close": 953.04
+        },
+        {
+          "date": "2026-10-14",
+          "close": 914.13
+        },
+        {
+          "date": "2026-10-15",
+          "close": 931.24
+        },
+        {
+          "date": "2026-10-16",
+          "close": 878.84
+        },
+        {
+          "date": "2026-10-19",
+          "close": 904.9
+        },
+        {
+          "date": "2026-10-20",
+          "close": 896.07
+        },
+        {
+          "date": "2026-10-21",
+          "close": 913.67
+        },
+        {
+          "date": "2026-10-22",
+          "close": 856.49
+        }
+      ],
+      "news": [
+        {
+          "title": "Stock Split Watch: Is Micron Next?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-split-watch-micron-next-122202385.html",
+          "publisher": "Motley Fool",
+          "published_at": "2026-10-23T12:22:02+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "MU, SNDK, SKHY Stocks Bounce After Thursday’s Markdown, But Strategists Split: ‘Great Buying Opportunity’ Versus ‘The Kospi Has Peaked’",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/mu-sndk-skhy-stocks-bounce-120135266.html",
+          "publisher": "Stocktwits",
+          "published_at": "2026-10-23T12:01:35+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "AI Chips Today - Boosting AI Compute Efficiency Without Extra Power Consumption",
+          "url": "https://finance.yahoo.com/technology/ai/articles/ai-chips-today-boosting-ai-113732454.html",
+          "publisher": "Simply Wall St.",
+          "published_at": "2026-10-23T11:37:32+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Micron Stock Leads Chip Rebound. Dip Buyers Buckle Up.",
+          "url": "https://finance.yahoo.com/m/0790a5a8-c06b-38d0-8217-8a90361ebbb5/micron-stock-leads-chip.html",
+          "publisher": "Barrons.com",
+          "published_at": "2026-10-23T11:10:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "What iShares MSCI USA Value Factor ETF (VLUE) Bought: Micron Leads on Oct. 21",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-msci-usa-value-factor-110542527.html",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-10-23T11:05:42+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        }
+      ],
+      "filings": [],
+      "errors": [
+        "SEC filings unavailable: HTTPError"
+      ],
+      "signal_score": 10,
+      "stance": "Cautious",
+      "risk_level": "high",
+      "rationale": [
+        "Price is below its 20-day trend.",
+        "Price is below its 50-day trend.",
+        "Twenty-session momentum is negative at -20.7%.",
+        "RSI shows weak momentum despite possible oversold conditions."
+      ],
+      "catalysts": [
+        {
+          "type": "earnings",
+          "date": "2026-12-23",
+          "label": "Earnings in 61 days"
+        }
+      ]
+    },
+    {
+      "ticker": "SNDK",
+      "name": "SNDK",
+      "currency": "USD",
+      "price": 1260.9301,
+      "previous_close": 1378.22,
+      "change_pct": -8.5102,
+      "return_5d_pct": -9.5997,
+      "return_20d_pct": -28.0956,
+      "ema20": 1494.547,
+      "ema50": 1555.8461,
+      "rsi14": 31.3452,
+      "atr_pct": 7.7773,
+      "volume_ratio": 1.2905,
+      "volatility20_pct": 55.2776,
+      "market_cap": 182239149037.231,
+      "next_earnings": "2026-10-29",
+      "earnings_days": 6,
+      "chart": [
+        {
+          "date": "2026-07-30",
+          "close": 1279.96
+        },
+        {
+          "date": "2026-07-31",
+          "close": 1214.83
+        },
+        {
+          "date": "2026-08-03",
+          "close": 1288.03
+        },
+        {
+          "date": "2026-08-04",
+          "close": 1427.62
+        },
+        {
+          "date": "2026-08-05",
+          "close": 1350.5
+        },
+        {
+          "date": "2026-08-06",
+          "close": 1258.58
+        },
+        {
+          "date": "2026-08-07",
+          "close": 1212.21
+        },
+        {
+          "date": "2026-08-10",
+          "close": 1237.92
+        },
+        {
+          "date": "2026-08-11",
+          "close": 1271.05
+        },
+        {
+          "date": "2026-08-12",
+          "close": 1344.29
+        },
+        {
+          "date": "2026-08-13",
+          "close": 1528.11
+        },
+        {
+          "date": "2026-08-14",
+          "close": 1641.11
+        },
+        {
+          "date": "2026-08-17",
+          "close": 1786.85
+        },
+        {
+          "date": "2026-08-18",
+          "close": 1625.78
+        },
+        {
+          "date": "2026-08-19",
+          "close": 1568.87
+        },
+        {
+          "date": "2026-08-20",
+          "close": 1600.62
+        },
+        {
+          "date": "2026-08-21",
+          "close": 1596.08
+        },
+        {
+          "date": "2026-08-24",
+          "close": 1493.12
+        },
+        {
+          "date": "2026-08-25",
+          "close": 1480.77
+        },
+        {
+          "date": "2026-08-26",
+          "close": 1499.37
+        },
+        {
+          "date": "2026-08-27",
+          "close": 1484.95
+        },
+        {
+          "date": "2026-08-28",
+          "close": 1484.98
+        },
+        {
+          "date": "2026-08-31",
+          "close": 1566.7
+        },
+        {
+          "date": "2026-09-01",
+          "close": 1536.87
+        },
+        {
+          "date": "2026-09-02",
+          "close": 1553.4
+        },
+        {
+          "date": "2026-09-03",
+          "close": 1554.99
+        },
+        {
+          "date": "2026-09-04",
+          "close": 1740.0
+        },
+        {
+          "date": "2026-09-08",
+          "close": 1737.99
+        },
+        {
+          "date": "2026-09-09",
+          "close": 1764.17
+        },
+        {
+          "date": "2026-09-10",
+          "close": 1692.59
+        },
+        {
+          "date": "2026-09-11",
+          "close": 1633.35
+        },
+        {
+          "date": "2026-09-14",
+          "close": 1551.99
+        },
+        {
+          "date": "2026-09-15",
+          "close": 1530.895
+        },
+        {
+          "date": "2026-09-16",
+          "close": 1519.97
+        },
+        {
+          "date": "2026-09-17",
+          "close": 1614.39
+        },
+        {
+          "date": "2026-09-18",
+          "close": 1791.8199
+        },
+        {
+          "date": "2026-09-21",
+          "close": 1766.64
+        },
+        {
+          "date": "2026-09-22",
+          "close": 1887.04
+        },
+        {
+          "date": "2026-09-23",
+          "close": 1816.5699
+        },
+        {
+          "date": "2026-09-24",
+          "close": 1753.62
+        },
+        {
+          "date": "2026-09-25",
+          "close": 1777.8
+        },
+        {
+          "date": "2026-09-28",
+          "close": 1712.89
+        },
+        {
+          "date": "2026-09-29",
+          "close": 1729.76
+        },
+        {
+          "date": "2026-09-30",
+          "close": 1739.89
+        },
+        {
+          "date": "2026-10-01",
+          "close": 1787.6899
+        },
+        {
+          "date": "2026-10-02",
+          "close": 1719.99
+        },
+        {
+          "date": "2026-10-05",
+          "close": 1704.16
+        },
+        {
+          "date": "2026-10-06",
+          "close": 1660.46
+        },
+        {
+          "date": "2026-10-07",
+          "close": 1692.42
+        },
+        {
+          "date": "2026-10-08",
+          "close": 1609.46
+        },
+        {
+          "date": "2026-10-09",
+          "close": 1581.8199
+        },
+        {
+          "date": "2026-10-12",
+          "close": 1487.33
+        },
+        {
+          "date": "2026-10-13",
+          "close": 1482.33
+        },
+        {
+          "date": "2026-10-14",
+          "close": 1403.34
+        },
+        {
+          "date": "2026-10-15",
+          "close": 1394.83
+        },
+        {
+          "date": "2026-10-16",
+          "close": 1299.3
+        },
+        {
+          "date": "2026-10-19",
+          "close": 1371.12
+        },
+        {
+          "date": "2026-10-20",
+          "close": 1365.38
+        },
+        {
+          "date": "2026-10-21",
+          "close": 1378.22
+        },
+        {
+          "date": "2026-10-22",
+          "close": 1260.9301
+        }
+      ],
+      "news": [
+        {
+          "title": "SanDisk Stock Rises After Brutal Sell-Off Ahead of Earnings",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stock-rises-brutal-sell-122724896.html",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-10-23T12:27:24+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "GMIF2026 Exhibition Recap: Innovation Across the AI Memory & Storage Chain on Show",
+          "url": "https://finance.yahoo.com/technology/ai/articles/gmif2026-exhibition-recap-innovation-across-122400814.html",
+          "publisher": "PR Newswire",
+          "published_at": "2026-10-23T12:24:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "MU, SNDK, SKHY Stocks Bounce After Thursday’s Markdown, But Strategists Split: ‘Great Buying Opportunity’ Versus ‘The Kospi Has Peaked’",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/mu-sndk-skhy-stocks-bounce-120135266.html",
+          "publisher": "Stocktwits",
+          "published_at": "2026-10-23T12:01:35+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Moderna, Meta, SpaceX, AT&T, CoreWeave, Sandisk, and More Stocks That Explain Today’s Market",
+          "url": "https://finance.yahoo.com/m/f96806d8-9583-3620-89cf-a7ccb8de8237/moderna%2C-meta%2C-spacex%2C-at%26t%2C.html",
+          "publisher": "Barrons.com",
+          "published_at": "2026-10-23T10:45:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Better Memory Stock: Micron vs. Sandisk",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/better-memory-stock-micron-vs-090400090.html",
+          "publisher": "Motley Fool",
+          "published_at": "2026-10-23T09:04:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        }
+      ],
+      "filings": [],
+      "errors": [
+        "SEC filings unavailable: HTTPError"
+      ],
+      "signal_score": 5,
+      "stance": "Cautious",
+      "risk_level": "high",
+      "rationale": [
+        "Price is below its 20-day trend.",
+        "Price is below its 50-day trend.",
+        "Twenty-session momentum is negative at -28.1%.",
+        "RSI shows weak momentum despite possible oversold conditions."
+      ],
+      "catalysts": [
+        {
+          "type": "earnings",
+          "date": "2026-10-29",
+          "label": "Earnings in 6 days"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "ticker": "AAPL",
+      "name": "AAPL",
+      "currency": "USD",
+      "price": 348.22,
+      "previous_close": 343.99,
+      "change_pct": 1.2297,
+      "return_5d_pct": 1.8187,
+      "return_20d_pct": 3.6616,
+      "ema20": 339.1609,
+      "ema50": 331.0512,
+      "rsi14": 64.7563,
+      "atr_pct": 1.8506,
+      "volume_ratio": 1.2286,
+      "volatility20_pct": 16.6959,
+      "market_cap": 5081985377415.161,
+      "next_earnings": "2026-11-02",
+      "earnings_days": 10,
+      "chart": [
+        {
+          "date": "2026-07-30",
+          "close": 333.1427
+        },
+        {
+          "date": "2026-07-31",
+          "close": 308.6438
+        },
+        {
+          "date": "2026-08-03",
+          "close": 303.1586
+        },
+        {
+          "date": "2026-08-04",
+          "close": 309.1134
+        },
+        {
+          "date": "2026-08-05",
+          "close": 310.732
+        },
+        {
+          "date": "2026-08-06",
+          "close": 312.1408
+        },
+        {
+          "date": "2026-08-07",
+          "close": 313.06
+        },
+        {
+          "date": "2026-08-10",
+          "close": 308.26
+        },
+        {
+          "date": "2026-08-11",
+          "close": 304.91
+        },
+        {
+          "date": "2026-08-12",
+          "close": 302.25
+        },
+        {
+          "date": "2026-08-13",
+          "close": 305.26
+        },
+        {
+          "date": "2026-08-14",
+          "close": 305.93
+        },
+        {
+          "date": "2026-08-17",
+          "close": 305.59
+        },
+        {
+          "date": "2026-08-18",
+          "close": 310.03
+        },
+        {
+          "date": "2026-08-19",
+          "close": 316.83
+        },
+        {
+          "date": "2026-08-20",
+          "close": 311.3
+        },
+        {
+          "date": "2026-08-21",
+          "close": 309.35
+        },
+        {
+          "date": "2026-08-24",
+          "close": 310.34
+        },
+        {
+          "date": "2026-08-25",
+          "close": 309.9
+        },
+        {
+          "date": "2026-08-26",
+          "close": 313.45
+        },
+        {
+          "date": "2026-08-27",
+          "close": 314.58
+        },
+        {
+          "date": "2026-08-28",
+          "close": 319.7
+        },
+        {
+          "date": "2026-08-31",
+          "close": 316.85
+        },
+        {
+          "date": "2026-09-01",
+          "close": 325.13
+        },
+        {
+          "date": "2026-09-02",
+          "close": 324.96
+        },
+        {
+          "date": "2026-09-03",
+          "close": 328.21
+        },
+        {
+          "date": "2026-09-04",
+          "close": 319.97
+        },
+        {
+          "date": "2026-09-08",
+          "close": 316.22
+        },
+        {
+          "date": "2026-09-09",
+          "close": 315.34
+        },
+        {
+          "date": "2026-09-10",
+          "close": 326.57
+        },
+        {
+          "date": "2026-09-11",
+          "close": 332.27
+        },
+        {
+          "date": "2026-09-14",
+          "close": 333.08
+        },
+        {
+          "date": "2026-09-15",
+          "close": 331.34
+        },
+        {
+          "date": "2026-09-16",
+          "close": 332.41
+        },
+        {
+          "date": "2026-09-17",
+          "close": 337.0
+        },
+        {
+          "date": "2026-09-18",
+          "close": 336.13
+        },
+        {
+          "date": "2026-09-21",
+          "close": 338.98
+        },
+        {
+          "date": "2026-09-22",
+          "close": 339.75
+        },
+        {
+          "date": "2026-09-23",
+          "close": 337.02
+        },
+        {
+          "date": "2026-09-24",
+          "close": 335.92
+        },
+        {
+          "date": "2026-09-25",
+          "close": 341.07
+        },
+        {
+          "date": "2026-09-28",
+          "close": 338.4
+        },
+        {
+          "date": "2026-09-29",
+          "close": 329.4
+        },
+        {
+          "date": "2026-09-30",
+          "close": 333.02
+        },
+        {
+          "date": "2026-10-01",
+          "close": 330.32
+        },
+        {
+          "date": "2026-10-02",
+          "close": 333.69
+        },
+        {
+          "date": "2026-10-05",
+          "close": 332.89
+        },
+        {
+          "date": "2026-10-06",
+          "close": 333.63
+        },
+        {
+          "date": "2026-10-07",
+          "close": 336.67
+        },
+        {
+          "date": "2026-10-08",
+          "close": 340.42
+        },
+        {
+          "date": "2026-10-09",
+          "close": 336.64
+        },
+        {
+          "date": "2026-10-12",
+          "close": 340.97
+        },
+        {
+          "date": "2026-10-13",
+          "close": 341.27
+        },
+        {
+          "date": "2026-10-14",
+          "close": 342.96
+        },
+        {
+          "date": "2026-10-15",
+          "close": 342.0
+        },
+        {
+          "date": "2026-10-16",
+          "close": 343.46
+        },
+        {
+          "date": "2026-10-19",
+          "close": 342.94
+        },
+        {
+          "date": "2026-10-20",
+          "close": 339.5
+        },
+        {
+          "date": "2026-10-21",
+          "close": 343.99
+        },
+        {
+          "date": "2026-10-22",
+          "close": 348.22
+        }
+      ],
+      "news": [
+        {
+          "title": "Dow Jones Futures Fall After Moderna Crashes, Meta Fuels AI Meltdown. Warren Buffett Market Is Thriving.",
+          "url": "https://finance.yahoo.com/m/47e878bb-824d-3243-a8e9-b86b1c3f85d3/dow-jones-futures-fall-after.html",
+          "publisher": "Investor's Business Daily",
+          "published_at": "2026-10-23T12:14:41+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Apple Is Just $42 Billion Away From Passing Nvidia as the World’s Most Valuable Company",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-just-42-billion-away-113052754.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-23T11:30:52+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "3 Investment Grade Bond Ideas Riding Big Tech AI Capex Plans",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-investment-grade-bond-ideas-111614808.html",
+          "publisher": "Simply Wall St.",
+          "published_at": "2026-10-23T11:16:14+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "What SPDR Portfolio S&P 500 Value ETF (SPYV) Bought: Apple Leads on Wednesday",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-portfolio-p-500-value-110531373.html",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-10-23T11:05:31+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "State Street SPDR Portfolio S&P 500 ETF (SPYM) Adds NVIDIA and Apple on Wednesday",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-spdr-portfolio-p-110516469.html",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-10-23T11:05:16+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        }
+      ],
+      "filings": [],
+      "errors": [
+        "SEC filings unavailable: HTTPError"
+      ],
+      "setup_score": 89,
+      "thesis": [
+        "Price, 20-day EMA, and 50-day EMA are positively aligned.",
+        "One-month momentum is positive without being extreme.",
+        "RSI sits in the preferred momentum band.",
+        "Volume is supporting the move."
+      ],
+      "entry_zone": [
+        346.29,
+        350.15
+      ],
+      "model_target": 383.04,
+      "model_stop": 338.55,
+      "modeled_upside_pct": 10.0,
+      "reward_risk_ratio": 3.6,
+      "horizon": "1-2 months",
+      "target_note": "Mechanical 3-ATR research scenario, bounded to 10-20%; not a forecast.",
+      "research_allocation_cap_pct": 8,
+      "risk_flags": [
+        "Earnings inside three weeks"
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "name": "TSLA",
+      "currency": "USD",
+      "price": 374.58,
+      "previous_close": 386.47,
+      "change_pct": -3.0766,
+      "return_5d_pct": 3.3495,
+      "return_20d_pct": -0.889,
+      "ema20": 370.7165,
+      "ema50": 366.8219,
+      "rsi14": 52.8063,
+      "atr_pct": 3.3685,
+      "volume_ratio": 1.3985,
+      "volatility20_pct": 35.9321,
+      "market_cap": 1480613607634.5295,
+      "next_earnings": "2026-10-21",
+      "earnings_days": -2,
+      "chart": [
+        {
+          "date": "2026-07-30",
+          "close": 308.85
+        },
+        {
+          "date": "2026-07-31",
+          "close": 311.21
+        },
+        {
+          "date": "2026-08-03",
+          "close": 322.08
+        },
+        {
+          "date": "2026-08-04",
+          "close": 327.35
+        },
+        {
+          "date": "2026-08-05",
+          "close": 321.55
+        },
+        {
+          "date": "2026-08-06",
+          "close": 319.53
+        },
+        {
+          "date": "2026-08-07",
+          "close": 328.58
+        },
+        {
+          "date": "2026-08-10",
+          "close": 330.88
+        },
+        {
+          "date": "2026-08-11",
+          "close": 332.81
+        },
+        {
+          "date": "2026-08-12",
+          "close": 327.51
+        },
+        {
+          "date": "2026-08-13",
+          "close": 339.96
+        },
+        {
+          "date": "2026-08-14",
+          "close": 342.27
+        },
+        {
+          "date": "2026-08-17",
+          "close": 339.3
+        },
+        {
+          "date": "2026-08-18",
+          "close": 336.87
+        },
+        {
+          "date": "2026-08-19",
+          "close": 351.12
+        },
+        {
+          "date": "2026-08-20",
+          "close": 345.13
+        },
+        {
+          "date": "2026-08-21",
+          "close": 362.86
+        },
+        {
+          "date": "2026-08-24",
+          "close": 348.95
+        },
+        {
+          "date": "2026-08-25",
+          "close": 350.25
+        },
+        {
+          "date": "2026-08-26",
+          "close": 345.82
+        },
+        {
+          "date": "2026-08-27",
+          "close": 354.81
+        },
+        {
+          "date": "2026-08-28",
+          "close": 348.75
+        },
+        {
+          "date": "2026-08-31",
+          "close": 367.95
+        },
+        {
+          "date": "2026-09-01",
+          "close": 356.09
+        },
+        {
+          "date": "2026-09-02",
+          "close": 357.01
+        },
+        {
+          "date": "2026-09-03",
+          "close": 376.37
+        },
+        {
+          "date": "2026-09-04",
+          "close": 354.08
+        },
+        {
+          "date": "2026-09-08",
+          "close": 368.16
+        },
+        {
+          "date": "2026-09-09",
+          "close": 367.81
+        },
+        {
+          "date": "2026-09-10",
+          "close": 363.56
+        },
+        {
+          "date": "2026-09-11",
+          "close": 365.44
+        },
+        {
+          "date": "2026-09-14",
+          "close": 358.97
+        },
+        {
+          "date": "2026-09-15",
+          "close": 356.58
+        },
+        {
+          "date": "2026-09-16",
+          "close": 358.08
+        },
+        {
+          "date": "2026-09-17",
+          "close": 366.2
+        },
+        {
+          "date": "2026-09-18",
+          "close": 364.27
+        },
+        {
+          "date": "2026-09-21",
+          "close": 375.3
+        },
+        {
+          "date": "2026-09-22",
+          "close": 378.9
+        },
+        {
+          "date": "2026-09-23",
+          "close": 380.12
+        },
+        {
+          "date": "2026-09-24",
+          "close": 377.94
+        },
+        {
+          "date": "2026-09-25",
+          "close": 372.11
+        },
+        {
+          "date": "2026-09-28",
+          "close": 357.45
+        },
+        {
+          "date": "2026-09-29",
+          "close": 352.84
+        },
+        {
+          "date": "2026-09-30",
+          "close": 354.81
+        },
+        {
+          "date": "2026-10-01",
+          "close": 354.11
+        },
+        {
+          "date": "2026-10-02",
+          "close": 370.59
+        },
+        {
+          "date": "2026-10-05",
+          "close": 378.73
+        },
+        {
+          "date": "2026-10-06",
+          "close": 380.68
+        },
+        {
+          "date": "2026-10-07",
+          "close": 377.81
+        },
+        {
+          "date": "2026-10-08",
+          "close": 375.0
+        },
+        {
+          "date": "2026-10-09",
+          "close": 382.7
+        },
+        {
+          "date": "2026-10-12",
+          "close": 378.03
+        },
+        {
+          "date": "2026-10-13",
+          "close": 375.23
+        },
+        {
+          "date": "2026-10-14",
+          "close": 367.16
+        },
+        {
+          "date": "2026-10-15",
+          "close": 362.44
+        },
+        {
+          "date": "2026-10-16",
+          "close": 354.72
+        },
+        {
+          "date": "2026-10-19",
+          "close": 368.06
+        },
+        {
+          "date": "2026-10-20",
+          "close": 373.71
+        },
+        {
+          "date": "2026-10-21",
+          "close": 386.47
+        },
+        {
+          "date": "2026-10-22",
+          "close": 374.58
+        }
+      ],
+      "news": [
+        {
+          "title": "SanDisk Stock Rises After Brutal Sell-Off Ahead of Earnings",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stock-rises-brutal-sell-122724896.html",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-10-23T12:27:24+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "SpaceX Drops 9% as Spending Fears Take Over",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-drops-9-spending-fears-121413422.html",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-10-23T12:14:13+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Stocks Down Pre-Bell Amid Tech Selloff",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-down-pre-bell-amid-121035032.html",
+          "publisher": "MT Newswires",
+          "published_at": "2026-10-23T12:10:35+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Tesla And 2 Other Top Founder Led Stocks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-2-other-top-founder-120935582.html",
+          "publisher": "Simply Wall St.",
+          "published_at": "2026-10-23T12:09:35+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Energea Expands U.S. Portfolio with $20 Million Commitment for Tesla Superchargers",
+          "url": "https://finance.yahoo.com/energy/articles/energea-expands-u-portfolio-20-120000608.html",
+          "publisher": "Business Wire",
+          "published_at": "2026-10-23T12:00:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        }
+      ],
+      "filings": [],
+      "errors": [
+        "SEC filings unavailable: HTTPError"
+      ],
+      "setup_score": 80,
+      "thesis": [
+        "Price, 20-day EMA, and 50-day EMA are positively aligned.",
+        "RSI sits in the preferred momentum band.",
+        "Volume is supporting the move."
+      ],
+      "entry_zone": [
+        370.79,
+        378.37
+      ],
+      "model_target": 412.43,
+      "model_stop": 355.65,
+      "modeled_upside_pct": 10.1,
+      "reward_risk_ratio": 2.0,
+      "horizon": "1-2 months",
+      "target_note": "Mechanical 3-ATR research scenario, bounded to 10-20%; not a forecast.",
+      "research_allocation_cap_pct": 5.0,
+      "risk_flags": [
+        "No mechanical risk flag"
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "name": "MSFT",
+      "currency": "USD",
+      "price": 521.08,
+      "previous_close": 532.95,
+      "change_pct": -2.2272,
+      "return_5d_pct": -3.4035,
+      "return_20d_pct": 4.6493,
+      "ema20": 524.8024,
+      "ema50": 504.1467,
+      "rsi14": 50.5272,
+      "atr_pct": 2.182,
+      "volume_ratio": 0.9856,
+      "volatility20_pct": 22.7973,
+      "market_cap": 3869303371351.6924,
+      "next_earnings": "2026-10-28",
+      "earnings_days": 5,
+      "chart": [
+        {
+          "date": "2026-07-30",
+          "close": 450.2524
+        },
+        {
+          "date": "2026-07-31",
+          "close": 463.8468
+        },
+        {
+          "date": "2026-08-03",
+          "close": 486.7337
+        },
+        {
+          "date": "2026-08-04",
+          "close": 491.884
+        },
+        {
+          "date": "2026-08-05",
+          "close": 486.5441
+        },
+        {
+          "date": "2026-08-06",
+          "close": 498.9207
+        },
+        {
+          "date": "2026-08-07",
+          "close": 499.0505
+        },
+        {
+          "date": "2026-08-10",
+          "close": 505.1091
+        },
+        {
+          "date": "2026-08-11",
+          "close": 502.8633
+        },
+        {
+          "date": "2026-08-12",
+          "close": 491.5047
+        },
+        {
+          "date": "2026-08-13",
+          "close": 495.9464
+        },
+        {
+          "date": "2026-08-14",
+          "close": 494.4691
+        },
+        {
+          "date": "2026-08-17",
+          "close": 479.4474
+        },
+        {
+          "date": "2026-08-18",
+          "close": 480.725
+        },
+        {
+          "date": "2026-08-19",
+          "close": 483.4
+        },
+        {
+          "date": "2026-08-20",
+          "close": 481.15
+        },
+        {
+          "date": "2026-08-21",
+          "close": 483.24
+        },
+        {
+          "date": "2026-08-24",
+          "close": 487.31
+        },
+        {
+          "date": "2026-08-25",
+          "close": 491.71
+        },
+        {
+          "date": "2026-08-26",
+          "close": 496.37
+        },
+        {
+          "date": "2026-08-27",
+          "close": 505.06
+        },
+        {
+          "date": "2026-08-28",
+          "close": 513.53
+        },
+        {
+          "date": "2026-08-31",
+          "close": 507.29
+        },
+        {
+          "date": "2026-09-01",
+          "close": 501.02
+        },
+        {
+          "date": "2026-09-02",
+          "close": 496.82
+        },
+        {
+          "date": "2026-09-03",
+          "close": 510.12
+        },
+        {
+          "date": "2026-09-04",
+          "close": 499.7
+        },
+        {
+          "date": "2026-09-08",
+          "close": 493.95
+        },
+        {
+          "date": "2026-09-09",
+          "close": 491.65
+        },
+        {
+          "date": "2026-09-10",
+          "close": 492.44
+        },
+        {
+          "date": "2026-09-11",
+          "close": 495.63
+        },
+        {
+          "date": "2026-09-14",
+          "close": 505.41
+        },
+        {
+          "date": "2026-09-15",
+          "close": 497.12
+        },
+        {
+          "date": "2026-09-16",
+          "close": 490.3
+        },
+        {
+          "date": "2026-09-17",
+          "close": 497.75
+        },
+        {
+          "date": "2026-09-18",
+          "close": 493.78
+        },
+        {
+          "date": "2026-09-21",
+          "close": 501.61
+        },
+        {
+          "date": "2026-09-22",
+          "close": 498.0
+        },
+        {
+          "date": "2026-09-23",
+          "close": 500.59
+        },
+        {
+          "date": "2026-09-24",
+          "close": 497.93
+        },
+        {
+          "date": "2026-09-25",
+          "close": 516.17
+        },
+        {
+          "date": "2026-09-28",
+          "close": 509.22
+        },
+        {
+          "date": "2026-09-29",
+          "close": 508.96
+        },
+        {
+          "date": "2026-09-30",
+          "close": 512.9
+        },
+        {
+          "date": "2026-10-01",
+          "close": 512.8
+        },
+        {
+          "date": "2026-10-02",
+          "close": 517.53
+        },
+        {
+          "date": "2026-10-05",
+          "close": 525.18
+        },
+        {
+          "date": "2026-10-06",
+          "close": 529.3
+        },
+        {
+          "date": "2026-10-07",
+          "close": 529.76
+        },
+        {
+          "date": "2026-10-08",
+          "close": 522.61
+        },
+        {
+          "date": "2026-10-09",
+          "close": 535.07
+        },
+        {
+          "date": "2026-10-12",
+          "close": 541.15
+        },
+        {
+          "date": "2026-10-13",
+          "close": 543.45
+        },
+        {
+          "date": "2026-10-14",
+          "close": 533.69
+        },
+        {
+          "date": "2026-10-15",
+          "close": 539.44
+        },
+        {
+          "date": "2026-10-16",
+          "close": 529.05
+        },
+        {
+          "date": "2026-10-19",
+          "close": 533.52
+        },
+        {
+          "date": "2026-10-20",
+          "close": 531.87
+        },
+        {
+          "date": "2026-10-21",
+          "close": 532.95
+        },
+        {
+          "date": "2026-10-22",
+          "close": 521.08
+        }
+      ],
+      "news": [
+        {
+          "title": "Salesforce Is Betting Big on AI. The Payoff Could Be Bigger Than Investors Expect",
+          "url": "https://finance.yahoo.com/technology/ai/articles/salesforce-betting-big-ai-payoff-120027746.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-23T12:00:27+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "OpenAI Just Cut Its Valuation Target by $150 Billion",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/openai-just-cut-valuation-target-114523865.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-23T11:45:23+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Apple Is Just $42 Billion Away From Passing Nvidia as the World’s Most Valuable Company",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-just-42-billion-away-113052754.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-23T11:30:52+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Nebius Has Cratered Over The Last 3 Months: This Wall Street Ratings Firm Says 2.5X Returns Will Materialize Soon",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-cratered-over-last-3-111553069.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-23T11:15:53+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Microsoft Has a $1 Trillion Opportunity Hiding in Plain Sight",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-1-trillion-opportunity-hiding-111552020.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-23T11:15:52+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        }
+      ],
+      "filings": [],
+      "errors": [
+        "SEC filings unavailable: HTTPError"
+      ],
+      "setup_score": 74,
+      "thesis": [
+        "Price remains above the intermediate trend.",
+        "One-month momentum is positive without being extreme.",
+        "RSI sits in the preferred momentum band.",
+        "Near-term earnings add binary event risk."
+      ],
+      "entry_zone": [
+        517.67,
+        524.49
+      ],
+      "model_target": 573.19,
+      "model_stop": 504.03,
+      "modeled_upside_pct": 10.0,
+      "reward_risk_ratio": 3.06,
+      "horizon": "1-2 months",
+      "target_note": "Mechanical 3-ATR research scenario, bounded to 10-20%; not a forecast.",
+      "research_allocation_cap_pct": 7.9,
+      "risk_flags": [
+        "Earnings inside three weeks"
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "name": "AMZN",
+      "currency": "USD",
+      "price": 250.38,
+      "previous_close": 262.37,
+      "change_pct": -4.5699,
+      "return_5d_pct": -1.7193,
+      "return_20d_pct": 0.401,
+      "ema20": 255.8529,
+      "ema50": 255.1871,
+      "rsi14": 45.1157,
+      "atr_pct": 2.7453,
+      "volume_ratio": 1.3425,
+      "volatility20_pct": 31.8067,
+      "market_cap": 2700677244824.9067,
+      "next_earnings": "2026-10-29",
+      "earnings_days": 6,
+      "chart": [
+        {
+          "date": "2026-07-30",
+          "close": 235.5
+        },
+        {
+          "date": "2026-07-31",
+          "close": 271.58
+        },
+        {
+          "date": "2026-08-03",
+          "close": 284.02
+        },
+        {
+          "date": "2026-08-04",
+          "close": 277.42
+        },
+        {
+          "date": "2026-08-05",
+          "close": 272.65
+        },
+        {
+          "date": "2026-08-06",
+          "close": 272.26
+        },
+        {
+          "date": "2026-08-07",
+          "close": 274.48
+        },
+        {
+          "date": "2026-08-10",
+          "close": 278.09
+        },
+        {
+          "date": "2026-08-11",
+          "close": 272.27
+        },
+        {
+          "date": "2026-08-12",
+          "close": 267.28
+        },
+        {
+          "date": "2026-08-13",
+          "close": 265.13
+        },
+        {
+          "date": "2026-08-14",
+          "close": 262.65
+        },
+        {
+          "date": "2026-08-17",
+          "close": 261.31
+        },
+        {
+          "date": "2026-08-18",
+          "close": 259.45
+        },
+        {
+          "date": "2026-08-19",
+          "close": 265.84
+        },
+        {
+          "date": "2026-08-20",
+          "close": 260.11
+        },
+        {
+          "date": "2026-08-21",
+          "close": 258.63
+        },
+        {
+          "date": "2026-08-24",
+          "close": 262.07
+        },
+        {
+          "date": "2026-08-25",
+          "close": 261.06
+        },
+        {
+          "date": "2026-08-26",
+          "close": 260.28
+        },
+        {
+          "date": "2026-08-27",
+          "close": 256.26
+        },
+        {
+          "date": "2026-08-28",
+          "close": 266.43
+        },
+        {
+          "date": "2026-08-31",
+          "close": 259.77
+        },
+        {
+          "date": "2026-09-01",
+          "close": 254.92
+        },
+        {
+          "date": "2026-09-02",
+          "close": 254.98
+        },
+        {
+          "date": "2026-09-03",
+          "close": 258.9
+        },
+        {
+          "date": "2026-09-04",
+          "close": 258.51
+        },
+        {
+          "date": "2026-09-08",
+          "close": 256.97
+        },
+        {
+          "date": "2026-09-09",
+          "close": 252.4
+        },
+        {
+          "date": "2026-09-10",
+          "close": 251.89
+        },
+        {
+          "date": "2026-09-11",
+          "close": 256.78
+        },
+        {
+          "date": "2026-09-14",
+          "close": 253.54
+        },
+        {
+          "date": "2026-09-15",
+          "close": 248.42
+        },
+        {
+          "date": "2026-09-16",
+          "close": 245.96
+        },
+        {
+          "date": "2026-09-17",
+          "close": 251.19
+        },
+        {
+          "date": "2026-09-18",
+          "close": 253.71
+        },
+        {
+          "date": "2026-09-21",
+          "close": 258.45
+        },
+        {
+          "date": "2026-09-22",
+          "close": 254.98
+        },
+        {
+          "date": "2026-09-23",
+          "close": 249.27
+        },
+        {
+          "date": "2026-09-24",
+          "close": 249.38
+        },
+        {
+          "date": "2026-09-25",
+          "close": 249.67
+        },
+        {
+          "date": "2026-09-28",
+          "close": 246.15
+        },
+        {
+          "date": "2026-09-29",
+          "close": 246.67
+        },
+        {
+          "date": "2026-09-30",
+          "close": 249.15
+        },
+        {
+          "date": "2026-10-01",
+          "close": 248.23
+        },
+        {
+          "date": "2026-10-02",
+          "close": 251.52
+        },
+        {
+          "date": "2026-10-05",
+          "close": 251.4
+        },
+        {
+          "date": "2026-10-06",
+          "close": 256.29
+        },
+        {
+          "date": "2026-10-07",
+          "close": 259.92
+        },
+        {
+          "date": "2026-10-08",
+          "close": 254.06
+        },
+        {
+          "date": "2026-10-09",
+          "close": 262.43
+        },
+        {
+          "date": "2026-10-12",
+          "close": 259.53
+        },
+        {
+          "date": "2026-10-13",
+          "close": 258.58
+        },
+        {
+          "date": "2026-10-14",
+          "close": 254.08
+        },
+        {
+          "date": "2026-10-15",
+          "close": 254.76
+        },
+        {
+          "date": "2026-10-16",
+          "close": 250.0
+        },
+        {
+          "date": "2026-10-19",
+          "close": 262.45
+        },
+        {
+          "date": "2026-10-20",
+          "close": 262.63
+        },
+        {
+          "date": "2026-10-21",
+          "close": 262.37
+        },
+        {
+          "date": "2026-10-22",
+          "close": 250.38
+        }
+      ],
+      "news": [
+        {
+          "title": "OpenAI Just Cut Its Valuation Target by $150 Billion",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/openai-just-cut-valuation-target-114523865.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-23T11:45:23+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Apple Is Just $42 Billion Away From Passing Nvidia as the World’s Most Valuable Company",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-just-42-billion-away-113052754.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-23T11:30:52+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Should You Buy Amazon Stock Before Oct. 29?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-amazon-stock-oct-29-112200594.html",
+          "publisher": "Motley Fool",
+          "published_at": "2026-10-23T11:22:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Microsoft Has a $1 Trillion Opportunity Hiding in Plain Sight",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-1-trillion-opportunity-hiding-111552020.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-23T11:15:52+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Two Critical Nvidia Stock Flaws and Other Reasons This Analyst Says Sell",
+          "url": "https://finance.yahoo.com/m/9cdb41d6-a291-37eb-bff7-347d06660a9d/two-critical-nvidia-stock.html",
+          "publisher": "Barrons.com",
+          "published_at": "2026-10-23T11:06:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        }
+      ],
+      "filings": [],
+      "errors": [
+        "SEC filings unavailable: HTTPError"
+      ],
+      "setup_score": 23,
+      "thesis": [
+        "Price is below the 50-day trend.",
+        "Volume is supporting the move.",
+        "Near-term earnings add binary event risk."
+      ],
+      "entry_zone": [
+        248.32,
+        252.44
+      ],
+      "model_target": 275.42,
+      "model_stop": 240.07,
+      "modeled_upside_pct": 10.0,
+      "reward_risk_ratio": 2.43,
+      "horizon": "1-2 months",
+      "target_note": "Mechanical 3-ATR research scenario, bounded to 10-20%; not a forecast.",
+      "research_allocation_cap_pct": 5.7,
+      "risk_flags": [
+        "Earnings inside three weeks"
+      ]
+    },
+    {
+      "ticker": "META",
+      "name": "META",
+      "currency": "USD",
+      "price": 648.85,
+      "previous_close": 697.52,
+      "change_pct": -6.9776,
+      "return_5d_pct": -11.9272,
+      "return_20d_pct": -16.5563,
+      "ema20": 707.8791,
+      "ema50": 679.9728,
+      "rsi14": 36.8565,
+      "atr_pct": 4.1438,
+      "volume_ratio": 2.0443,
+      "volatility20_pct": 41.581,
+      "market_cap": 1652949351896.274,
+      "next_earnings": "2026-10-21",
+      "earnings_days": -2,
+      "chart": [
+        {
+          "date": "2026-07-30",
+          "close": 538.605
+        },
+        {
+          "date": "2026-07-31",
+          "close": 556.271
+        },
+        {
+          "date": "2026-08-03",
+          "close": 589.7745
+        },
+        {
+          "date": "2026-08-04",
+          "close": 587.4764
+        },
+        {
+          "date": "2026-08-05",
+          "close": 588.3057
+        },
+        {
+          "date": "2026-08-06",
+          "close": 589.4349
+        },
+        {
+          "date": "2026-08-07",
+          "close": 591.6331
+        },
+        {
+          "date": "2026-08-10",
+          "close": 594.4509
+        },
+        {
+          "date": "2026-08-11",
+          "close": 598.6475
+        },
+        {
+          "date": "2026-08-12",
+          "close": 578.3935
+        },
+        {
+          "date": "2026-08-13",
+          "close": 594.5008
+        },
+        {
+          "date": "2026-08-14",
+          "close": 589.3848
+        },
+        {
+          "date": "2026-08-17",
+          "close": 568.5213
+        },
+        {
+          "date": "2026-08-18",
+          "close": 543.2413
+        },
+        {
+          "date": "2026-08-19",
+          "close": 545.5994
+        },
+        {
+          "date": "2026-08-20",
+          "close": 545.3996
+        },
+        {
+          "date": "2026-08-21",
+          "close": 549.4664
+        },
+        {
+          "date": "2026-08-24",
+          "close": 558.5792
+        },
+        {
+          "date": "2026-08-25",
+          "close": 569.6005
+        },
+        {
+          "date": "2026-08-26",
+          "close": 575.6857
+        },
+        {
+          "date": "2026-08-27",
+          "close": 570.6496
+        },
+        {
+          "date": "2026-08-28",
+          "close": 577.5642
+        },
+        {
+          "date": "2026-08-31",
+          "close": 571.8887
+        },
+        {
+          "date": "2026-09-01",
+          "close": 578.0837
+        },
+        {
+          "date": "2026-09-02",
+          "close": 592.3824
+        },
+        {
+          "date": "2026-09-03",
+          "close": 610.1984
+        },
+        {
+          "date": "2026-09-04",
+          "close": 616.2836
+        },
+        {
+          "date": "2026-09-08",
+          "close": 612.9962
+        },
+        {
+          "date": "2026-09-09",
+          "close": 653.1745
+        },
+        {
+          "date": "2026-09-10",
+          "close": 643.8719
+        },
+        {
+          "date": "2026-09-11",
+          "close": 647.519
+        },
+        {
+          "date": "2026-09-14",
+          "close": 665.0751
+        },
+        {
+          "date": "2026-09-15",
+          "close": 669.7115
+        },
+        {
+          "date": "2026-09-16",
+          "close": 672.7791
+        },
+        {
+          "date": "2026-09-17",
+          "close": 681.772
+        },
+        {
+          "date": "2026-09-18",
+          "close": 665.225
+        },
+        {
+          "date": "2026-09-21",
+          "close": 741.25
+        },
+        {
+          "date": "2026-09-22",
+          "close": 736.6
+        },
+        {
+          "date": "2026-09-23",
+          "close": 744.1
+        },
+        {
+          "date": "2026-09-24",
+          "close": 777.59
+        },
+        {
+          "date": "2026-09-25",
+          "close": 751.66
+        },
+        {
+          "date": "2026-09-28",
+          "close": 715.62
+        },
+        {
+          "date": "2026-09-29",
+          "close": 738.79
+        },
+        {
+          "date": "2026-09-30",
+          "close": 725.18
+        },
+        {
+          "date": "2026-10-01",
+          "close": 725.93
+        },
+        {
+          "date": "2026-10-02",
+          "close": 728.08
+        },
+        {
+          "date": "2026-10-05",
+          "close": 741.9
+        },
+        {
+          "date": "2026-10-06",
+          "close": 738.88
+        },
+        {
+          "date": "2026-10-07",
+          "close": 721.31
+        },
+        {
+          "date": "2026-10-08",
+          "close": 720.89
+        },
+        {
+          "date": "2026-10-09",
+          "close": 718.67
+        },
+        {
+          "date": "2026-10-12",
+          "close": 742.96
+        },
+        {
+          "date": "2026-10-13",
+          "close": 762.5
+        },
+        {
+          "date": "2026-10-14",
+          "close": 737.54
+        },
+        {
+          "date": "2026-10-15",
+          "close": 736.72
+        },
+        {
+          "date": "2026-10-16",
+          "close": 709.33
+        },
+        {
+          "date": "2026-10-19",
+          "close": 705.44
+        },
+        {
+          "date": "2026-10-20",
+          "close": 694.25
+        },
+        {
+          "date": "2026-10-21",
+          "close": 697.52
+        },
+        {
+          "date": "2026-10-22",
+          "close": 648.85
+        }
+      ],
+      "news": [
+        {
+          "title": "Higgsfield Extends Series B With New Investment From TCV and NVIDIA",
+          "url": "https://finance.yahoo.com/technology/ai/articles/higgsfield-extends-series-b-investment-121700094.html",
+          "publisher": "PR Newswire",
+          "published_at": "2026-10-23T12:17:00+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Dow Jones Futures Fall After Moderna Crashes, Meta Fuels AI Meltdown. Warren Buffett Market Is Thriving.",
+          "url": "https://finance.yahoo.com/m/47e878bb-824d-3243-a8e9-b86b1c3f85d3/dow-jones-futures-fall-after.html",
+          "publisher": "Investor's Business Daily",
+          "published_at": "2026-10-23T12:14:41+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Stocks Down Pre-Bell Amid Tech Selloff",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-down-pre-bell-amid-121035032.html",
+          "publisher": "MT Newswires",
+          "published_at": "2026-10-23T12:10:35+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "Here Are Friday’s Top Wall Street Analyst Research Calls: Deckers Outdoor, Globe Life, Guardant Health, Hess Midstream LP, Kimberly-Clark,  Natera, NVR, SpaceX, Thermo Fisher Scientific, and More",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/friday-top-wall-street-analyst-115151576.html",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-23T11:51:51+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        },
+        {
+          "title": "US equity funds post inflows for a second straight week",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-funds-post-inflows-114336410.html",
+          "publisher": "Reuters",
+          "published_at": "2026-10-23T11:43:36+00:00",
+          "source_type": "company-news",
+          "region": "US",
+          "topic": "company",
+          "summary": null
+        }
+      ],
+      "filings": [],
+      "errors": [
+        "SEC filings unavailable: HTTPError"
+      ],
+      "setup_score": 23,
+      "thesis": [
+        "Price is below the 50-day trend.",
+        "One-month momentum is negative.",
+        "Volume is supporting the move."
+      ],
+      "entry_zone": [
+        640.78,
+        656.92
+      ],
+      "model_target": 729.51,
+      "model_stop": 608.52,
+      "modeled_upside_pct": 12.4,
+      "reward_risk_ratio": 2.0,
+      "horizon": "1-2 months",
+      "target_note": "Mechanical 3-ATR research scenario, bounded to 10-20%; not a forecast.",
+      "research_allocation_cap_pct": 4.3,
+      "risk_flags": [
+        "High daily range"
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "id": "market-data",
+      "label": "Market and news collector",
+      "status": "complete",
+      "duration_ms": 2401,
+      "summary": "Collected 15/15 price snapshots."
+    },
+    {
+      "id": "sec-filings",
+      "label": "SEC filings collector",
+      "status": "complete",
+      "duration_ms": 510,
+      "summary": "Linked 0 recent filing(s)."
+    },
+    {
+      "id": "global-market-pulse",
+      "label": "Global overnight market collector",
+      "status": "complete",
+      "duration_ms": 409,
+      "summary": "Collected 10/10 overnight indicators."
+    },
+    {
+      "id": "headline-feeds",
+      "label": "International and video feed collector",
+      "status": "complete",
+      "duration_ms": 95,
+      "summary": "Indexed 54 headlines from 6/6 feeds."
+    },
+    {
+      "id": "portfolio-monitor",
+      "label": "Portfolio monitor",
+      "status": "complete",
+      "duration_ms": 3,
+      "summary": "Scored 10 holdings and raised 11 alert(s)."
+    },
+    {
+      "id": "mega-cap-screener",
+      "label": "Mega-cap screener",
+      "status": "complete",
+      "duration_ms": 1,
+      "summary": "Ranked 5 mega-cap candidate(s)."
+    },
+    {
+      "id": "risk-auditor",
+      "label": "Risk auditor",
+      "status": "complete",
+      "duration_ms": 0,
+      "summary": "Portfolio risk classified as high."
+    },
+    {
+      "id": "intelligence-triage",
+      "label": "Source triage and deduplication",
+      "status": "complete",
+      "duration_ms": 10,
+      "summary": "Reduced the scan to 50 source-linked items; 4 are high priority."
+    },
+    {
+      "id": "lead-synthesizer",
+      "label": "Lead synthesizer",
+      "status": "complete",
+      "duration_ms": 0,
+      "summary": "4 high-priority source items need review before the open."
+    },
+    {
+      "id": "quality-controller",
+      "label": "Quality controller",
+      "status": "complete",
+      "duration_ms": 0,
+      "summary": "Data quality score 100/100."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Yahoo Finance via yfinance",
+      "url": "https://ranaroussi.github.io/yfinance/",
+      "cost": "Free; personal research use only",
+      "covers": "Prices, market cap, earnings dates, news search"
+    },
+    {
+      "name": "SEC EDGAR",
+      "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
+      "cost": "Free; no API key",
+      "covers": "Recent company filings"
+    },
+    {
+      "name": "YouTube channel Atom feeds",
+      "url": "https://developers.google.com/youtube/v3/guides/push_notifications",
+      "cost": "Free; no API key",
+      "covers": "Recent video titles, links, and feed-provided descriptions"
+    },
+    {
+      "name": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/rss/feed/nar",
+      "cost": "Free RSS/Atom; personal research",
+      "covers": "Asia · asia-markets · headlines and feed-provided descriptions"
+    },
+    {
+      "name": "CNA Asia",
+      "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6511",
+      "cost": "Free RSS/Atom; personal research",
+      "covers": "Asia · asia-markets · headlines and feed-provided descriptions"
+    },
+    {
+      "name": "CNA Business",
+      "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6936",
+      "cost": "Free RSS/Atom; personal research",
+      "covers": "Asia · business · headlines and feed-provided descriptions"
+    },
+    {
+      "name": "CNBC Television on YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCvJJ_dzjViJCoLf5uKUTwoA",
+      "cost": "Free RSS/Atom; personal research",
+      "covers": "Global · markets · headlines and feed-provided descriptions"
+    },
+    {
+      "name": "Bloomberg Television on YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCIALMKvObZNtJ6AmdCLP7Lg",
+      "cost": "Free RSS/Atom; personal research",
+      "covers": "Global · markets · headlines and feed-provided descriptions"
+    },
+    {
+      "name": "Yahoo Finance on YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCEAZeUIeJs0IjQiqTCdVSIg",
+      "cost": "Free RSS/Atom; personal research",
+      "covers": "US · markets · headlines and feed-provided descriptions"
+    }
+  ]
+}
